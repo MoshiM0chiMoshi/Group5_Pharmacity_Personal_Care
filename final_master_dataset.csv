@@ -95,7 +95,7 @@ ORD00093,C0093,Bác Hưng Trần,23,Nữ,P01143,53550,4,214200,2026-02-17,Cần 
 ORD00094,C0094,Hạnh Thị Nguyễn,27,Nam,P04801,10000,1,10000,2026-06-09,TP. Hồ Chí Minh,Ví điện tử,Băng Vệ Sinh Kháng Khuẩn Hàng Ngày DIANA SENSI (8 Miếng),Diana,Băng vệ sinh,10000.0,4.99,Pharmacity_VN,VND,10000.0
 ORD00095,C0095,Hoàng Đức Lê,26,Nam,P24071,31000,1,31000,2026-04-28,TP. Hồ Chí Minh,Tiền mặt,Nước Súc Miệng Fujiwa Ion Muối Hương Bạc Hà (Chai 680 ml),Fujiwa,Nước súc miệng,31000.0,4.61,Pharmacity_VN,VND,31000.0
 ORD00096,C0096,Quý ông Tùng Nguyễn,18,Nam,P30702,45000,1,45000,2026-04-10,Đà Nẵng,COD,Kotex BVS Nam Việt Quốc SMC 24cm 8M,Kotex,Băng vệ sinh,45000.0,4.61,Pharmacity_VN,VND,45000.0
-ORD00097,C0097,Hà Lê,33,Nữ,OL00415,55000,1,55000,2026-06-16,Cần Thơ,Tiền mặt,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",nan,Nước súc miệng,55000.0,4.56,Pharmacity_VN,VND,55000.0
+ORD00097,C0097,Hà Lê,33,Nữ,OL00415,55000,1,55000,2026-06-16,Cần Thơ,Tiền mặt,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",,Nước súc miệng,55000.0,4.56,Pharmacity_VN,VND,55000.0
 ORD00098,C0098,Ánh Đặng,33,Nữ,P23056,275000,2,550000,2026-06-05,Hà Nội,COD,Nước súc miệng ngừa viêm nướu Kin B5 (Chai 500ml),Kin B5,Nước súc miệng,275000.0,4.51,Pharmacity_VN,VND,275000.0
 ORD00099,C0099,Quý cô Bảo Nguyễn,30,Nữ,P29595,18000,1,18000,2026-01-07,Hà Nội,Ví điện tử,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% Hương bạc hà (Chai 500ml)",Pharmacity,Nước súc miệng,18000.0,4.77,Pharmacity_VN,VND,18000.0
 ORD00100,C0100,Quang Nguyễn,28,Nữ,P03250,25500,3,76500,2026-07-15,Hà Nội,COD,Băng Vệ Sinh DIANA Siêu Thấm Không Cánh (8 Miếng),Diana,Băng vệ sinh,25500.0,4.94,Pharmacity_VN,VND,25500.0
@@ -809,7 +809,7 @@ ORD00807,C0807,Cô Kim Vũ,32,Nữ,P08754,11000,1,11000,2026-07-27,Đà Nẵng,V
 ORD00808,C0808,Quý cô Dương Trần,25,Nam,P29095,39000,2,78000,2026-01-02,TP. Hồ Chí Minh,Tiền mặt,Pharmacity Chỉ nha khoa (Cuộn 50m),Pharmacity,Tăm chỉ nha khoa,39000.0,4.65,Pharmacity_VN,VND,39000.0
 ORD00809,C0809,An Phạm,43,Nữ,P15466,27000,3,81000,2026-05-04,Hà Nội,COD,"Dầu Gội MATRIX Gội Là Nâu ngăn ngừa rụng tóc, không gây kích ứng da (hộp 10 gói)",MATRIX,Dầu gội đầu,27000.0,4.57,Pharmacity_VN,VND,27000.0
 ORD00810,C0810,Ông Hoàng Hoàng,21,Nữ,P30403,112850,1,112850,2026-03-15,Hải Phòng,Thẻ ngân hàng,Dầu Gội Xmen For Boss Pro Hair Sạch Gàu & Giảm Gãy Rụng 350g,X Men,Chăm sóc tóc cho nam,112850.0,4.59,Pharmacity_VN,VND,112850.0
-ORD00811,C0811,Quý cô Ngọc Nguyễn,28,Nữ,OL00415,55000,3,165000,2026-06-15,Hà Nội,Tiền mặt,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",nan,Nước súc miệng,55000.0,4.56,Pharmacity_VN,VND,55000.0
+ORD00811,C0811,Quý cô Ngọc Nguyễn,28,Nữ,OL00415,55000,3,165000,2026-06-15,Hà Nội,Tiền mặt,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",,Nước súc miệng,55000.0,4.56,Pharmacity_VN,VND,55000.0
 ORD00812,C0812,Tú Bảo Lê,26,Nam,P10495,38250,4,153000,2026-01-22,Hải Phòng,Thẻ ngân hàng,Bàn Chải Đánh Răng ORAL-B Tinh Chất Trà Đen Chăm Sóc Nướu,Oral-B,Bàn chải đánh răng,38250.0,4.95,Pharmacity_VN,VND,38250.0
 ORD00813,C0813,Ông Quang Bùi,44,Nam,P04801,10000,1,10000,2026-06-03,Cần Thơ,Thẻ ngân hàng,Băng Vệ Sinh Kháng Khuẩn Hàng Ngày DIANA SENSI (8 Miếng),Diana,Băng vệ sinh,10000.0,4.99,Pharmacity_VN,VND,10000.0
 ORD00814,C0814,Nhật Trần,32,Nữ,P17527,90950,5,454750,2026-08-07,Hà Nội,Ví điện tử,Kem Đánh Răng SENSODYNE Gentle Whitening Trắng Sáng (tuýp 160g),Sensodyne (GSK OTC),Kem đánh răng,90950.0,4.79,Pharmacity_VN,VND,90950.0
@@ -838,7 +838,7 @@ ORD00836,C0836,Phương Thế Mai,32,Nam,P10952,39500,1,39500,2026-05-30,Cần T
 ORD00837,C0837,Kim Hữu Trần,46,Nữ,P30968,29500,2,59000,2026-02-17,TP. Hồ Chí Minh,Tiền mặt,Kotex BVS Hằng Ngày Bông Thuần Khiết 19cm 10M,Kotex,Băng vệ sinh,29500.0,4.97,Pharmacity_VN,VND,29500.0
 ORD00838,C0838,Bà Hà Vũ,20,Nam,P26253,12500,2,25000,2026-09-05,Hà Nội,Tiền mặt,Băng vệ sinh Kotex Max Cool BVS cho ngày và đêm (Gói 6 miếng x 28cm),Kotex,Băng vệ sinh,12500.0,4.62,Pharmacity_VN,VND,12500.0
 ORD00839,C0839,Phương Phạm,40,Nữ,P20503,73000,2,146000,2026-04-08,TP. Hồ Chí Minh,COD,Sáp Vuốt Tóc Gatsby Styling Pomade Retro Matte 75gr,Gatsby,Chăm sóc tóc cho nam,73000.0,4.77,Pharmacity_VN,VND,73000.0
-ORD00840,C0840,Bà Kim Hoàng,28,Nữ,P28349,110000,3,330000,2026-01-25,Hải Phòng,Thẻ ngân hàng,Nước súc miệng SMC Ag+ vệ sinh răng miệng (Chai 250ml),nan,Nước súc miệng,110000.0,4.85,Pharmacity_VN,VND,110000.0
+ORD00840,C0840,Bà Kim Hoàng,28,Nữ,P28349,110000,3,330000,2026-01-25,Hải Phòng,Thẻ ngân hàng,Nước súc miệng SMC Ag+ vệ sinh răng miệng (Chai 250ml),,Nước súc miệng,110000.0,4.85,Pharmacity_VN,VND,110000.0
 ORD00841,C0841,Hạnh Bùi,30,Nam,P18975,245000,1,245000,2026-03-09,TP. Hồ Chí Minh,Tiền mặt,Dao cạo March3+ Gillette (Hộp 1 cán dao + 2 lưỡi dao),Gillette,Dao cạo râu & Bọt cạo râu,245000.0,4.78,Pharmacity_VN,VND,245000.0
 ORD00842,C0842,Cô Mai Trần,37,Nữ,P03832,97000,2,194000,2026-01-07,Hải Phòng,COD,Lăn Khử Mùi NIVEA Ngọc Trai Quyến Rũ (chai 50ml),Nivea,Lăn khử mùi,97000.0,4.88,Pharmacity_VN,VND,97000.0
 ORD00843,C0843,Hà Mai Hoàng,19,Nữ,P27326,243000,1,243000,2026-05-17,Hà Nội,COD,Tresemme DX Vao Nep Muot Ma 620g,Tresemme,Dầu xả,243000.0,4.98,Pharmacity_VN,VND,243000.0
@@ -859,7 +859,7 @@ ORD00857,C0857,Cô Chi Đặng,22,Nữ,P30794,54500,2,109000,2026-09-01,Đà N�
 ORD00858,C0858,Bảo Xuân Nguyễn,35,Nam,P22138,64000,3,192000,2026-05-07,TP. Hồ Chí Minh,Tiền mặt,Kem Đánh Răng COLGATE Muối Himalaya Sáng Khỏe (tuýp 180g),Colgate,Kem đánh răng,64000.0,4.55,Pharmacity_VN,VND,64000.0
 ORD00859,C0859,Lâm Tấn Phạm,24,Nam,P10403,45900,1,45900,2026-09-28,Cần Thơ,Ví điện tử,Kem Đánh Răng CLOSE UP Bạc Hà The Mát (tuýp 230g),Close up,Kem đánh răng,45900.0,4.74,Pharmacity_VN,VND,45900.0
 ORD00860,C0860,Nhật Tấn Vũ,36,Nữ,P26099,112000,1,112000,2026-05-12,Cần Thơ,Thẻ ngân hàng,Sáp ngăn mùi cho nam Nivea Cool Kick (Chai 50ml),Nivea,Khử mùi cho nam,112000.0,4.52,Pharmacity_VN,VND,112000.0
-ORD00861,C0861,Khoa Đặng,32,Nữ,OL00414,100000,1,100000,2026-04-03,Cần Thơ,Thẻ ngân hàng,"Combo 5 Chai  Nước muối sinh lý Pharmacity Natri Clorid 0,9% (1000ml)",nan,Nước súc miệng,100000.0,4.57,Pharmacity_VN,VND,100000.0
+ORD00861,C0861,Khoa Đặng,32,Nữ,OL00414,100000,1,100000,2026-04-03,Cần Thơ,Thẻ ngân hàng,"Combo 5 Chai  Nước muối sinh lý Pharmacity Natri Clorid 0,9% (1000ml)",,Nước súc miệng,100000.0,4.57,Pharmacity_VN,VND,100000.0
 ORD00862,C0862,Phương Nguyễn,18,Nam,P10412,19000,1,19000,2026-03-14,Hà Nội,Thẻ ngân hàng,Bàn chải đánh răng trẻ em từ 2 đến 6 tuổi P/S siêu mềm,P/S,Bàn chải đánh răng,19000.0,4.88,Pharmacity_VN,VND,19000.0
 ORD00863,C0863,Chị Phương Nguyễn,45,Nữ,P11371,41860,1,41860,2026-09-05,TP. Hồ Chí Minh,Ví điện tử,Kem đánh răng CLOSE UP than hoạt tính Detox (Tuýp 180g),Close up,Kem đánh răng,41860.0,4.7,Pharmacity_VN,VND,41860.0
 ORD00864,C0864,Hà Mai Vũ,48,Nữ,P07595,125800,2,251600,2026-09-30,Hà Nội,Tiền mặt,Sữa tắm nước hoa cao cấp X-men For Boss Intense Perfumed Shower Gel (Chai 380g),X Men,Sản phẩm tắm & dưỡng thể cho nam,125800.0,4.74,Pharmacity_VN,VND,125800.0
