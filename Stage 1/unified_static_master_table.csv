@@ -154,7 +154,7 @@ P30052,Pharmacity Tăm chỉ nha khoa (Gói 90 cây),Pharmacity,Tăm chỉ nha k
 P29594,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% (Chai 500ml)",Pharmacity,Nước súc miệng,11000.0,4.94,Pharmacity_VN,VND,11000.0
 P26598,Bộ Đôi Bàn Chải Đánh Răng COLGATE Gum Expert,Colgate,Bàn chải đánh răng,97750.0,4.74,Pharmacity_VN,VND,97750.0
 P27991,Kem đánh răng Colgate Total Plaque (tuýp 95g),Colgate,Kem đánh răng,87200.0,4.85,Pharmacity_VN,VND,87200.0
-P28349,Nước súc miệng SMC Ag+ vệ sinh răng miệng (Chai 250ml),,Nước súc miệng,110000.0,4.85,Pharmacity_VN,VND,110000.0
+P28349,Nước súc miệng SMC Ag+ vệ sinh răng miệng (Chai 250ml),nan,Nước súc miệng,110000.0,4.85,Pharmacity_VN,VND,110000.0
 P05528,Kem Đánh Răng P/S Ngừa Sâu Răng Vượt Trội (tuýp 230g),P/S,Kem đánh răng,38000.0,4.66,Pharmacity_VN,VND,38000.0
 P11350,Pharmacity Bàn chải đánh răng cho răng nhạy cảm Sensitive,Pharmacity,Bàn chải đánh răng,31000.0,4.72,Pharmacity_VN,VND,31000.0
 P11351,Pharmacity Bàn chải đánh răng siêu mảnh Slim Soft,Pharmacity,Bàn chải đánh răng,18000.0,4.95,Pharmacity_VN,VND,18000.0
@@ -210,8 +210,8 @@ P23056,Nước súc miệng ngừa viêm nướu Kin B5 (Chai 500ml),Kin B5,Nư�
 P29184,Colgate Kem Đánh Răng Total Active Fresh (150g),Colgate,Kem đánh răng,63000.0,4.73,Pharmacity_VN,VND,63000.0
 P23467,Nước Súc Miệng DR.MUỐI Hương Vỏ Chanh (chai 1000ml),Dr.Muoi,Nước súc miệng,24000.0,4.95,Pharmacity_VN,VND,24000.0
 P26445,Bộ Đôi Nước Súc Miệng COLGATE Optic White Charcoal (2 chai x 500ml),Colgate,Nước súc miệng,84000.0,4.71,Pharmacity_VN,VND,84000.0
-OL00414,"Combo 5 Chai  Nước muối sinh lý Pharmacity Natri Clorid 0,9% (1000ml)",,Nước súc miệng,100000.0,4.57,Pharmacity_VN,VND,100000.0
-OL00415,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",,Nước súc miệng,55000.0,4.56,Pharmacity_VN,VND,55000.0
+OL00414,"Combo 5 Chai  Nước muối sinh lý Pharmacity Natri Clorid 0,9% (1000ml)",nan,Nước súc miệng,100000.0,4.57,Pharmacity_VN,VND,100000.0
+OL00415,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",nan,Nước súc miệng,55000.0,4.56,Pharmacity_VN,VND,55000.0
 P00989,Chỉ Nha Khoa ORAL-B Hỗ Trợ Làm Sạch Mảng Bám Trong Kẽ Răng (cuộn 50m),Oral-B,Tăm chỉ nha khoa,51200.0,4.56,Pharmacity_VN,VND,51200.0
 P01143,Kem đánh răng hương bạc hà the mát Sensodyne (100g),Sensodyne (GSK OTC),Kem đánh răng,53550.0,4.86,Pharmacity_VN,VND,53550.0
 P01949,Kem Đánh Răng SENSODYNE Multi Care Bảo Vệ Toàn Diện (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,78000.0,4.57,Pharmacity_VN,VND,78000.0
