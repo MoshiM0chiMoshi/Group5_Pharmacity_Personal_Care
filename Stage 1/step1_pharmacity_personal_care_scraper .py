@@ -1,31 +1,3 @@
-"""
-Pharmacity.vn Personal Care Scraper
-------------------------------------
-Crawls the "Chăm sóc cá nhân" (Personal Care) category on pharmacity.vn
-via the site's public JSON search API -- NO browser / Selenium / Playwright
-needed, because the endpoint returns clean structured data directly.
-
-Endpoint (found via browser DevTools -> Network -> XHR):
-  https://api-gateway.pharmacity.vn/pmc-ecm-product/api/public/search/index
-    ?platform=1&index=<page>&limit=<page_size>&total=0&refresh=true
-    &page=category&page_slug=<category-slug>
-
-Pipeline:
-  1. Loop over the 7 subcategory slugs under "Chăm sóc cá nhân".
-  2. For each slug, page through the API (index=1,2,3,...) using the
-     `total` value the API reports, collecting every product.
-  3. Flatten each product's nested JSON into flat columns.
-  4. Dedupe by SKU (a few SKUs can appear under more than one slug).
-
-Output:
-  pharmacity_personal_care.csv
-  pharmacity_personal_care.json
-
-NOTE: verify the slugs / field names below against a fresh browser
-DevTools capture before a full run -- Pharmacity can change these
-without notice, same as any other production site.
-"""
-
 import json
 import logging
 import random
