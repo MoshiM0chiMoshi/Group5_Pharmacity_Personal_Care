@@ -23,7 +23,7 @@ def load_models():
     regression_model = joblib.load(BASE_DIR / "model" / "regression_model.pkl")
     classification_info = joblib.load(BASE_DIR / "model" / "classification_model.pkl")
     pca_model = joblib.load(BASE_DIR / "model" / "pca.pkl")
-    cluster_scaler = joblib.load(BASE_DIR / "model" / "scaler.pkl")
+    cluster_scaler = joblib.load(BASE_DIR / "model" / "scaler_cluster.pkl")
     kmeans_model = joblib.load(BASE_DIR / "model" / "kmeans_pca.pkl")
     return regression_model, classification_info, pca_model, cluster_scaler, kmeans_model
 try:
@@ -63,6 +63,50 @@ def prepare_classification_data(age, quantity, rating, gender, city, payment_met
             input_row.at[0, dummy_column] = 1.0
 
     return input_row
+
+
+# --------------------------------------------------
+# 3b. Hồ sơ và ý nghĩa của từng cụm khách hàng
+# --------------------------------------------------
+CLUSTER_COLUMNS = [
+    "Age", "Order_Count", "Total_Spending",
+    "Avg_Order_Value", "Avg_Quantity", "Avg_Rating"
+]
+
+
+def build_cluster_profile():
+    """Tính đặc điểm trung bình của từng cụm và đặt tên theo mức chi tiêu."""
+    customer_table = df.groupby("CustomerID").agg(
+        Age=("Age", "mean"),
+        Order_Count=("OrderID", "count"),
+        Total_Spending=("TotalAmount", "sum"),
+        Avg_Order_Value=("TotalAmount", "mean"),
+        Avg_Quantity=("Quantity", "mean"),
+        Avg_Rating=("Rating", "mean")
+    ).reset_index()
+
+    scaled = cluster_scaler.transform(customer_table[CLUSTER_COLUMNS])
+    customer_table["Cluster"] = kmeans_model.predict(pca_model.transform(scaled))
+
+    profile = customer_table.groupby("Cluster")[CLUSTER_COLUMNS].mean()
+    profile["Num_Customers"] = customer_table["Cluster"].value_counts().sort_index()
+    profile["Share"] = profile["Num_Customers"] / profile["Num_Customers"].sum()
+
+    # Nhãn cụm do K-Means tạo ngẫu nhiên, nên đặt tên dựa trên tổng chi tiêu trung bình.
+    ranked = profile["Total_Spending"].sort_values().index.tolist()
+    names = {}
+    for position, cluster_id in enumerate(ranked):
+        if position == 0:
+            names[cluster_id] = "Khách hàng phổ thông (chi tiêu thấp)"
+        elif position == len(ranked) - 1:
+            names[cluster_id] = "Khách hàng giá trị cao (chi tiêu cao)"
+        else:
+            names[cluster_id] = "Khách hàng chi tiêu trung bình"
+    profile["Name"] = pd.Series(names)
+    return profile
+
+
+cluster_profile = build_cluster_profile()
 
 
 # --------------------------------------------------
@@ -220,11 +264,45 @@ with tab_cluster:
         customer_pca = pca_model.transform(customer_scaled)
         cluster_label = int(kmeans_model.predict(customer_pca)[0])
 
-        st.success(f"Khách hàng được xếp vào **Cụm {cluster_label}**.")
-        st.caption(
-            "Nhãn Cụm 0/Cụm 1 do K-Means tạo ra; nhãn số không tự mang nghĩa tốt hoặc xấu. "
-            "Nhóm có thể phân tích đặc điểm từng cụm để đặt tên theo hành vi khách hàng."
+        info = cluster_profile.loc[cluster_label]
+        st.success(f"Khách hàng được xếp vào **Cụm {cluster_label} – {info['Name']}**.")
+        st.write(
+            f"Đặc điểm trung bình của cụm này: **{info['Order_Count']:.1f}** giao dịch, "
+            f"tổng chi tiêu **{info['Total_Spending']:,.0f} VND**, "
+            f"giá trị đơn trung bình **{info['Avg_Order_Value']:,.0f} VND**, "
+            f"**{info['Avg_Quantity']:.1f}** sản phẩm mỗi đơn. "
+            f"Cụm gồm **{int(info['Num_Customers'])}** khách hàng ({info['Share']:.0%} tổng số)."
         )
+
+    st.markdown("#### So sánh các cụm")
+    profile_view = cluster_profile.rename(columns={
+        "Name": "Tên cụm",
+        "Age": "Tuổi TB",
+        "Order_Count": "Số giao dịch TB",
+        "Total_Spending": "Tổng chi tiêu TB (VND)",
+        "Avg_Order_Value": "Giá trị đơn TB (VND)",
+        "Avg_Quantity": "Số lượng TB/đơn",
+        "Avg_Rating": "Điểm đánh giá TB",
+        "Num_Customers": "Số khách hàng",
+    })[["Tên cụm", "Số khách hàng", "Tuổi TB", "Số giao dịch TB",
+        "Tổng chi tiêu TB (VND)", "Giá trị đơn TB (VND)",
+        "Số lượng TB/đơn", "Điểm đánh giá TB"]]
+    profile_view.index.name = "Cụm"
+    st.dataframe(
+        profile_view.style.format({
+            "Tuổi TB": "{:.1f}",
+            "Số giao dịch TB": "{:.2f}",
+            "Tổng chi tiêu TB (VND)": "{:,.0f}",
+            "Giá trị đơn TB (VND)": "{:,.0f}",
+            "Số lượng TB/đơn": "{:.2f}",
+            "Điểm đánh giá TB": "{:.2f}",
+        }),
+        use_container_width=True
+    )
+    st.caption(
+        "Nhãn Cụm 0/Cụm 1 do K-Means tạo ra. Tên cụm được đặt dựa trên tổng chi tiêu trung bình "
+        "của các khách hàng trong cụm."
+    )
 
 
 # --------------------------------------------------
@@ -257,14 +335,14 @@ with tab_chart:
         "Cluster": chart_labels.astype(str)
     })
 
-    fig, ax = plt.subplots(figsize=(9, 5))
+    fig, ax = plt.subplots(figsize=(6, 3.3))
     for cluster_name in sorted(chart_df["Cluster"].unique()):
         one_cluster = chart_df[chart_df["Cluster"] == cluster_name]
         ax.scatter(
             one_cluster["PC1"],
             one_cluster["PC2"],
             alpha=0.7,
-            label=f"Cụm {cluster_name}"
+            label=f"Cụm {cluster_name} – {cluster_profile.loc[int(cluster_name), 'Name']}"
         )
     ax.set_xlabel("PC1")
     ax.set_ylabel("PC2")
