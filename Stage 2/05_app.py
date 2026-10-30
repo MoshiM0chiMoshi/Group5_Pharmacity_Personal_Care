@@ -18,6 +18,23 @@ BASE_DIR = Path(__file__).resolve().parent
 # 2. Đọc dữ liệu và các mô hình đã lưu
 # --------------------------------------------------
 
+def find_data_file():
+    """Tim file CSV o thu muc app hoac thu muc data/ (cac notebook cua nhom dung ca hai cach)."""
+    candidates = [
+        "eda_completed_master_dataset.csv",
+        "data/eda_completed_master_dataset.csv",
+        "data/eda_dataset_with_cluster_labels.csv",
+    ]
+    for relative_path in candidates:
+        if (BASE_DIR / relative_path).exists():
+            return BASE_DIR / relative_path
+    raise FileNotFoundError("Không thấy file CSV trong: " + ", ".join(candidates))
+
+
+# Sai số RMSE của mô hình Regression (Task 3) trên tập test, lấy từ notebook 02_Regression.
+REGRESSION_RMSE = 48444
+
+
 @st.cache_resource
 def load_models():
     regression_model = joblib.load(BASE_DIR / "model" / "regression_model.pkl")
@@ -27,7 +44,7 @@ def load_models():
     kmeans_model = joblib.load(BASE_DIR / "model" / "kmeans_pca.pkl")
     return regression_model, classification_info, pca_model, cluster_scaler, kmeans_model
 try:
-    df = pd.read_csv(BASE_DIR / "eda_completed_master_dataset.csv")
+    df = pd.read_csv(find_data_file())
     regression_model, classification_info, pca_model, cluster_scaler, kmeans_model = load_models()
 except FileNotFoundError as error:
     st.error("Không tìm thấy file dữ liệu hoặc mô hình. Hãy kiểm tra các thư mục data/ và model/.")
@@ -115,7 +132,7 @@ cluster_profile = build_cluster_profile()
 st.title("💊 Hệ thống dự đoán đơn hàng Pharmacity")
 st.write(
     "Ứng dụng minh họa các mô hình đã xây dựng ở Task 1–4: "
-    "dự đoán giá trị đơn hàng, phân loại đơn hàng giá trị cao và phân cụm khách hàng."
+    "ước tính giá sản phẩm, phân loại đơn hàng giá trị cao và phân cụm khách hàng."
 )
 # Các mục chính của ứng dụng
 tab_order, tab_cluster, tab_chart, tab_info = st.tabs(
@@ -124,7 +141,7 @@ tab_order, tab_cluster, tab_chart, tab_info = st.tabs(
 
 
 # --------------------------------------------------
-# TAB 1: Dự đoán tổng tiền và phân loại đơn hàng
+# TAB 1: Dự đoán giá sản phẩm (Task 3) và phân loại đơn hàng (Task 4)
 # --------------------------------------------------
 with tab_order:
     st.subheader("Nhập thông tin đơn hàng")
@@ -134,6 +151,7 @@ with tab_order:
     city_options = sorted(df["City"].dropna().astype(str).unique().tolist())
     payment_options = sorted(df["PaymentMethod"].dropna().astype(str).unique().tolist())
     category_options = sorted(df["Category"].dropna().astype(str).unique().tolist())
+    brand_options = sorted(df["Brand"].dropna().astype(str).unique().tolist())
 
     with st.form("order_prediction_form"):
         left, right = st.columns(2)
@@ -143,47 +161,50 @@ with tab_order:
                 "Tuổi khách hàng",
                 min_value=int(df["Age"].min()),
                 max_value=int(df["Age"].max()),
-                value=30
-            )
-            unit_price = st.number_input(
-                "Đơn giá sản phẩm (VND)",
-                min_value=10000,
-                max_value=400000,
-                value=90000,
-                step=1000
+                value=30,
+                help="Dùng cho phân loại đơn hàng (Task 4)."
             )
             quantity = st.slider(
                 "Số lượng sản phẩm",
                 min_value=int(df["Quantity"].min()),
                 max_value=int(df["Quantity"].max()),
-                value=2
+                value=2,
+                help="Dùng cho phân loại đơn hàng (Task 4)."
             )
             rating = st.slider(
                 "Điểm đánh giá sản phẩm",
                 min_value=4.50,
                 max_value=5.00,
                 value=4.75,
-                step=0.01
+                step=0.01,
+                help="Dùng cho cả dự đoán giá (Task 3) và phân loại đơn hàng (Task 4)."
             )
+            gender = st.selectbox("Giới tính", gender_options)
 
         with right:
-            gender = st.selectbox("Giới tính", gender_options)
+            category = st.selectbox(
+                "Nhóm sản phẩm", category_options,
+                help="Dùng cho cả dự đoán giá (Task 3) và phân loại đơn hàng (Task 4)."
+            )
+            brand = st.selectbox(
+                "Thương hiệu", brand_options,
+                help="Dùng cho dự đoán giá sản phẩm (Task 3)."
+            )
             city = st.selectbox("Thành phố", city_options)
             payment_method = st.selectbox("Phương thức thanh toán", payment_options)
-            category = st.selectbox("Nhóm sản phẩm", category_options)
 
         submitted = st.form_submit_button("Dự đoán", type="primary")
 
     if submitted:
-        # Task 3: dự đoán giá trị đơn hàng bằng mô hình hồi quy đã lưu.
+        # Task 3: dự đoán giá sản phẩm (Price) từ Category, Brand, Rating.
+        # Pipeline đã lưu tự one-hot Category và Brand, nên chỉ cần đưa đúng 3 cột này.
         regression_input = pd.DataFrame([{
-            "Age": age,
-            "UnitPrice": unit_price,
-            "Quantity": quantity,
+            "Category": category,
+            "Brand": brand,
             "Rating": rating,
         }])
-        predicted_amount = float(regression_model.predict(regression_input)[0])
-        predicted_amount = max(0, predicted_amount)
+        predicted_price = float(regression_model.predict(regression_input)[0])
+        predicted_price = max(0, predicted_price)
 
         # Task 4: dự đoán đơn thường hay đơn giá trị cao.
         classification_input = prepare_classification_data(
@@ -208,8 +229,12 @@ with tab_order:
         result_left, result_right = st.columns(2)
 
         with result_left:
-            st.metric("Tổng tiền dự đoán", f"{predicted_amount:,.0f} VND")
-            st.caption("Kết quả từ mô hình Regression của Task 3.")
+            st.metric("Giá sản phẩm dự đoán", f"{predicted_price:,.0f} VND")
+            st.caption(
+                "Kết quả từ mô hình Regression của Task 3 (dựa trên nhóm sản phẩm, thương hiệu "
+                f"và điểm đánh giá). Sai số trung bình (RMSE) khoảng {REGRESSION_RMSE:,.0f} VND "
+                "nên chỉ dùng làm giá tham khảo."
+            )
 
         with result_right:
             if predicted_class == 1:
@@ -220,9 +245,10 @@ with tab_order:
             st.caption(f"Ngưỡng tạo nhãn trong Task 4: {threshold_vnd:,.0f} VND.")
 
         st.warning(
-            "Đây là dự đoán của mô hình đã học từ dữ liệu. Kết quả có thể khác giá trị thực tế; "
-            "đặc biệt, mô hình phân loại sử dụng thông tin số lượng và nhóm sản phẩm, "
-            "không sử dụng đơn giá làm đầu vào."
+            "Đây là dự đoán của mô hình đã học từ dữ liệu. Kết quả có thể khác giá trị thực tế. "
+            "Hai mô hình độc lập với nhau: mô hình hồi quy ước tính giá một sản phẩm, "
+            "còn mô hình phân loại đánh giá cả đơn hàng dựa trên số lượng và nhóm sản phẩm "
+            "(không dùng đơn giá làm đầu vào)."
         )
 
 
@@ -372,7 +398,8 @@ with tab_info:
         "Ứng dụng hiển thị nhãn cụm mà mô hình dự đoán được."
     )
     st.markdown(
-        "**Task 3 – Regression:** dùng `Age`, `UnitPrice`, `Quantity`, `Rating` để dự đoán `TotalAmount`."
+        "**Task 3 – Regression:** dùng `Category`, `Brand`, `Rating` để dự đoán giá sản phẩm `Price` "
+        "(Linear Regression, huấn luyện trên bảng 392 sản phẩm)."
     )
     st.markdown(
         "**Task 4 – Classification:** dùng `Age`, `Quantity`, `Rating`, `Gender`, `City`, "
@@ -380,9 +407,9 @@ with tab_info:
     )
 
     st.caption(
-        "Trong CSV của nhóm, cột `Price` và `Price_VND_ref` có cùng giá trị. "
-        "Khi tạo đầu vào cho Regression, ứng dụng dùng `Price` với tên `UnitPrice` "
-        "để khớp với đặc trưng trong notebook Task 3."
+        "Task 3 dự đoán giá của một sản phẩm, còn Task 4 phân loại giá trị của cả đơn hàng "
+        "(`TotalAmount = Price × Quantity`). Vì vậy hai mô hình dùng bộ đặc trưng khác nhau "
+        "và không đưa `Price` hay `TotalAmount` vào đầu vào để tránh rò rỉ dữ liệu."
     )
 
     st.subheader("Một vài thông tin về bộ dữ liệu")
