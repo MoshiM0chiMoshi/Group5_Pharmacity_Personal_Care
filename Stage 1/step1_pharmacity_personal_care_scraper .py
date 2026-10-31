@@ -1,195 +1,146 @@
-import json
-import logging
-import random
-import time
+"""
 
-import pandas as pd
-import requests
+Nguon: https://www.pharmacity.vn/cham-soc-ca-nhan  (goi API JSON public cua trang)
 
-# ----------------------------------------------------------------------
-# CONFIG
-# ----------------------------------------------------------------------
+Chay:  scrapy runspider step1_pharmacity_scrapy.py
+Xuat:  pharmacity_personal_care.csv  va  pharmacity_personal_care.json
+"""
+import scrapy
+
 API_URL = "https://api-gateway.pharmacity.vn/pmc-ecm-product/api/public/search/index"
-
-# The 7 top-level subcategories under "Chăm sóc cá nhân"
-# (https://www.pharmacity.vn/cham-soc-ca-nhan)
-CATEGORY_SLUGS = [
-    "san-pham-khu-mui",     # Sản phẩm khử mùi
-    "san-pham-phong-tam",   # Sản phẩm phòng tắm
-    "cham-soc-toc",         # Chăm sóc tóc
-    "cham-soc-rang-mieng",  # Chăm sóc răng miệng
-    "ve-sinh-phu-nu",       # Vệ sinh phụ nữ
-    "cham-soc-nam-gioi",    # Chăm sóc nam giới
-    "cham-soc-co-the",      # Chăm sóc cơ thể
-]
-
 PAGE_LIMIT = 50
-REQUEST_DELAY_RANGE = (0.6, 1.4)
-TIMEOUT = 15
 TARGET_RECORDS = 300
 
-OUTPUT_CSV = "pharmacity_personal_care.csv"
-OUTPUT_JSON = "pharmacity_personal_care.json"
+CATEGORY_SLUGS = [
+    "san-pham-khu-mui", "san-pham-phong-tam", "cham-soc-toc",
+    "cham-soc-rang-mieng", "ve-sinh-phu-nu", "cham-soc-nam-gioi", "cham-soc-co-the",
+]
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json",
-    "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
-}
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-)
-log = logging.getLogger(__name__)
+FIELDS = [
+    "ProductID", "ProductName", "Category", "CategoryCode", "SourceSlug",
+    "Brand", "Price", "OriginalPrice", "DiscountPercent", "Unit",
+    "Rating", "TotalSold", "URL",
+]
 
 
-# ----------------------------------------------------------------------
-# HELPERS
-# ----------------------------------------------------------------------
-def polite_sleep():
-    time.sleep(random.uniform(*REQUEST_DELAY_RANGE))
+class PharmacitySpider(scrapy.Spider):
+    name = "pharmacity"
+    api_url = API_URL  # co the ghi de: -a api_url=http://...
 
-
-def fetch_page(page_slug, index):
-    """Call the JSON API for one page of one category. Returns dict or None."""
-    params = {
-        "platform": 1,
-        "index": index,
-        "limit": PAGE_LIMIT,
-        "total": 0,
-        "refresh": "true",
-        "page": "category",
-        "page_slug": page_slug,
-    }
-    try:
-        resp = requests.get(API_URL, params=params, headers=HEADERS, timeout=TIMEOUT)
-        resp.raise_for_status()
-        return resp.json()
-    except requests.RequestException as e:
-        log.warning(f"Request failed for {page_slug} index={index}: {e}")
-        return None
-    except json.JSONDecodeError:
-        log.warning(f"Non-JSON response for {page_slug} index={index}")
-        return None
-
-
-def flatten_product(item, source_slug):
-    """Turn one nested product dict from the API into a flat row."""
-    variant = (item.get("variants") or [{}])[0]
-    sub_data = item.get("sub_data") or {}
-    slug = item.get("slug")
-
-    return {
-        "ProductID": item.get("sku"),
-        "ProductName": item.get("name"),
-        "Category": item.get("category_name"),
-        "CategoryCode": item.get("category_code"),
-        "SourceSlug": source_slug,
-        "Brand": item.get("brand_name"),
-        "Price": variant.get("price"),
-        "OriginalPrice": variant.get("original_price"),
-        "DiscountPercent": variant.get("discount_percent"),
-        "Unit": variant.get("unit_name"),
-        "Rating": sub_data.get("score"),
-        "TotalSold": sub_data.get("total_sold"),
-        "URL": f"https://www.pharmacity.vn/{slug}" if slug else None,
+    custom_settings = {
+        "ROBOTSTXT_OBEY": False,          # API gateway, khong phai trang HTML
+        "DOWNLOAD_DELAY": 1.0,
+        "CONCURRENT_REQUESTS": 4,
+        "CONCURRENT_REQUESTS_PER_DOMAIN": 2,
+        "AUTOTHROTTLE_ENABLED": True,
+        "RETRY_TIMES": 3,
+        "DOWNLOAD_TIMEOUT": 15,
+        "LOG_LEVEL": "INFO",
+        "DEFAULT_REQUEST_HEADERS": {
+            "Accept": "application/json",
+            "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            ),
+        },
+        "FEED_EXPORT_ENCODING": "utf-8-sig",
+        "FEED_EXPORT_FIELDS": FIELDS,
+        "FEEDS": {
+            "pharmacity_personal_care.csv": {"format": "csv", "overwrite": True},
+            "pharmacity_personal_care.json": {
+                "format": "json", "overwrite": True, "indent": 2,
+                "encoding": "utf-8", "ensure_ascii": False,
+            },
+        },
     }
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.seen_skus = set()  # chong trung giua cac danh muc
 
-def crawl_category(page_slug, seen_skus, collected):
-    """Page through one category slug until the API's reported total is reached."""
-    index = 1
-    total = None
+    # ---- tao request ----
+    def build_url(self, slug, index):
+        return (
+            f"{self.api_url}?platform=1&index={index}&limit={PAGE_LIMIT}&total=0"
+            f"&refresh=true&page=category&page_slug={slug}"
+        )
 
-    while True:
-        log.info(f"[{page_slug}] fetching page index={index} ...")
-        payload = fetch_page(page_slug, index)
+    async def start(self):  # Scrapy >= 2.13
+        for slug in CATEGORY_SLUGS:
+            yield self.page_request(slug, 1)
 
-        if payload is None:
-            break
+    def start_requests(self):  # Scrapy < 2.13
+        for slug in CATEGORY_SLUGS:
+            yield self.page_request(slug, 1)
 
-        data = payload.get("data") or {}
+    def page_request(self, slug, index):
+        return scrapy.Request(
+            self.build_url(slug, index),
+            callback=self.parse_page,
+            cb_kwargs={"slug": slug, "index": index},
+            errback=self.on_error,
+        )
+
+    # ---- xu ly 1 trang ----
+    def parse_page(self, response, slug, index):
+        try:
+            data = (response.json().get("data")) or {}
+        except ValueError:
+            self.logger.warning(f"[{slug}] index={index}: phan hoi khong phai JSON")
+            return
+
         items = data.get("items") or []
-
-        if total is None:
-            try:
-                total = int(data.get("total", 0))
-            except (TypeError, ValueError):
-                total = 0
-            log.info(f"[{page_slug}] total reported by API: {total}")
-
         if not items:
-            log.info(f"[{page_slug}] no more items, stopping.")
-            break
+            self.logger.info(f"[{slug}] het du lieu o index={index}")
+            return
 
         new_count = 0
         for item in items:
             sku = item.get("sku")
-            if not sku or sku in seen_skus:
+            if not sku or sku in self.seen_skus:
                 continue
-            seen_skus.add(sku)
-            collected.append(flatten_product(item, page_slug))
+            self.seen_skus.add(sku)
             new_count += 1
+            yield self.flatten_product(item, slug)
 
-        log.info(
-            f"[{page_slug}] +{new_count} new products "
-            f"(total collected so far: {len(collected)})"
-        )
+        self.logger.info(f"[{slug}] index={index}: +{new_count} san pham moi")
 
-        fetched_so_far = index * PAGE_LIMIT
-        if fetched_so_far >= total or new_count == 0:
-            break
+        try:
+            total = int(data.get("total", 0))
+        except (TypeError, ValueError):
+            total = 0
 
-        index += 1
-        polite_sleep()
+        # Phan trang: con trang tiep va trang nay co du lieu moi
+        if index * PAGE_LIMIT < total and new_count > 0:
+            yield self.page_request(slug, index + 1)
 
+    @staticmethod
+    def flatten_product(item, source_slug):
+        variant = (item.get("variants") or [{}])[0]
+        sub = item.get("sub_data") or {}
+        slug = item.get("slug")
+        return {
+            "ProductID": item.get("sku"),
+            "ProductName": item.get("name"),
+            "Category": item.get("category_name"),
+            "CategoryCode": item.get("category_code"),
+            "SourceSlug": source_slug,
+            "Brand": item.get("brand_name"),
+            "Price": variant.get("price"),
+            "OriginalPrice": variant.get("original_price"),
+            "DiscountPercent": variant.get("discount_percent"),
+            "Unit": variant.get("unit_name"),
+            "Rating": sub.get("score"),
+            "TotalSold": sub.get("total_sold"),
+            "URL": f"https://www.pharmacity.vn/{slug}" if slug else None,
+        }
 
-# ----------------------------------------------------------------------
-# MAIN
-# ----------------------------------------------------------------------
-def main():
-    seen_skus = set()
-    collected = []
+    def on_error(self, failure):
+        self.logger.warning(f"Request loi: {failure.request.url} -> {failure.value}")
 
-    for slug in CATEGORY_SLUGS:
-        crawl_category(slug, seen_skus, collected)
-
-    log.info(f"Finished crawling {len(CATEGORY_SLUGS)} subcategories.")
-
-    if not collected:
-        log.error("No products collected. Check API_URL / CATEGORY_SLUGS / field names.")
-        return
-
-    df = pd.DataFrame(collected)
-
-    cols = [
-        "ProductID", "ProductName", "Category", "CategoryCode", "SourceSlug",
-        "Brand", "Price", "OriginalPrice", "DiscountPercent", "Unit",
-        "Rating", "TotalSold", "URL",
-    ]
-    cols = [c for c in cols if c in df.columns]
-    df = df[cols]
-
-    df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8-sig")
-    df.to_json(OUTPUT_JSON, orient="records", force_ascii=False, indent=2)
-
-    log.info(
-        f"DONE. Collected {len(df)} unique products across "
-        f"{len(CATEGORY_SLUGS)} subcategories."
-    )
-    log.info(f"Non-null counts per column:\n{df.count()}")
-
-    if len(df) < TARGET_RECORDS:
-        log.warning(
-            f"Only got {len(df)} records, target was {TARGET_RECORDS}. "
-            f"Double-check CATEGORY_SLUGS matches the real subcategory list."
-        )
-
-
-if __name__ == "__main__":
-    main()
+    def closed(self, reason):
+        n = len(self.seen_skus)
+        self.logger.info(f"DONE ({reason}). Thu duoc {n} san pham duy nhat.")
+        if n < TARGET_RECORDS:
+            self.logger.warning(f"Chi co {n} < {TARGET_RECORDS} ban ghi, kiem tra lai CATEGORY_SLUGS.")

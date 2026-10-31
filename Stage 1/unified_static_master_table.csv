@@ -1,449 +1,484 @@
 ProductID,ProductName,Brand,Category,Price,Rating,Source,Currency,Price_VND_ref
 P07609,Lăn Khử Mùi NIVEA Ngọc Trai Quyến Rũ (chai 25ml),Nivea,Lăn khử mùi,49500.0,4.75,Pharmacity_VN,VND,49500.0
 P00326,Bột Khử Mùi TRAPHA Hỗ Trợ Khử Mùi (chai 30g),Trapha,Sáp khử mùi,18000.0,4.66,Pharmacity_VN,VND,18000.0
-P26024,Sáp Khử Mùi NIVEA Ngọc Trai Quyến Rũ (Chai 50ml),Nivea,Sáp khử mùi,68250.0,4.6,Pharmacity_VN,VND,68250.0
-P03828,Xịt Ngăn Mùi NIVEA Extra Whitening Trắng Mịn Mờ Vết Thâm (Chai 150ml),Nivea,Xịt khử mùi,116000.0,4.87,Pharmacity_VN,VND,116000.0
-P17958,Lăn Khử Mùi ETIAXIL Dành Cho Da Nhạy Cảm (chai 15ml),Etiaxil,Lăn khử mùi,270100.0,4.69,Pharmacity_VN,VND,270100.0
-P17959,Lăn Khử Mùi ETIAXIL Dành Cho Da Siêu Nhạy Cảm (chai 15ml),Etiaxil,Lăn khử mùi,270100.0,4.94,Pharmacity_VN,VND,270100.0
-P37309,Lăn Khử Mùi Stopirex dành cho da nhạy cảm 30ml,Stopirex,Lăn khử mùi,263200.0,4.54,Pharmacity_VN,VND,263200.0
+P26024,Sáp Khử Mùi NIVEA Ngọc Trai Quyến Rũ (Chai 50ml),Nivea,Sáp khử mùi,105000.0,4.6,Pharmacity_VN,VND,105000.0
+P37504,Lăn Ngăn Mùi Nivea Black&White Invisible Authentic Hương Thơm Nhẹ Nhàng 50ml,Nivea,Lăn khử mùi,67900.0,4.82,Pharmacity_VN,VND,67900.0
+P03828,Xịt Ngăn Mùi NIVEA Extra Whitening Trắng Mịn Mờ Vết Thâm (Chai 150ml),Nivea,Xịt khử mùi,87000.0,4.87,Pharmacity_VN,VND,87000.0
+P17958,Lăn Khử Mùi ETIAXIL Dành Cho Da Nhạy Cảm (chai 15ml),Etiaxil,Lăn khử mùi,302000.0,4.69,Pharmacity_VN,VND,302000.0
+P17959,Lăn Khử Mùi ETIAXIL Dành Cho Da Siêu Nhạy Cảm (chai 15ml),Etiaxil,Lăn khử mùi,251000.0,4.94,Pharmacity_VN,VND,251000.0
+P37309,Lăn Khử Mùi Stopirex dành cho da nhạy cảm 30ml,Stopirex,Lăn khử mùi,246750.0,4.54,Pharmacity_VN,VND,246750.0
 P03832,Lăn Khử Mùi NIVEA Ngọc Trai Quyến Rũ (chai 50ml),Nivea,Lăn khử mùi,97000.0,4.88,Pharmacity_VN,VND,97000.0
 P03680,Lăn khử mùi Enchantuer Charming Enchantuer Deluxe Anti-Perspirant Deodorant Charming (50ml),Enchanteur,Lăn khử mùi,91000.0,4.58,Pharmacity_VN,VND,91000.0
-P03829,Xịt Ngăn Mùi NIVEA Ngọc Trai Quyến Rũ (chai 150ml),Nivea,Xịt khử mùi,115000.0,4.72,Pharmacity_VN,VND,115000.0
+P03829,Xịt Ngăn Mùi NIVEA Ngọc Trai Quyến Rũ (chai 150ml),Nivea,Xịt khử mùi,86250.0,4.72,Pharmacity_VN,VND,86250.0
 P03833,Lăn Khử Mùi NIVEA Extra Whitening Trắng Mịn Mờ Vết Thâm (chai 50ml),Nivea,Lăn khử mùi,97000.0,4.71,Pharmacity_VN,VND,97000.0
 P17499,Xịt Khử Mùi REFRE Whietening Perfume Deluxe Hương Nước Hoa Sang Trọng (30ml),Refre,Xịt khử mùi,57800.0,4.61,Pharmacity_VN,VND,57800.0
 P16681,Xịt Ngăn Mùi NIVEA Whitening Deep Trắng Da Chuyên Sâu (chai 150ml),Nivea,Xịt khử mùi,78600.0,4.63,Pharmacity_VN,VND,78600.0
-P07423,"Sữa Tắm PURITE Cherry Blossom Hương Hoa Anh Đào làm dịu da, lưu hương trên da. (chai 500ml)",Purite,Sữa tắm,175000.0,4.89,Pharmacity_VN,VND,175000.0
-P22275,Sữa Tắm LIFEBUOY Chăm Sóc Da Giúp Bảo Vệ Khỏi Vi Khuẩn Gây Bệnh (chai 800ml),Lifebuoy,Sữa tắm,172000.0,4.62,Pharmacity_VN,VND,172000.0
+P07423,"Sữa Tắm PURITE Cherry Blossom Hương Hoa Anh Đào làm dịu da, lưu hương trên da. (chai 500ml)",Purite,Sữa tắm,126000.0,4.89,Pharmacity_VN,VND,126000.0
 P18621,FELIZ BODY WASH VANILLA SCENT (1L),Feliz,Sữa tắm,67500.0,4.81,Pharmacity_VN,VND,67500.0
-P20100,Pharmacity Natural Care Sữa Tắm Chiết Xuất Mật Ong Và Lô Hội (Chai 550ml),Pharmacity,Sữa tắm,36000.0,4.71,Pharmacity_VN,VND,36000.0
-P29765,Sữa tắm Lifebuoy Thảo dược & Hoa sen 800g,Lifebuoy,Sữa tắm,184500.0,4.77,Pharmacity_VN,VND,184500.0
-P29766,Sữa tắm Lifebuoy Cica & Muối hồng 800g,Lifebuoy,Sữa tắm,184500.0,4.6,Pharmacity_VN,VND,184500.0
-P29713,Feliz  Sữa tắm chiết xuất sữa dê (Chai 1 lít),Pharmacity,Sữa tắm,135000.0,4.91,Pharmacity_VN,VND,135000.0
-P29716,Feliz Sữa tắm hương dưa lưới (Chai 1 lít),Pharmacity,Sữa tắm,135000.0,4.99,Pharmacity_VN,VND,135000.0
-P27757,Pharmacity Nước rửa tay chăm sóc toàn diện (Chai 500ml),Pharmacity,Nước rửa tay,75000.0,4.72,Pharmacity_VN,VND,75000.0
+P20100,Pharmacity Natural Care Sữa Tắm Chiết Xuất Mật Ong Và Lô Hội (Chai 550ml),Pharmacity,Sữa tắm,35700.0,4.71,Pharmacity_VN,VND,35700.0
+P22275,Sữa Tắm LIFEBUOY Chăm Sóc Da Giúp Bảo Vệ Khỏi Vi Khuẩn Gây Bệnh (chai 800ml),Lifebuoy,Sữa tắm,158240.0,4.62,Pharmacity_VN,VND,158240.0
+P27757,Pharmacity Nước rửa tay chăm sóc toàn diện (Chai 500ml),Pharmacity,Nước rửa tay,52500.0,4.72,Pharmacity_VN,VND,52500.0
 P28162,Sữa tắm dược liệu Thuần Mộc (Chai 300ml),Thuan Moc,Sữa tắm,199000.0,4.6,Pharmacity_VN,VND,199000.0
-P01548,Nước Rửa Tay LIFEBUOY Bảo Vệ Vượt Trội (chai 177ml),Lifebuoy,Nước rửa tay,33120.0,4.8,Pharmacity_VN,VND,33120.0
+P29713,Feliz  Sữa tắm chiết xuất sữa dê (Chai 1 lít),Pharmacity,Sữa tắm,81000.0,4.91,Pharmacity_VN,VND,81000.0
+P29716,Feliz Sữa tắm hương dưa lưới (Chai 1 lít),Pharmacity,Sữa tắm,81000.0,4.99,Pharmacity_VN,VND,81000.0
+P29765,Sữa tắm Lifebuoy Thảo dược & Hoa sen 800g,Lifebuoy,Sữa tắm,225000.0,4.77,Pharmacity_VN,VND,225000.0
+P29766,Sữa tắm Lifebuoy Cica & Muối hồng 800g,Lifebuoy,Sữa tắm,225000.0,4.6,Pharmacity_VN,VND,225000.0
+P37709,Sữa tắm Olay sáng da 500g,Olay,Sữa tắm,239000.0,4.89,Pharmacity_VN,VND,239000.0
+P01548,Nước Rửa Tay LIFEBUOY Bảo Vệ Vượt Trội (chai 177ml),Lifebuoy,Nước rửa tay,36000.0,4.8,Pharmacity_VN,VND,36000.0
 P07541,Sữa tắm dưỡng ẩm Johnson's pH 5.5  2 trong 1 (750 ml),Johnson,Sữa tắm,196000.0,4.68,Pharmacity_VN,VND,196000.0
-P17550,Nước Rửa Tay LIFEBUOY Matcha và Lô Hội (chai 450g),Lifebuoy,Nước rửa tay,77000.0,4.54,Pharmacity_VN,VND,77000.0
 P21157,Xà Phòng Tắm PELICAN Giúp Giảm Mụn Lưng (135g),Pelican,Xà bông cục,149000.0,4.51,Pharmacity_VN,VND,149000.0
-P27856,"Sữa tắm Pharmacity Làm Sạch, Kháng Khuẩn – Dưỡng ẩm da (Chai 850ml)",Pharmacity,Sữa tắm,139000.0,4.85,Pharmacity_VN,VND,139000.0
-P28074,Sữa tắm chứa hạt Peach & Peony Pharmacity (Chai 400g),Pharmacity,Sữa tắm,40000.0,4.86,Pharmacity_VN,VND,40000.0
-P29715,Feliz Sữa tắm hương Vanilla (Chai 1 lít),Pharmacity,Sữa tắm,135000.0,4.97,Pharmacity_VN,VND,135000.0
+P17550,Nước Rửa Tay LIFEBUOY Matcha và Lô Hội (chai 450g),Lifebuoy,Nước rửa tay,77000.0,4.54,Pharmacity_VN,VND,77000.0
+P28074,Pharmacity Sữa tắm chứa hạt Peach & Peony (Chai 400g),Pharmacity,Sữa tắm,40050.0,4.86,Pharmacity_VN,VND,40050.0
+P27856,"Pharmacity Sữa tắm Làm Sạch, Kháng Khuẩn – Dưỡng ẩm da (Chai 850ml)",Pharmacity,Sữa tắm,139000.0,4.85,Pharmacity_VN,VND,139000.0
+P29715,Feliz Sữa tắm hương Vanilla (Chai 1 lít),Pharmacity,Sữa tắm,81000.0,4.97,Pharmacity_VN,VND,81000.0
 P29768,Xịt rửa tay khô sát khuẩn TH.A 100ml,TH-A,Nước rửa tay,38000.0,4.73,Pharmacity_VN,VND,38000.0
 P29769,Gel rửa tay khô sát khuẩn TH.A 120ml,TH-A,Nước rửa tay,42000.0,4.7,Pharmacity_VN,VND,42000.0
 P30257,Xịt rửa tay PURE FRESH hương Melon (30ml),Pure Fresh,Nước rửa tay,89000.0,4.76,Pharmacity_VN,VND,89000.0
-P17551,Nước Rửa Tay LIFEBUOY Bảo Vệ Vượt Trội 10 (túi 400g),Lifebuoy,Nước rửa tay,64000.0,4.78,Pharmacity_VN,VND,64000.0
 P17538,Xà Phòng Tắm LIFEBUOY Matcha và Khổ Qua Bảo Vệ Khỏi Vi Khuẩn (90g),Lifebuoy,Xà bông cục,20000.0,4.95,Pharmacity_VN,VND,20000.0
+P17551,Nước Rửa Tay LIFEBUOY Bảo Vệ Vượt Trội 10 (túi 400g),Lifebuoy,Nước rửa tay,57600.0,4.78,Pharmacity_VN,VND,57600.0
+P18619,Sữa tắm chiết xuất sữa dê Feliz Body Wash Goat’s Milk (Chai 1 lít),Feliz,Sữa tắm,67500.0,4.66,Pharmacity_VN,VND,67500.0
 P18620,Sữa tắm hương Hoa hồng Feliz Body Wash Rose (Chai 1 lít),Feliz,Sữa tắm,67500.0,4.54,Pharmacity_VN,VND,67500.0
-P21161,Sữa Tắm LIFEBUOY Bảo Vệ Vượt Trội 10 Giúp Bảo Vệ Khỏi Vi Khuẩn Gây Bệnh (chai 800g),Lifebuoy,Sữa tắm,172000.0,4.85,Pharmacity_VN,VND,172000.0
-P27758,Pharmacity Nước rửa tay bảo vệ tối ưu (Chai 200ml),Pharmacity,Nước rửa tay,34000.0,4.79,Pharmacity_VN,VND,34000.0
-P29767,Dung dịch rửa tay khô sát khuẩn TH.A 500ml,TH-A,Nước rửa tay,89000.0,4.63,Pharmacity_VN,VND,89000.0
-P28075,Pharmacity Nước rửa tay làm sạch và dưỡng ẩm hương Peach & Peony (Chai 500ml),Pharmacity,Nước rửa tay,30000.0,4.86,Pharmacity_VN,VND,30000.0
+P21161,Sữa Tắm LIFEBUOY Bảo Vệ Vượt Trội 10 Giúp Bảo Vệ Khỏi Vi Khuẩn Gây Bệnh (chai 800g),Lifebuoy,Sữa tắm,158240.0,4.85,Pharmacity_VN,VND,158240.0
+P27758,Pharmacity Nước rửa tay bảo vệ tối ưu (Chai 200ml),Pharmacity,Nước rửa tay,23800.0,4.79,Pharmacity_VN,VND,23800.0
 P28114,Sữa tắm thảo dược gừng nghệ Cỏ Cây Hoa Lá (Túi 30g),Cocayhoala,Sữa tắm,29000.0,4.59,Pharmacity_VN,VND,29000.0
+P28075,Pharmacity Nước rửa tay làm sạch và dưỡng ẩm hương Peach & Peony (Chai 500ml),Pharmacity,Nước rửa tay,35040.0,4.86,Pharmacity_VN,VND,35040.0
+P29767,Dung dịch rửa tay khô sát khuẩn TH.A 500ml,TH-A,Nước rửa tay,89000.0,4.63,Pharmacity_VN,VND,89000.0
 P30259,Xịt rửa tay PURE FRESH hương Peppermint & Vani (30ml),Pure Fresh,Nước rửa tay,89000.0,4.64,Pharmacity_VN,VND,89000.0
 P30706,LoveBody Sữa tắm Bơ Shea Sữa Dừa (Chai 550ml),LoveBody,Sữa tắm,62500.0,4.58,Pharmacity_VN,VND,62500.0
-P02195,Nước Rửa Tay GREEN CROSS Hương Trà Xanh (chai 100ml),Green Cross,Nước rửa tay,21600.0,4.95,Pharmacity_VN,VND,21600.0
-P01547,Nước Rửa Tay LIFEBUOY Chăm Sóc Da (chai 177ml),Lifebuoy,Nước rửa tay,32200.0,4.78,Pharmacity_VN,VND,32200.0
-P07542,Sữa tắm dưỡng ẩm Johnson's pH 5.5  với dầu hạnh nhân (750ml),Johnson,Sữa tắm,147000.0,4.99,Pharmacity_VN,VND,147000.0
-P20101,Pharmacity Natural Care Sữa Tắm Chiết Xuất Tràm Trà Và Hương Thảo (Chai 550ml),Pharmacity,Sữa tắm,36000.0,4.73,Pharmacity_VN,VND,36000.0
-P27855,"Sữa tắm Pharmacity Làm Sạch, Kháng Khuẩn – Chăm sóc da (Chai 850ml)",Pharmacity,Sữa tắm,139000.0,4.99,Pharmacity_VN,VND,139000.0
-P27756,Nước rửa tay Pharmacity bảo vệ tối ưu (Chai 500ml) - New,Pharmacity,Nước rửa tay,75000.0,4.65,Pharmacity_VN,VND,75000.0
-P29714,Feliz Sữa tắm hương hoa hồng (Chai 1 lít),Pharmacity,Sữa tắm,135000.0,4.71,Pharmacity_VN,VND,135000.0
+P37401,"Sữa tắm NeoAcnes Giảm Mụn Lưng, Ngăn Ngừa Sự Phát Triển Mụn Chai 250ml",Neo Acnes,Sữa tắm,185000.0,4.77,Pharmacity_VN,VND,185000.0
+P01547,Nước Rửa Tay LIFEBUOY Chăm Sóc Da (chai 177ml),Lifebuoy,Nước rửa tay,35000.0,4.78,Pharmacity_VN,VND,35000.0
+P02195,Nước Rửa Tay GREEN CROSS Hương Trà Xanh (chai 100ml),Green Cross,Nước rửa tay,24000.0,4.95,Pharmacity_VN,VND,24000.0
+P07542,Sữa tắm dưỡng ẩm Johnson's pH 5.5  với dầu hạnh nhân (750ml),Johnson,Sữa tắm,196000.0,4.99,Pharmacity_VN,VND,196000.0
+P27855,"Pharmacity Sữa tắm Làm Sạch, Kháng Khuẩn – Chăm sóc da (Chai 850ml)",Pharmacity,Sữa tắm,139000.0,4.99,Pharmacity_VN,VND,139000.0
+P27756,Nước rửa tay Pharmacity bảo vệ tối ưu (Chai 500ml) - New,Pharmacity,Nước rửa tay,52500.0,4.65,Pharmacity_VN,VND,52500.0
+P20101,Pharmacity Natural Care Sữa Tắm Chiết Xuất Tràm Trà Và Hương Thảo (Chai 550ml),Pharmacity,Sữa tắm,35700.0,4.73,Pharmacity_VN,VND,35700.0
 P30705,LoveBody Sữa tắm Oải Hương Mật Ong (Chai 550ml),LoveBody,Sữa tắm,62500.0,4.71,Pharmacity_VN,VND,62500.0
-P29978,Sữa Tắm Anok Dưỡng Ẩm Smoothing & Hydrating 300ml/Chai,Anok,Sữa tắm,217500.0,4.73,Pharmacity_VN,VND,217500.0
 P30258,Xịt rửa tay PURE FRESH hương Cherry Blossom (30ml),Pure Fresh,Nước rửa tay,89000.0,4.95,Pharmacity_VN,VND,89000.0
-P03374,Nước Rửa Tay LIFEBUOY Bảo Vệ Vượt Trội giúp loại bỏ vi khuẩn (chai 450g),Lifebuoy,Nước rửa tay,71760.0,4.97,Pharmacity_VN,VND,71760.0
-P04079,Xịt Rửa Tay GREEN CROSS Hương Trà Xanh (chai 70ml),Green Cross,Nước rửa tay,33500.0,4.99,Pharmacity_VN,VND,33500.0
+P29714,Feliz Sữa tắm hương hoa hồng (Chai 1 lít),Pharmacity,Sữa tắm,81000.0,4.71,Pharmacity_VN,VND,81000.0
+P29978,Sữa Tắm Anok Dưỡng Ẩm Smoothing & Hydrating 300ml/Chai,Anok,Sữa tắm,246500.0,4.73,Pharmacity_VN,VND,246500.0
+P37711,Sữa tắm Olay Luminous hương trái vải 350g,Olay,Sữa tắm,299000.0,4.89,Pharmacity_VN,VND,299000.0
 P08694,"Sữa Tắm TÂY THI Hạn Chế Viêm Lỗ Chân Lông, Viêm Da và Mụn Trứng Cá (tuýp 200ml)",Tay Thi,Sữa tắm,73000.0,4.56,Pharmacity_VN,VND,73000.0
-P12966,Sữa Tắm LIFEBUOY Matcha & Khổ Qua giúp kháng khuẩn cho da (800g),Lifebuoy,Sữa tắm,184500.0,4.98,Pharmacity_VN,VND,184500.0
-P20102,Pharmacity Natural Care Sữa Tắm Chiết Xuất Mâm Xôi Và Cam Thảo (Chai 550ml),Pharmacity,Sữa tắm,36000.0,4.93,Pharmacity_VN,VND,36000.0
-P21162,Sữa Tắm HATOMUGI Hỗ Trợ Làm Sáng Da (chai 800ml),Hatomugi,Sữa tắm,140000.0,4.63,Pharmacity_VN,VND,140000.0
-P22673,Sữa Tắm NEUTROGENA Rainbath Refreshing Shower & Bath Gel Tươi Mát Và Mịn Màng (473ml),Neutrogena,Sữa tắm,312000.0,4.75,Pharmacity_VN,VND,312000.0
-P30704,LoveBody Sữa tắm Cám Gạo Hoa Sen (Chai 550ml),LoveBody,Sữa tắm,62500.0,4.98,Pharmacity_VN,VND,62500.0
-P07424,"Sữa Tắm PURITE Rose Hương Hoa Hồng giúp giữ ẩm da, sáng da (chai 500ml)",Purite,Sữa tắm,143650.0,4.74,Pharmacity_VN,VND,143650.0
-P17552,Nước Rửa Tay LIFEBUOY Chăm Sóc Da (túi 400g),Lifebuoy,Nước rửa tay,64000.0,4.71,Pharmacity_VN,VND,64000.0
-P18648,Gel Diệt Khuẩn Tay LIFEBUOY Total 10 (chai 50ml),Lifebuoy,Nước rửa tay,22400.0,4.9,Pharmacity_VN,VND,22400.0
-P17624,Dầu gội PANTENE Pro-V Hair Fall Control Ngăn Rụng Tóc (chai 650ml),Pantene,Dầu gội đầu,189000.0,4.85,Pharmacity_VN,VND,189000.0
-P22881,Dầu Gội Thảo Dược Hà Thủ Ô 2in1 Làm Sạch Da Đầu Cỏ Cây Hoa Lá 450g,Cocayhoala,Dầu gội đầu,246500.0,4.9,Pharmacity_VN,VND,246500.0
+P04079,Xịt Rửa Tay GREEN CROSS Hương Trà Xanh (chai 70ml),Green Cross,Nước rửa tay,33500.0,4.99,Pharmacity_VN,VND,33500.0
+P03374,Nước Rửa Tay LIFEBUOY Bảo Vệ Vượt Trội giúp loại bỏ vi khuẩn (chai 450g),Lifebuoy,Nước rửa tay,78000.0,4.97,Pharmacity_VN,VND,78000.0
+P12966,Sữa Tắm LIFEBUOY Matcha & Khổ Qua giúp kháng khuẩn cho da (800g),Lifebuoy,Sữa tắm,225000.0,4.98,Pharmacity_VN,VND,225000.0
+P21162,Sữa Tắm HATOMUGI Hỗ Trợ Làm Sáng Da (chai 800ml),Hatomugi,Sữa tắm,175000.0,4.63,Pharmacity_VN,VND,175000.0
+P20102,Pharmacity Natural Care Sữa Tắm Chiết Xuất Mâm Xôi Và Cam Thảo (Chai 550ml),Pharmacity,Sữa tắm,35700.0,4.93,Pharmacity_VN,VND,35700.0
+P00244,Dầu Gội Dược Liệu THÁI DƯƠNG 3 Hương Lá Sạch Gàu Mềm Mượt (200ml),Thai Duong,Dầu gội đầu,60000.0,4.76,Pharmacity_VN,VND,60000.0
+P00248,Dầu Gội Dược Liệu THÁI DƯƠNG 3 Hương Hoa Giảm Gàu (chai 200ml),Thai Duong,Dầu gội đầu,60000.0,4.82,Pharmacity_VN,VND,60000.0
+P17624,Dầu gội PANTENE Pro-V Hair Fall Control Ngăn Rụng Tóc (chai 650ml),Pantene,Dầu gội đầu,151200.0,4.85,Pharmacity_VN,VND,151200.0
+P22881,Dầu Gội Thảo Dược Hà Thủ Ô 2in1 Làm Sạch Da Đầu Cỏ Cây Hoa Lá 450g,Cocayhoala,Dầu gội đầu,290000.0,4.9,Pharmacity_VN,VND,290000.0
 P22887,Dầu Xả COCOON Tinh Dầu Bưởi Giúp Giảm Gãy Rụng và Làm Mềm Tóc chai 310ml,Cocoon,Dầu xả,195000.0,4.67,Pharmacity_VN,VND,195000.0
 P28113,Dầu xả thảo dược gừng sả Cỏ Cây Hoa Lá dưỡng tóc mềm mại tự nhiên (Túi 30g),Cocayhoala,Dầu xả,29000.0,4.84,Pharmacity_VN,VND,29000.0
 P28567,Dầu gội dược liệu Nguyên Xuân xanh cho tóc hư tổn (Chai 450ml/520g),Nguyen Xuan,Dầu gội đầu,183000.0,4.99,Pharmacity_VN,VND,183000.0
 P29689,Kem Nhuộm Tóc Garnier Màu 3 Nâu Đen (50g+50ml+5g/Hộp),Garnier,Nhuộm tóc,149000.0,4.93,Pharmacity_VN,VND,149000.0
 P29696,Dầu xả L'ORÉAL PARIS dưỡng tóc suôn mượt 440ml/chai,L'oreal,Dầu xả,289000.0,4.86,Pharmacity_VN,VND,289000.0
-P29975,Dầu Gội Anok Giúp Giảm Rụng Tóc Anti Hair Loss 400ml/Chai,Anok,Dầu gội đầu,270000.0,4.8,Pharmacity_VN,VND,270000.0
-P29976,Dầu Xả Anok Dưỡng Tóc Airy Moist Treatment 400ml/Chai,Anok,Dầu xả,270000.0,4.86,Pharmacity_VN,VND,270000.0
+P29975,Dầu Gội Anok Giúp Giảm Rụng Tóc Anti Hair Loss 400ml/Chai,Anok,Dầu gội đầu,306000.0,4.8,Pharmacity_VN,VND,306000.0
+P29976,Dầu Xả Anok Dưỡng Tóc Airy Moist Treatment 400ml/Chai,Anok,Dầu xả,306000.0,4.86,Pharmacity_VN,VND,306000.0
+P37390,Dầu Gội Tsubaki Premium Volume & Repair Shampoo Phục Hồi Hư Tổn 450ml,Tsubaki,Dầu gội đầu,161000.0,4.75,Pharmacity_VN,VND,161000.0
 P37395,Dầu Gội Head & Shoulders Sạch Gàu Da Đầu Dầu Clinical Strength Advanced Oil Control 400ml,Head & Shoulders,Dầu gội đầu,224000.0,4.67,Pharmacity_VN,VND,224000.0
-P00244,Dầu Gội Dược Liệu THÁI DƯƠNG 3 Hương Lá Sạch Gàu Mềm Mượt (200ml),Thai Duong,Dầu gội đầu,60000.0,4.76,Pharmacity_VN,VND,60000.0
-P00248,Dầu Gội Dược Liệu THÁI DƯƠNG 3 Hương Hoa Giảm Gàu (chai 200ml),Thai Duong,Dầu gội đầu,60000.0,4.82,Pharmacity_VN,VND,60000.0
+P37452,Dầu gội Clear 9 thảo dược cổ truyền làm sạch gàu 350g,Clear,Dầu gội đầu,133000.0,4.59,Pharmacity_VN,VND,133000.0
+P37503,Dầu gội khô Girlz Only Dazzling Volume Làm Sạch Tóc (Chai 100ml),Girlz Only,Dầu gội đầu,66000.0,4.88,Pharmacity_VN,VND,66000.0
 P00997,Dầu Gội Dược Liệu THÁI DƯƠNG 7 Dưỡng Tóc (chai 200ml),Thai Duong,Dầu gội đầu,100000.0,4.68,Pharmacity_VN,VND,100000.0
-P07038,Dầu Gội CLEAR Bạc Hà Mát Lạnh Sạch Gàu (chai 630g),Clear,Dầu gội đầu,210000.0,4.76,Pharmacity_VN,VND,210000.0
-P07168,Dầu Gội TRESEMME Keratin Smooth Tinh Dầu Argan & Keratin Vào Nếp Suôn Mượt (Chai 640g),Tresemme,Dầu gội đầu,243000.0,4.68,Pharmacity_VN,VND,243000.0
+P04629,Dầu Gội Thorakao Hoa Bưởi 500ml,Thorakao,Dầu gội đầu,73000.0,4.93,Pharmacity_VN,VND,73000.0
+P07038,Dầu Gội CLEAR Bạc Hà Mát Lạnh Sạch Gàu (chai 630g),Clear,Dầu gội đầu,174300.0,4.76,Pharmacity_VN,VND,174300.0
+P07168,Dầu Gội TRESEMME Keratin Smooth Tinh Dầu Argan & Keratin Vào Nếp Suôn Mượt (Chai 640g),Tresemme,Dầu gội đầu,189540.0,4.68,Pharmacity_VN,VND,189540.0
 P15466,"Dầu Gội MATRIX Gội Là Nâu ngăn ngừa rụng tóc, không gây kích ứng da (hộp 10 gói)",MATRIX,Dầu gội đầu,27000.0,4.57,Pharmacity_VN,VND,27000.0
 P21170,Serum Dưỡng Tóc ELLIPS Pro Keratin Smooth & Silky Mềm Mượt Tóc (Vỉ 6 viên),Ellips,Dưỡng tóc,25000.0,4.75,Pharmacity_VN,VND,25000.0
 P22888,"Dầu Gội Dược Liệu NGUYÊN XUÂN Dành Cho Tóc Dầu, Bết (chai 250ml/260g)",Nguyen Xuan,Dầu gội đầu,122000.0,4.6,Pharmacity_VN,VND,122000.0
+P24704,Dầu Gội CLEAR 48 Giờ Sạch Gàu Ngứa (chai 630g),Clear,Dầu gội đầu,191900.0,4.61,Pharmacity_VN,VND,191900.0
 P28944,Dầu gội thảo mộc giảm gàu Herbal Wellness by Pharmacity chai 450ml,Herbal Wellness,Dầu gội đầu,94500.0,4.71,Pharmacity_VN,VND,94500.0
 P29692,Kem nhuộm tóc GARNIER màu 5.32 Nâu Caramel 30ml+30g/gói,Garnier,Nhuộm tóc,89000.0,4.85,Pharmacity_VN,VND,89000.0
 P29693,Dầu xả L'ORÉAL PARIS ngăn ngừa và giảm gãy rụng tóc 440ml/chai,L'oreal,Dầu xả,289000.0,4.83,Pharmacity_VN,VND,289000.0
-P24704,Dầu Gội CLEAR 48 Giờ Sạch Gàu Ngứa (chai 630g),Clear,Dầu gội đầu,191900.0,4.61,Pharmacity_VN,VND,191900.0
-P03287,Dầu Gội HEAD & SHOULDERS Bạc Hà Mát Lạnh Giảm Gàu (chai 330ml),Head & Shoulders,Dầu gội đầu,133000.0,4.56,Pharmacity_VN,VND,133000.0
+P03287,Dầu Gội HEAD & SHOULDERS Bạc Hà Mát Lạnh Giảm Gàu (chai 330ml),Head & Shoulders,Dầu gội đầu,99750.0,4.56,Pharmacity_VN,VND,99750.0
 P11517,Dầu Gội và Tắm ABENA Không Dùng Nước Hương Thơm Nhẹ (chai 200ml),Abena,Dầu gội đầu,205000.0,4.9,Pharmacity_VN,VND,205000.0
-P13012,"Pharmacity Dầu gội Olive Oil phục hồi, giảm khô tóc (Chai 490ml)",Pharmacity,Dầu gội đầu,87500.0,4.77,Pharmacity_VN,VND,87500.0
-P15467,Dầu Gội MATRIX Gội Là Đen hộp 10 gói,MATRIX,Dầu gội đầu,22950.0,4.72,Pharmacity_VN,VND,22950.0
-P17535,Dầu Gội CLEAR Bạc Hà Mát Lạnh Sạch Gàu (chai 880g),Clear,Dầu gội đầu,212000.0,4.97,Pharmacity_VN,VND,212000.0
-P22880,Dầu Gội Dược Liệu THÁI DƯƠNG 7 Plus Dưỡng Tóc (chai 250ml),Thai Duong,Dầu gội đầu,152000.0,4.64,Pharmacity_VN,VND,152000.0
-P29694,Dầu gội L'ORÉAL PARIS ngăn ngừa và giảm gãy rụng tóc 440ml/chai,L'oreal,Dầu gội đầu,289000.0,4.66,Pharmacity_VN,VND,289000.0
+P17535,Dầu Gội CLEAR Bạc Hà Mát Lạnh Sạch Gàu (chai 880g),Clear,Dầu gội đầu,265000.0,4.97,Pharmacity_VN,VND,265000.0
+P13012,"Pharmacity Dầu gội Olive Oil phục hồi, giảm khô tóc (Chai 490ml)",Pharmacity,Dầu gội đầu,125000.0,4.77,Pharmacity_VN,VND,125000.0
+P15467,Dầu Gội MATRIX Gội Là Đen hộp 10 gói,MATRIX,Dầu gội đầu,27000.0,4.72,Pharmacity_VN,VND,27000.0
 P26020,Dầu Gội Dược Liệu NGUYÊN XUÂN Sạch Gàu chai 350ml/400g,Nguyen Xuan,Dầu gội đầu,189000.0,4.62,Pharmacity_VN,VND,189000.0
-P28071,"Pharmacity Dầu xả Argan Oil mềm mượt, giảm hư tổn (Chai 200ml)",Pharmacity,Dầu xả,84000.0,4.6,Pharmacity_VN,VND,84000.0
-P28161,Dầu gội dược liệu Thuần Mộc (Chai 300ml),Thuan Moc,Dầu gội đầu,199000.0,4.83,Pharmacity_VN,VND,199000.0
+P22880,Dầu Gội Dược Liệu THÁI DƯƠNG 7 Plus Dưỡng Tóc (chai 250ml),Thai Duong,Dầu gội đầu,152000.0,4.64,Pharmacity_VN,VND,152000.0
 P28945,Dầu gội thảo mộc giảm rụng tóc Herbal Wellness by Pharmacity chai 450ml,Herbal Wellness,Dầu gội đầu,94500.0,4.99,Pharmacity_VN,VND,94500.0
-P00596,Dầu Gội SELSUN Anti Dandruff Giảm Gàu và Giảm Ngứa Da Đầu (Chai 100ml),Selsun,Dầu gội đầu,84150.0,4.91,Pharmacity_VN,VND,84150.0
+P28161,Dầu gội dược liệu Thuần Mộc (Chai 300ml),Thuan Moc,Dầu gội đầu,199000.0,4.83,Pharmacity_VN,VND,199000.0
+P28071,"Pharmacity Dầu xả Argan Oil mềm mượt, giảm hư tổn (Chai 200ml)",Pharmacity,Dầu xả,50400.0,4.6,Pharmacity_VN,VND,50400.0
+P29694,Dầu gội L'ORÉAL PARIS ngăn ngừa và giảm gãy rụng tóc 440ml/chai,L'oreal,Dầu gội đầu,289000.0,4.66,Pharmacity_VN,VND,289000.0
+P00596,Dầu Gội SELSUN Anti Dandruff Giảm Gàu và Giảm Ngứa Da Đầu (Chai 100ml),Selsun,Dầu gội đầu,89100.0,4.91,Pharmacity_VN,VND,89100.0
 P01267,Dầu Gội SELSUN Anti Dandruff Giảm Gàu và Giảm Ngứa Da Đầu (Chai 50ml),Selsun,Dầu gội đầu,56700.0,4.84,Pharmacity_VN,VND,56700.0
-P04630,Dầu Gội THORAKAO Hoa Bưởi Mềm Mại và Óng Mượt (chai 400ml),Thorakao,Dầu gội đầu,104000.0,4.82,Pharmacity_VN,VND,104000.0
 P03819,Dầu Xả SELSUN Dành Cho Tóc Gàu (chai 100ml),Selsun,Dầu xả,55800.0,4.82,Pharmacity_VN,VND,55800.0
-P18998,Dầu Gội Khô GIRLZ ONLY Dazzling Volume Làm Phồng Tóc (chai 200ml),Girlz Only,Dầu gội đầu,126000.0,4.72,Pharmacity_VN,VND,126000.0
-P18999,Dầu Gội TRESEMME Salon Rebond Giúp Giảm Gãy Rụng (chai 640g),Tresemme,Dầu gội đầu,194400.0,4.7,Pharmacity_VN,VND,194400.0
-P21168,Dầu Gội OGX Thick & Full Bổ Sung Biotin Collagen Cho Tóc (chai 385ml),OGX,Dầu gội đầu,245000.0,4.75,Pharmacity_VN,VND,245000.0
+P04630,Dầu Gội THORAKAO Hoa Bưởi Mềm Mại và Óng Mượt (chai 400ml),Thorakao,Dầu gội đầu,104000.0,4.82,Pharmacity_VN,VND,104000.0
+P17618,Dầu Gội Dược Liệu NGUYÊN XUÂN Xanh Dành Cho Tóc Khô Xơ và Hư Tổn (chai 250ml/260g),Nguyen Xuan,Dầu gội đầu,102000.0,4.89,Pharmacity_VN,VND,102000.0
+P17519,Dầu gội Head & Shoulders Anti-Dandruff Shampoo Sub Zero Sensation (Chai 800ml),Head & Shoulders,Dầu gội đầu,263000.0,4.77,Pharmacity_VN,VND,263000.0
+P18998,Dầu Gội Khô GIRLZ ONLY Dazzling Volume Làm Phồng Tóc (chai 200ml),Girlz Only,Dầu gội đầu,105000.0,4.72,Pharmacity_VN,VND,105000.0
+P18999,Dầu Gội TRESEMME Salon Rebond Giúp Giảm Gãy Rụng (chai 640g),Tresemme,Dầu gội đầu,243000.0,4.7,Pharmacity_VN,VND,243000.0
+P24705,Dầu Gội SELSUN Anti Dandruff Giảm Gàu và Giảm Ngứa Da Đầu (chai 250ml),Selsun,Dầu gội đầu,193800.0,4.55,Pharmacity_VN,VND,193800.0
+P22889,Dầu Xả Dược Liệu NGUYÊN XUÂN Dưỡng Tóc và Phục Hồi (chai 150ml/160g),Nguyen Xuan,Dầu xả,73040.0,4.71,Pharmacity_VN,VND,73040.0
+P21168,Dầu Gội OGX Thick & Full Bổ Sung Biotin Collagen Cho Tóc (chai 385ml),OGX,Dầu gội đầu,171500.0,4.75,Pharmacity_VN,VND,171500.0
 P21171,Serum Dưỡng Tóc ELLIPS Phục Hồi Hư Tổn Pro Keratin Hair Repair (vỉ 6 viên),Ellips,Dưỡng tóc,25000.0,4.7,Pharmacity_VN,VND,25000.0
 P21172,Serum Dưỡng Tóc ELLIPS Dành Cho Tóc Nhuộm Nutri Color (vỉ 6 viên),Ellips,Dưỡng tóc,25000.0,4.63,Pharmacity_VN,VND,25000.0
-P21174,Serum Dưỡng Tóc ELLIPS Giúp Tóc Phục Hồi Hư Tổn Hair Treatment (hũ 50 viên),Ellips,Dưỡng tóc,203000.0,4.89,Pharmacity_VN,VND,203000.0
-P17618,Dầu Gội Dược Liệu NGUYÊN XUÂN Xanh Dành Cho Tóc Khô Xơ và Hư Tổn (chai 250ml/260g),Nguyen Xuan,Dầu gội đầu,93840.0,4.89,Pharmacity_VN,VND,93840.0
-P17519,Dầu gội Head & Shoulders Anti-Dandruff Shampoo Sub Zero Sensation (Chai 800ml),Head & Shoulders,Dầu gội đầu,210400.0,4.77,Pharmacity_VN,VND,210400.0
-P22889,Dầu Xả Dược Liệu NGUYÊN XUÂN Dưỡng Tóc và Phục Hồi (chai 150ml/160g),Nguyen Xuan,Dầu xả,83000.0,4.71,Pharmacity_VN,VND,83000.0
-P28568,Dầu gội dược liệu Nguyên Xuân bồng bềnh cho tóc dầu và bết (450ml/520g),Nguyen Xuan,Dầu gội đầu,178640.0,4.76,Pharmacity_VN,VND,178640.0
+P11365,Bộ Đôi Bàn Chải Đánh Răng COLGATE SlimSoft Than Hoạt Tính,Colgate,Bàn chải đánh răng,75000.0,4.99,Pharmacity_VN,VND,75000.0
+P03635,Nước Súc Miệng LISTERINE Green Tea Cho Răng Chắc Khỏe (Chai 250ml),Listerine,Nước súc miệng,82000.0,4.82,Pharmacity_VN,VND,82000.0
+P13363,Nước Súc Miệng LISTERINE Cool Mint Hơi Thở Thơm Mát (Chai 100ml),Listerine,Nước súc miệng,31000.0,4.52,Pharmacity_VN,VND,31000.0
+P14148,Kem Đánh Răng Dược Liệu NGỌC CHÂU Truyền Thống tuýp 100g,Ngoc Chau,Kem đánh răng,49280.0,4.96,Pharmacity_VN,VND,49280.0
+P14242,"Kem đánh răng COLGATE Optic White Exfoliating Mineral giúp răng trắng sáng, sạch mảng bám (100g)",Colgate,Kem đánh răng,47250.0,4.79,Pharmacity_VN,VND,47250.0
+P17555,Nước Súc Miệng LISTERINE Tartar Protection Giảm Mảng Bám (Chai 750ml),Listerine,Nước súc miệng,191000.0,4.93,Pharmacity_VN,VND,191000.0
+P17557,Bàn Chải Đánh Răng CLOSE UP Precision Clean (hộp 1 cái),Close up,Bàn chải đánh răng,38625.0,4.64,Pharmacity_VN,VND,38625.0
+P18065,Kem Đánh Răng COLGATE Hương Dâu Tây Cho Trẻ Em 3-5 Tuổi (tuýp 80g),Colgate,Kem đánh răng,59000.0,4.55,Pharmacity_VN,VND,59000.0
+P18066,Kem Đánh Răng COLGATE Cho Trẻ Em 6-9 Tuổi Hương Dâu Bạc Hà (Tuýp 80g),Colgate,Kem đánh răng,59000.0,4.66,Pharmacity_VN,VND,59000.0
+P18083,Kem Đánh Răng CLOSE UP Muối Biển Detox Giúp Trắng Răng (tuýp 180g),Close up,Kem đánh răng,46000.0,4.79,Pharmacity_VN,VND,46000.0
+P13777,Bàn chải đánh răng trẻ em Pharmacity,Pharmacity,Bàn chải đánh răng,18000.0,4.86,Pharmacity_VN,VND,18000.0
+P20089,"Bàn Chải Kẻ Răng OKAMURA Asahi Hình L Loại Bỏ Thức Ăn Thừa, Mảng Bám (Túi 6 cái)",Okamura,Tăm chỉ nha khoa,30000.0,4.57,Pharmacity_VN,VND,30000.0
+P23086,Kem Đánh Răng SENSODYNE Cool Gel Mát Lạnh (tuýp 160g),Sensodyne (GSK OTC),Kem đánh răng,80750.0,4.87,Pharmacity_VN,VND,80750.0
+P26598,Bộ Đôi Bàn Chải Đánh Răng COLGATE Gum Expert,Colgate,Bàn chải đánh răng,92000.0,4.74,Pharmacity_VN,VND,92000.0
+P22138,Kem Đánh Răng COLGATE Muối Himalaya Sáng Khỏe (tuýp 180g),Colgate,Kem đánh răng,51200.0,4.55,Pharmacity_VN,VND,51200.0
+P22141,Tăm Chỉ Kẽ Răng JOMI Hỗ Trợ Làm Sạch Mảng Bám Trong Kẻ Răng (gói 80 cái),Jomi,Tăm chỉ nha khoa,30375.0,4.88,Pharmacity_VN,VND,30375.0
+P28349,Nước súc miệng SMC Ag+ vệ sinh răng miệng (Chai 250ml),nan,Nước súc miệng,110000.0,4.85,Pharmacity_VN,VND,110000.0
+P27991,Kem đánh răng Colgate Total Plaque (tuýp 95g),Colgate,Kem đánh răng,87200.0,4.85,Pharmacity_VN,VND,87200.0
+P29621,Kem Đánh Răng Marvis Amarelli Licorice Vị Cam Thảo & Than tre hỗ trợ khử ố vàng & trắng răng (85ml),Marvis,Kem đánh răng,194250.0,4.73,Pharmacity_VN,VND,194250.0
+P29594,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% (Chai 500ml)",Pharmacity,Nước súc miệng,7700.0,4.94,Pharmacity_VN,VND,7700.0
+P29618,Kem Đánh Răng Marvis Smokers Whitening Mint Vị Bạc Hà hỗ trợ khử ố vàng răng cho người hút thuốc lá (85ml),Marvis,Kem đánh răng,195300.0,4.69,Pharmacity_VN,VND,195300.0
+P30052,Pharmacity Tăm chỉ nha khoa (Gói 90 cây),Pharmacity,Tăm chỉ nha khoa,17500.0,4.51,Pharmacity_VN,VND,17500.0
+P29095,Pharmacity Chỉ nha khoa (Cuộn 50m),Pharmacity,Tăm chỉ nha khoa,39000.0,4.65,Pharmacity_VN,VND,39000.0
+P37512,Kem Đánh Răng Sensodyne Gum Care Bảo Vệ Nướu (Tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,74000.0,4.89,Pharmacity_VN,VND,74000.0
+P05528,Kem Đánh Răng P/S Ngừa Sâu Răng Vượt Trội (tuýp 230g),P/S,Kem đánh răng,38000.0,4.66,Pharmacity_VN,VND,38000.0
+P00429,Nước Súc Miệng LISTERINE Cool Mint Hơi Thở Thơm Mát (Chai 250ml),Listerine,Nước súc miệng,71000.0,4.95,Pharmacity_VN,VND,71000.0
+P07569,Bàn Chải Đánh Răng P/S Lông Tơ Mềm Mại,P/S,Bàn chải đánh răng,21500.0,4.57,Pharmacity_VN,VND,21500.0
+P08889,"Nước Súc Miệng LISTERINE Cool Mint Zero Hơi Thở Thơm Mát, Không Cay (Chai 250ml)",Listerine,Nước súc miệng,71000.0,4.82,Pharmacity_VN,VND,71000.0
+P11350,Pharmacity Bàn chải đánh răng cho răng nhạy cảm Sensitive,Pharmacity,Bàn chải đánh răng,31000.0,4.72,Pharmacity_VN,VND,31000.0
+P11351,Pharmacity Bàn chải đánh răng siêu mảnh Slim Soft,Pharmacity,Bàn chải đánh răng,10000.0,4.95,Pharmacity_VN,VND,10000.0
+P10405,Kem Đánh Răng CLOSE UP Thơm Mát Bất Tận Tinh Thể Băng Tuyết tuýp 230g,Close up,Kem đánh răng,54000.0,4.65,Pharmacity_VN,VND,54000.0
+P10953,Bàn Chải Đánh Răng SENSODYNE Repair & Protect,Sensodyne (GSK OTC),Bàn chải đánh răng,47000.0,4.97,Pharmacity_VN,VND,47000.0
+P12629,Bàn Chải Đánh Răng COLGATE SlimSoft Flex Clean Charcoal,Colgate,Bàn chải đánh răng,65000.0,4.83,Pharmacity_VN,VND,65000.0
+P14247,Kem Đánh Răng CLOSE UP Thơm Mát Tự Nhiên Dầu Quất và Thảo Dược (tuýp 180g),Close up,Kem đánh răng,46000.0,4.9,Pharmacity_VN,VND,46000.0
+P10076,Xịt Thơm Miệng DENTIPLUS Hiệu Quả Gấp Đôi chai (25ml),Dentiplus,Sản phẩm chăm sóc răng miệng khác,123000.0,4.83,Pharmacity_VN,VND,123000.0
+P10500,Kem Đánh Răng COLGATE Ngừa Ê Buốt Và Bảo Vệ Toàn Diện (Tuýp 110g),Colgate,Kem đánh răng,79000.0,4.67,Pharmacity_VN,VND,79000.0
+P17298,Colgate KDR MaxFresh Peppermint Ice 225g + BCDR,Colgate,Kem đánh răng,58000.0,4.54,Pharmacity_VN,VND,58000.0
+P18076,Bộ Đôi Bàn Chải Đánh Răng SENSODYNE Sensitive Extra Soft Ê Chăm Sóc Răng  Buốt và Êm Dịu Nướu,Sensodyne (GSK OTC),Bàn chải đánh răng,49000.0,4.52,Pharmacity_VN,VND,49000.0
+P18077,Kem Đánh Răng SENSODYNE Fresh Mint Hương Bạc Hà (tuýp 160g),Sensodyne (GSK OTC),Kem đánh răng,95000.0,4.53,Pharmacity_VN,VND,95000.0
+P17556,"Nước Súc Miệng LISTERINE Cool Mint Zero Hơi Thở Thơm Mát, Không Cay (Chai 750ml)",Listerine,Nước súc miệng,171000.0,4.91,Pharmacity_VN,VND,171000.0
+P19172,"Kem đánh răng EUCRYL loại bỏ mảng bám, giúp răng trắng sáng (tuýp 62g)",Eucryl,Kem đánh răng,57200.0,4.79,Pharmacity_VN,VND,57200.0
+P19173,Bột Hỗ Trợ Tẩy Trắng Răng EUCRYL Toothpowder hũ 50g,Eucryl,Sản phẩm chăm sóc răng miệng khác,58960.0,4.67,Pharmacity_VN,VND,58960.0
+P20106,Nước Súc Miệng P/S Pro Complete Bảo Vệ Răng Miệng Tối Ưu (chai 500ml),P/S,Nước súc miệng,75000.0,4.94,Pharmacity_VN,VND,75000.0
+P24607,Bộ Ba Bàn Chải Đánh Răng P/S Lông Tơ Mềm Mại,P/S,Bàn chải đánh răng,42000.0,4.86,Pharmacity_VN,VND,42000.0
+P29185,Colgate Kem Đánh Răng Total Sensitivity + Gum Health 150g,Colgate,Kem đánh răng,53550.0,4.54,Pharmacity_VN,VND,53550.0
+P37509,Tăm Chỉ Kẽ Răng Oral Clean Giúp Làm Sạch Kẽ Răng (Hộp 50 cây),Oral Clean,Tăm chỉ nha khoa,26975.0,4.95,Pharmacity_VN,VND,26975.0
+P02389,"Nước súc miệng KIN GINGIVAL Ngăn Ngừa Mảng Bám, Viêm Nướu, Sâu Răng (chai 250ml)",Kin Gingival,Nước súc miệng,142000.0,4.83,Pharmacity_VN,VND,142000.0
+P03926,Tăm Chỉ Nha Khoa OKAMURA Làm Sạch Kẻ Răng (gói 90 cây),Okamura,Tăm chỉ nha khoa,35000.0,4.67,Pharmacity_VN,VND,35000.0
+P08733,Kem Đánh Răng SENSODYNE Repair & Protect Giúp Phục Hồi Răng Nhạy Cảm (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,108000.0,4.78,Pharmacity_VN,VND,108000.0
+P08734,Kem Đánh Răng SENSODYNE Repair & Protect Whitening (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,108000.0,4.91,Pharmacity_VN,VND,108000.0
+P04720,Băng Vệ Sinh Hằng Ngày KOTEX Hương Tự Nhiên (20 Miếng),Kotex,Băng vệ sinh,16800.0,4.93,Pharmacity_VN,VND,16800.0
+P04801,Băng Vệ Sinh Kháng Khuẩn Hàng Ngày DIANA SENSI (8 Miếng),Diana,Băng vệ sinh,10000.0,4.99,Pharmacity_VN,VND,10000.0
+P11374,Băng vệ sinh Diana siêu thấm siêu mỏng cánh (Gói 20 miếng),Diana,Băng vệ sinh,47600.0,4.55,Pharmacity_VN,VND,47600.0
+P03249,Băng Vệ Sinh DIANA Siêu Thấm Cánh (8 Miếng),Diana,Băng vệ sinh,27500.0,4.76,Pharmacity_VN,VND,27500.0
+P09600,Băng vệ sinh Diana Sensi Cool Fresh Siêu thấm có cánh 23cm (8 miếng),Diana,Băng vệ sinh,22950.0,4.89,Pharmacity_VN,VND,22950.0
+P14041,Băng vệ sinh siêu mỏng mát lạnh Diana Sensi Cool Fresh (Gói 20 miếng),Diana,Băng vệ sinh,61000.0,4.99,Pharmacity_VN,VND,61000.0
+P17786,Cốc nguyệt san siêu mềm BeU Cup,Beucup,Băng vệ sinh,349300.0,4.68,Pharmacity_VN,VND,349300.0
+P18208,Băng vệ sinh ban đêm siêu thấm có cánh Diana Supernight 35cm (Gói 12 miếng),Diana,Băng vệ sinh,70550.0,4.96,Pharmacity_VN,VND,70550.0
+P12843,Băng vệ sinh ban đêm dạng quần Diana Super Night Size S-M (2 chiếc/gói),Diana,Băng vệ sinh,35200.0,4.85,Pharmacity_VN,VND,35200.0
+P12846,Tã dán siêu thấm cho người lớn Caryn size XL (Gói 10 miếng),Caryn,Tã dán,139920.0,4.98,Pharmacity_VN,VND,139920.0
+P19284,Dung Dịch Vệ Sinh Saforelle Soin Lavant Ultra Hydratant  (chai 100ml),Saforelle,Dung dịch vệ sinh phụ nữ,175000.0,4.51,Pharmacity_VN,VND,175000.0
+P21582,Dung dịch vệ sinh phụ nữ cao cấp hằng ngày Femfresh Daily Intimate Wash (250ml),Femfresh,Dung dịch vệ sinh phụ nữ,186000.0,4.82,Pharmacity_VN,VND,186000.0
+P23144,Băng vệ sinh siêu mỏng không cánh Diana Sensi Cool Fresh (Gói 20 miếng),Diana,Băng vệ sinh,49300.0,4.74,Pharmacity_VN,VND,49300.0
+P23803,Băng vệ sinh Kotex Max Cool  siêu mỏng có cánh 23cm (20 miếng),Kotex,Băng vệ sinh,58000.0,4.8,Pharmacity_VN,VND,58000.0
+P27323,Băng vệ sinh Molped tự nhiên siêu bảo vệ siêu thấm mỏng cánh (23 cm x 8 Miếng),Molped,Băng vệ sinh,22000.0,4.85,Pharmacity_VN,VND,22000.0
+P27324,Băng vệ sinh Molped mát lạnh siêu mỏng cánh (23cm x 8 miếng),Molped,Băng vệ sinh,22000.0,4.54,Pharmacity_VN,VND,22000.0
+P27850,Sữa Vệ Sinh Phụ Nữ Shema Lá Đôi Xanh (200ml),Shema Baby,Dung dịch vệ sinh phụ nữ,48000.0,4.61,Pharmacity_VN,VND,48000.0
+P27882,Băng vệ sinh Kotex bảo vệ toàn diện cho ngày nhiều và đêm 28cm (14 miếng),Kotex,Băng vệ sinh,47000.0,4.5,Pharmacity_VN,VND,47000.0
+P28806,Pharmacity Dung dịch vệ sinh phụ nữ dạng bọt làm sạch dịu nhẹ (Chai100ml),Pharmacity,Dung dịch vệ sinh phụ nữ,47600.0,4.66,Pharmacity_VN,VND,47600.0
+P29282,Băng quần ban đêm Kotex Herbal size M-L (2 miếng/gói),Kotex,Băng vệ sinh,33600.0,4.61,Pharmacity_VN,VND,33600.0
+P30109,Dung dịch vệ sinh Saforelle Ultra Mild Cleansing Foam (Ultra Douce) 250ml,Saforelle,Dung dịch vệ sinh phụ nữ,280000.0,4.85,Pharmacity_VN,VND,280000.0
+P30963,Kotex BVS Cicada SMC 24cm 7M,Kotex,Băng vệ sinh,39500.0,4.78,Pharmacity_VN,VND,39500.0
+P30966,Kotex BVS Mặt Bông Cotton SMC 24cm 8M,Kotex,Băng vệ sinh,40000.0,4.53,Pharmacity_VN,VND,40000.0
+P30968,Kotex BVS Hằng Ngày Bông Thuần Khiết 19cm 10M,Kotex,Băng vệ sinh,29500.0,4.97,Pharmacity_VN,VND,29500.0
+P37537,Băng vệ sinh Diana Sensi Cool Fresh SMC (38 miếng),Diana,Băng vệ sinh,97500.0,4.8,Pharmacity_VN,VND,97500.0
+P37538,Băng vệ sinh Diana Sensi SMC (38 miếng),Diana,Băng vệ sinh,89500.0,4.66,Pharmacity_VN,VND,89500.0
+P37553,Dung dịch vệ sinh Cavaillès L'intime Protecteur 250ml,Roge Cavailles,Dung dịch vệ sinh phụ nữ,400000.0,4.7,Pharmacity_VN,VND,400000.0
+P37555,Dung dịch vệ sinh Cavaillès L'intime Hydratant 250ml,Roge Cavailles,Dung dịch vệ sinh phụ nữ,400000.0,4.98,Pharmacity_VN,VND,400000.0
+OL00513,Combo 4 Băng vệ sinh ban đêm dạng quần Kotex size M/L (Gói 2 miếng),Kotex,Băng vệ sinh,152000.0,4.99,Pharmacity_VN,VND,152000.0
+P00044,Dung Dịch Vệ Sinh Saforelle Soin Lavant Doux Apaisant (chai 100ml),Saforelle,Dung dịch vệ sinh phụ nữ,133000.0,4.73,Pharmacity_VN,VND,133000.0
+P04450,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Pro Sensitive (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,100000.0,4.65,Pharmacity_VN,VND,100000.0
+P04695,Băng Vệ Sinh Ban Đêm DIANA SENSI NIGHT 29 cm (4 Miếng),Diana,Băng vệ sinh,22000.0,4.97,Pharmacity_VN,VND,22000.0
+P03251,Băng Vệ Sinh DIANA Siêu Thấm Siêu Mỏng Cánh (8 Miếng),Diana,Băng vệ sinh,26000.0,4.85,Pharmacity_VN,VND,26000.0
+P09608,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Odor Fresh (150ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,63000.0,4.7,Pharmacity_VN,VND,63000.0
+P10808,Dung dịch vệ sinh phụ nữ Crevil intim waschlotion (100ml),Crevil,Dung dịch vệ sinh phụ nữ,135000.0,4.76,Pharmacity_VN,VND,135000.0
+P11373,Băng vệ sinh Diana Sensi kháng khuẩn siêu mỏng cánh (20 miếng/gói),Diana,Băng vệ sinh,58000.0,4.65,Pharmacity_VN,VND,58000.0
+P12638,Băng vệ sinh ban đêm siêu thoáng Diana Sensi Cool Fresh 35cm (3 miếng/gói),Diana,Băng vệ sinh,27000.0,4.57,Pharmacity_VN,VND,27000.0
+P23129,Gel vệ sinh phụ nữ X2 Nano nghệ Cocayhoala (Chai 150ml),Cocayhoala,Dung dịch vệ sinh phụ nữ,246000.0,4.54,Pharmacity_VN,VND,246000.0
+P23142,Băng vệ sinh mát dịu siêu mỏng có cánh Diana SenSi Cool Fresh (8 Miếng),Diana,Băng vệ sinh,28000.0,4.97,Pharmacity_VN,VND,28000.0
+P18193,Băng vệ sinh siêu mỏng cánh Sofy Skin Comfort Ultra Thin 26cm (Gói 17 miếng),Sofy,Băng vệ sinh,69000.0,4.55,Pharmacity_VN,VND,69000.0
+P18200,Băng vệ sinh bạc hà mát lạnh có cánh Laurier Super Slimguard Cool 22.5cm (16 miếng),Laurier,Băng vệ sinh,68000.0,4.95,Pharmacity_VN,VND,68000.0
+P18209,Băng vệ sinh ban đêm siêu thấm cánh Diana Supernight 29cm (12 miếng),Diana,Băng vệ sinh,50150.0,4.95,Pharmacity_VN,VND,50150.0
+P25459,Băng vệ sinh Sensi Supernight 29cm (Gói 12 miếng),Diana,Băng vệ sinh,58000.0,4.68,Pharmacity_VN,VND,58000.0
+P18032,Băng vệ sinh Kotex Max Cool siêu mỏng cánh (gói 8 miếng),Kotex,Băng vệ sinh,20000.0,4.8,Pharmacity_VN,VND,20000.0
+P17486,Băng vệ sinh siêu thấm Diana Cool Fresh mỏng không cánh 23cm (Gói 8 miếng),Diana,Băng vệ sinh,26000.0,4.51,Pharmacity_VN,VND,26000.0
+P17487,Băng vệ sinh siêu mỏng không cánh Diana Cool Fresh 23cm (8 miếng),Diana,Băng vệ sinh,27500.0,4.8,Pharmacity_VN,VND,27500.0
+P27325,Băng vệ sinh thiên nhiên ban đêm có cánh Molped (35cm x 3 miếng),Molped,Băng vệ sinh,20000.0,4.9,Pharmacity_VN,VND,20000.0
+P28808,Pharmacity Dung dịch vệ sinh phụ nữ dạng gel dưỡng ẩm mềm mại (Chai 100ml),Pharmacity,Dung dịch vệ sinh phụ nữ,19000.0,4.95,Pharmacity_VN,VND,19000.0
+P28809,Pharmacity Khăn ướt vệ sinh phụ nữ làm sạch dịu nhẹ (Gói 20 miếng),Pharmacity,Dung dịch vệ sinh phụ nữ,17500.0,4.63,Pharmacity_VN,VND,17500.0
+P29186,Băng vệ sinh dạng quần Diana Comfy Night Size M-L (5 Chiếc/Gói),Diana,Băng vệ sinh,71000.0,4.6,Pharmacity_VN,VND,71000.0
+P03720,Lăn Khử Mùi Cho Nam ROMANO CLASSIC (50ml),Romano,Khử mùi cho nam,60000.0,4.82,Pharmacity_VN,VND,60000.0
+P03732,Gel Tạo Kiểu Tóc ROMANO CLASSIC Giữ Nếp Lâu (150g),Romano,Chăm sóc tóc cho nam,60000.0,4.55,Pharmacity_VN,VND,60000.0
+P03649,Lăn Khử Mùi X-MEN FOR BOSS INTENSE (Chai 50ml),X Men,Khử mùi cho nam,86000.0,4.57,Pharmacity_VN,VND,86000.0
+P03723,Xịt Khử Mùi Toàn Thân ROMANO CLASSIC (150ml),Romano,Khử mùi cho nam,82500.0,4.64,Pharmacity_VN,VND,82500.0
+P03870,Xịt Ngăn Mùi Cho Nam NIVEA MEN Silver Protect Dynamic Power (Chai 150ml),Nivea,Khử mùi cho nam,94400.0,4.83,Pharmacity_VN,VND,94400.0
+P03872,Sữa Rửa Mặt Cho Nam NIVEA MEN Men Acne-Damaged Skin Giúp Giảm Mụn & Hư Tổn Da (100g),Nivea,Chăm sóc da mặt cho nam,66750.0,4.77,Pharmacity_VN,VND,66750.0
+P03877,"Sữa Rửa Mặt Cho Nam NIVEA MEN Anti-Acne Oil Control Mud Foam giúp làm sạch, giảm mụn (Tuýp 100g)",Nivea,Chăm sóc da mặt cho nam,63750.0,4.82,Pharmacity_VN,VND,63750.0
+P03308,Lưỡi Dao Cạo Râu VECTOR GILLETTE (2 Lưỡi/Vỉ),Gillette,Dao cạo râu & Bọt cạo râu,38000.0,5.0,Pharmacity_VN,VND,38000.0
+P10970,Lăn ngăn mùi than đen hoạt tính cho nam Nivea Men Deep Black Charcoal Dark Wood 72h (50ml),Nivea,Khử mùi cho nam,100000.0,4.87,Pharmacity_VN,VND,100000.0
+P18975,Dao cạo March3+ Gillette (Hộp 1 cán dao + 2 lưỡi dao),Gillette,Dao cạo râu & Bọt cạo râu,196000.0,4.78,Pharmacity_VN,VND,196000.0
+P30403,Dầu Gội Xmen For Boss Pro Hair Sạch Gàu & Giảm Gãy Rụng 350g,X Men,Chăm sóc tóc cho nam,152500.0,4.59,Pharmacity_VN,VND,152500.0
+P30896,Oxy Gel Rửa Mặt Nam dịu nhẹ Hydrating Wash 100g,Oxy,Chăm sóc da mặt cho nam,77600.0,4.79,Pharmacity_VN,VND,77600.0
+P30407,Gel Xmen Vệ Sinh Khử Mùi Vùng Kín 100ml,X Men,Sản phẩm tắm & dưỡng thể cho nam,159000.0,4.89,Pharmacity_VN,VND,159000.0
+P03224,Sáp Khử Mùi Cho Nam OLD SPICE PURE SPORT (85g),Old Spice,Khử mùi cho nam,145000.0,4.75,Pharmacity_VN,VND,145000.0
+P03233,Dao Cạo Râu GILLETTE BLUE II PLUS (6 Cái/Gói),Gillette,Dao cạo râu & Bọt cạo râu,54000.0,4.9,Pharmacity_VN,VND,54000.0
+P03307,Dao Cạo Râu GILLETTE VECTOR PLUS RAZOR 1UP (1 Cái/Vỉ),Gillette,Dao cạo râu & Bọt cạo râu,37000.0,4.92,Pharmacity_VN,VND,37000.0
+P06300,Dao Cạo Râu 2 Lưỡi SCHICK EXECTA 2 SYSTEM,Schick,Dao cạo râu & Bọt cạo râu,64000.0,4.67,Pharmacity_VN,VND,64000.0
+P30404,Dầu Gội Xmen For Boss Pro Hair Ngăn Ngừa Gãy Rụng & Giảm Gàu 350g,X Men,Chăm sóc tóc cho nam,152500.0,4.98,Pharmacity_VN,VND,152500.0
+P30405,Tắm Gội Xmen 2in1 Amazon Hunt​ 630g,X Men,Sản phẩm tắm & dưỡng thể cho nam,159000.0,4.58,Pharmacity_VN,VND,159000.0
+P30793,Pharmacity Gentcode Bọt Vệ Sinh Nam Daily Fresh (Chai 100ml),Pharmacity,Sản phẩm tắm & dưỡng thể cho nam,54500.0,4.87,Pharmacity_VN,VND,54500.0
+P03296,Dao Cạo Râu Cán Vàng GILLETTE SUPER THIN (2 Cây/Gói),Gillette,Dao cạo râu & Bọt cạo râu,21000.0,4.69,Pharmacity_VN,VND,21000.0
+P03864,Lăn Ngăn Mùi Cho Nam NIVEA MEN Cool Kick (Chai 50ml),Nivea,Khử mùi cho nam,92000.0,4.96,Pharmacity_VN,VND,92000.0
+P03868,Lăn Khử Mùi NIVEA MEN DRY IMPACT (Chai 50ml),Nivea,Khử mùi cho nam,76000.0,4.78,Pharmacity_VN,VND,76000.0
+P03912,Sáp Tạo Kiểu Tóc Cho Nam GATSBY Styling Wax Mat & Hard (Hộp 75g),Gatsby,Chăm sóc tóc cho nam,68000.0,4.52,Pharmacity_VN,VND,68000.0
+P07598,Xịt khử mùi toàn thân X-men For Boss Intense Perfumed Deo Spray (Chai 150ml),X Men,Khử mùi cho nam,93375.0,4.97,Pharmacity_VN,VND,93375.0
+P10969,Sữa rửa mặt than đen hoạt tính cho nam Nivea Men Deep Britening Oil Clear Mud Foam (100g),Nivea,Chăm sóc da mặt cho nam,102000.0,4.75,Pharmacity_VN,VND,102000.0
+P18838,Sáp khử mùi Old Spice Fresh (85g),Old Spice,Khử mùi cho nam,117600.0,4.93,Pharmacity_VN,VND,117600.0
+P18977,Lưỡi dao cạo March3+ Gillette (Hộp 3 cái),Gillette,Dao cạo râu & Bọt cạo râu,200000.0,4.55,Pharmacity_VN,VND,200000.0
+P23603,Dung dịch vệ sinh nam Serenys (100ml),Serenys,Sản phẩm tắm & dưỡng thể cho nam,136000.0,4.67,Pharmacity_VN,VND,136000.0
+P30408,Sáp Khử Mùi Xmen For Boss Luxury Trắng 70g,X Men,Khử mùi cho nam,127020.0,4.61,Pharmacity_VN,VND,127020.0
+P30897,Oxy Sửa Rửa Mặt Nam kiềm dầu Oil Acne Wash,Oxy,Chăm sóc da mặt cho nam,77600.0,4.78,Pharmacity_VN,VND,77600.0
+P00387,Kem Rửa Mặt OXY DEEP WASH Sạch Sâu 100g,Oxy,Chăm sóc da mặt cho nam,73100.0,4.5,Pharmacity_VN,VND,73100.0
+P01433,Kem Rửa Mặt Ngăn Ngừa Mụn OXY Perfect Wash (100g/Chai),Oxy,Chăm sóc da mặt cho nam,69700.0,4.59,Pharmacity_VN,VND,69700.0
+P07904,Bọt cạo râu hương chanh Gillette Foamy Lemon Lime (50g),Gillette,Dao cạo râu & Bọt cạo râu,52000.0,4.53,Pharmacity_VN,VND,52000.0
+P03715,Sữa Tắm Gội 2in1 ROMANO CLASSIC (150ml),Romano,Sản phẩm tắm & dưỡng thể cho nam,78000.0,4.62,Pharmacity_VN,VND,78000.0
+P03866,Lăn ngăn mùi NIVEA MEN SILVER PROTECT (Chai 50ml),Nivea,Khử mùi cho nam,92000.0,4.6,Pharmacity_VN,VND,92000.0
+P03306,Bọt Cạo Râu GILLETTE FOAMY LEMON LIME Hương Chanh (175g),Gillette,Dao cạo râu & Bọt cạo râu,103000.0,4.62,Pharmacity_VN,VND,103000.0
+P17495,Lăn khử mùi X-Men For Boss Luxury (50ml),X Men,Khử mùi cho nam,88000.0,4.61,Pharmacity_VN,VND,88000.0
+P30409,Sáp Khử Mùi Xmen For Boss Intense Xanh 80g,X Men,Khử mùi cho nam,105850.0,4.89,Pharmacity_VN,VND,105850.0
+P09121,Xịt khử mùi mát lạnh cho nam Nivea Men Cool Kick (150ml),Nivea,Khử mùi cho nam,97600.0,4.9,Pharmacity_VN,VND,97600.0
+P09525,Sáp khử mùi cho nam Old Spice Bearglove (73g),Old Spice,Khử mùi cho nam,147200.0,4.96,Pharmacity_VN,VND,147200.0
+P03875,Xịt Khử Mùi Cho Nam NIVEA MEN Ngăn Vệt Ố Vàng Invisible Black&White (150ml),Nivea,Khử mùi cho nam,129000.0,4.88,Pharmacity_VN,VND,129000.0
+P03305,Bọt Cạo Râu GILLETTE FOAMY METHOL Hương Bạc Hà (175g),Gillette,Dao cạo râu & Bọt cạo râu,82400.0,4.63,Pharmacity_VN,VND,82400.0
+P12977,Sáp khử mùi Old Spice Fiji With Palm Tree Anti-Perspirant & Deodorant (Chai 73g),Old Spice,Khử mùi cho nam,184000.0,4.63,Pharmacity_VN,VND,184000.0
+P20503,Sáp Vuốt Tóc Gatsby Styling Pomade Retro Matte 75gr,Gatsby,Chăm sóc tóc cho nam,73000.0,4.77,Pharmacity_VN,VND,73000.0
+P25967,Dầu gội Dược liệu Nguyên Vương Lịch Lãm 260g,Nguyen Vuong,Chăm sóc tóc cho nam,145000.0,4.5,Pharmacity_VN,VND,145000.0
+P30794,Pharmacity Gentcode Bọt Vệ Sinh Nam Sport Active (Chai 100ml),Pharmacity,Sản phẩm tắm & dưỡng thể cho nam,54500.0,4.59,Pharmacity_VN,VND,54500.0
+P30406,Xịt Xmen For Boss Ngăn Rụng Tóc 100ml,X Men,Chăm sóc tóc cho nam,275000.0,4.65,Pharmacity_VN,VND,275000.0
+P18976,Dao cạo March3 Turbo Gillette (Hộp 1 cán dao + 2 lưỡi dao),Gillette,Dao cạo râu & Bọt cạo râu,299000.0,4.98,Pharmacity_VN,VND,299000.0
+P07595,Sữa tắm nước hoa cao cấp X-men For Boss Intense Perfumed Shower Gel (Chai 380g),X Men,Sản phẩm tắm & dưỡng thể cho nam,125800.0,4.74,Pharmacity_VN,VND,125800.0
+P22673,Sữa Tắm NEUTROGENA Rainbath Refreshing Shower & Bath Gel Tươi Mát Và Mịn Màng (473ml),Neutrogena,Sữa tắm,312000.0,4.75,Pharmacity_VN,VND,312000.0
+P30704,LoveBody Sữa tắm Cám Gạo Hoa Sen (Chai 550ml),LoveBody,Sữa tắm,62500.0,4.98,Pharmacity_VN,VND,62500.0
+P37710,Sữa tắm Olay Luminous hương hoa hồng 350g,Olay,Sữa tắm,299000.0,4.52,Pharmacity_VN,VND,299000.0
+P07424,"Sữa Tắm PURITE Rose Hương Hoa Hồng giúp giữ ẩm da, sáng da (chai 500ml)",Purite,Sữa tắm,143650.0,4.74,Pharmacity_VN,VND,143650.0
+P17552,Nước Rửa Tay LIFEBUOY Chăm Sóc Da (túi 400g),Lifebuoy,Nước rửa tay,64000.0,4.71,Pharmacity_VN,VND,64000.0
+P18648,Gel Diệt Khuẩn Tay LIFEBUOY Total 10 (chai 50ml),Lifebuoy,Nước rửa tay,22400.0,4.9,Pharmacity_VN,VND,22400.0
+P28568,Dầu gội dược liệu Nguyên Xuân bồng bềnh cho tóc dầu và bết (450ml/520g),Nguyen Xuan,Dầu gội đầu,203000.0,4.76,Pharmacity_VN,VND,203000.0
+P28070,"Dầu gội Pharmacity Argan Oil phục hồi, giảm khô tóc (Chai 490ml)",Pharmacity,Dầu gội đầu,75000.0,4.75,Pharmacity_VN,VND,75000.0
 P29691,Kem Nhuộm Tóc Garnier Màu 7.3 Nâu Ánh Vàng (50g + 50ml + 5g/Hộp),Garnier,Nhuộm tóc,149000.0,4.59,Pharmacity_VN,VND,149000.0
-P28070,"Dầu gội Pharmacity Argan Oil phục hồi, giảm khô tóc (Chai 490ml)",Pharmacity,Dầu gội đầu,125000.0,4.75,Pharmacity_VN,VND,125000.0
-P24705,Dầu Gội SELSUN Anti Dandruff Giảm Gàu và Giảm Ngứa Da Đầu (chai 250ml),Selsun,Dầu gội đầu,182400.0,4.55,Pharmacity_VN,VND,182400.0
-P11518,Dầu xả PANTENE Pro-V Hair Fall Control Ngăn Rụng Tóc (chai 150ml),Pantene,Dầu xả,54400.0,4.77,Pharmacity_VN,VND,54400.0
+P37391,Dầu Xả Tsubaki Premium Volume & Repair Conditioner Phục Hồi Hư Tổn 450ml,Tsubaki,Dầu xả,161000.0,4.95,Pharmacity_VN,VND,161000.0
+P37394,Dầu Gội Head & Shoulders Sạch Gàu Da Đầu Ngứa Clinical Strength Cooling Itch Care 400ml,Head & Shoulders,Dầu gội đầu,224000.0,4.9,Pharmacity_VN,VND,224000.0
+P37453,Dầu gội Clear gừng & hoa cúc sạch gàu nuôi dưỡng tóc 350g,Clear,Dầu gội đầu,133000.0,4.95,Pharmacity_VN,VND,133000.0
+P11518,Dầu xả PANTENE Pro-V Hair Fall Control Ngăn Rụng Tóc (chai 150ml),Pantene,Dầu xả,68000.0,4.77,Pharmacity_VN,VND,68000.0
 P15244,"Dầu Gội THORAKAO Bồ Kết Giúp Bóng Mượt, Đen Tóc và Sạch Gàu (Chai 400ml)",Thorakao,Dầu gội đầu,104000.0,4.78,Pharmacity_VN,VND,104000.0
 P17520,Dầu Gội HEAD & SHOULDERS Bạc Hà Mát Lạnh Giảm Gàu (chai 850ml),Head & Shoulders,Dầu gội đầu,206400.0,4.65,Pharmacity_VN,VND,206400.0
-P21166,Nước Dưỡng Tóc COCOON Tinh Dầu Bưởi Giúp Giảm Gãy Rụng và Làm Mềm Tóc (chai 140ml),Cocoon,Dưỡng tóc,123750.0,4.51,Pharmacity_VN,VND,123750.0
-P21169,Dầu Xả OGX Thick & Full Bổ Sung Biotin Collagen Cho Tóc (chai 385ml),OGX,Dầu xả,245000.0,4.85,Pharmacity_VN,VND,245000.0
 P22886,Dầu Gội COCOON Tinh Dầu Bưởi Giúp Giảm Gãy Rụng và Làm Mềm Tóc (chai 310ml),Cocoon,Dầu gội đầu,234900.0,4.61,Pharmacity_VN,VND,234900.0
 P22899,"Mặt Nạ Tóc TSUBAKI Giúp Phục Hồi, Giảm Xơ Rối (180g)",Tsubaki,Dưỡng tóc,290000.0,4.78,Pharmacity_VN,VND,290000.0
-P27326,Tresemme DX Vao Nep Muot Ma 620g,Tresemme,Dầu xả,243000.0,4.98,Pharmacity_VN,VND,243000.0
+P27326,Tresemme DX Vao Nep Muot Ma 620g,Tresemme,Dầu xả,189540.0,4.98,Pharmacity_VN,VND,189540.0
+P21166,Nước Dưỡng Tóc COCOON Tinh Dầu Bưởi Giúp Giảm Gãy Rụng và Làm Mềm Tóc (chai 140ml),Cocoon,Dưỡng tóc,121500.0,4.51,Pharmacity_VN,VND,121500.0
+P21169,Dầu Xả OGX Thick & Full Bổ Sung Biotin Collagen Cho Tóc (chai 385ml),OGX,Dầu xả,171500.0,4.85,Pharmacity_VN,VND,171500.0
 P28112,"Gel gội thảo dược gừng sả Cỏ Cây Hoa Lá dành cho tóc dầu bết, dưỡng tóc giúp tóc chắc khỏe, mềm mượt (Túi 30g)",Cocayhoala,Dầu gội đầu,29000.0,4.91,Pharmacity_VN,VND,29000.0
+P37513,"Xịt dưỡng tóc, ngăn ngừa rụng tóc và kích thích mọc tóc Rihair Strong Spray 185g",RiHair,Dưỡng tóc,421000.0,4.65,Pharmacity_VN,VND,421000.0
+P37392,Dầu Xả Gội Phục Hồi & Bóng Mượt Tsubaki Premium Moist & Repair Conditioner 450ml,Tsubaki,Dầu xả,161000.0,4.96,Pharmacity_VN,VND,161000.0
+P37393,Dầu Gội Phục Hồi & Bóng Mượt Tsubaki Premium Moist & Repair Shampoo 450ml,Tsubaki,Dầu gội đầu,161000.0,4.73,Pharmacity_VN,VND,161000.0
 P29690,Kem Nhuộm Tóc Garnier Màu 5.32 Nâu Caramel (50g+50ml+5g/Hộp),Garnier,Nhuộm tóc,149000.0,4.58,Pharmacity_VN,VND,149000.0
-P23564,Dầu Xả TSUBAKI Dưỡng Tóc Bóng Mượt (chai 490ml),Tsubaki,Dầu xả,215000.0,4.58,Pharmacity_VN,VND,215000.0
 P18993,Dầu Xả TSUBAKI Phục Hồi Ngăn Rụng Tóc (Chai 490ml),Tsubaki,Dầu xả,215000.0,4.86,Pharmacity_VN,VND,215000.0
+P23564,Dầu Xả TSUBAKI Dưỡng Tóc Bóng Mượt (chai 490ml),Tsubaki,Dầu xả,215000.0,4.58,Pharmacity_VN,VND,215000.0
 P25734,Kem Ủ Tóc FINO Premium Touch Phục Hồi Hư Tổn hũ (230g),Fino,Dưỡng tóc,209000.0,4.8,Pharmacity_VN,VND,209000.0
 P25498,Dầu Gội TSUBAKI Phục Hồi Hư Tổn Nặng & Giảm Gãy Rụng (Chai 490ml),Tsubaki,Dầu gội đầu,249000.0,4.64,Pharmacity_VN,VND,249000.0
 P25499,Dầu Xả TSUBAKI Phục Hồi Hư Tổn Nặng & Giảm Gãy Rụng chai 490ml,Tsubaki,Dầu xả,249000.0,4.73,Pharmacity_VN,VND,249000.0
 P17617,Dầu Gội Dược Liệu NGUYÊN XUÂN Nâu Dành Cho Tóc Thường (Chai 200ml),Nguyen Xuan,Dầu gội đầu,45000.0,4.83,Pharmacity_VN,VND,45000.0
 P18994,Dầu Gội TSUBAKI Phục Hồi Ngăn Rụng Tóc (Chai 490ml),Tsubaki,Dầu gội đầu,215000.0,4.89,Pharmacity_VN,VND,215000.0
 P25497,"Dầu Gội CLEAR 9 Loại Thảo Dược Cổ Truyền Sạch Gàu, Giảm Gãy Rụng chai (630g)",Clear,Dầu gội đầu,204250.0,4.66,Pharmacity_VN,VND,204250.0
+P37511,Dầu Gội Dược Liệu Nguyên Xuân Hương Bưởi 470g,Nguyen Xuan,Dầu gội đầu,223000.0,4.82,Pharmacity_VN,VND,223000.0
 P23563,Dầu Gội TSUBAKI Dưỡng Tóc Bóng Mượt (chai 490ml),Tsubaki,Dầu gội đầu,215000.0,4.7,Pharmacity_VN,VND,215000.0
-P11365,Bộ Đôi Bàn Chải Đánh Răng COLGATE SlimSoft Than Hoạt Tính,Colgate,Bàn chải đánh răng,56250.0,4.99,Pharmacity_VN,VND,56250.0
-P03635,Nước Súc Miệng LISTERINE Green Tea Cho Răng Chắc Khỏe (Chai 250ml),Listerine,Nước súc miệng,82000.0,4.82,Pharmacity_VN,VND,82000.0
-P13777,Bàn chải đánh răng trẻ em Pharmacity,Pharmacity,Bàn chải đánh răng,18000.0,4.86,Pharmacity_VN,VND,18000.0
-P13363,Nước Súc Miệng LISTERINE Cool Mint Hơi Thở Thơm Mát (Chai 100ml),Listerine,Nước súc miệng,31000.0,4.52,Pharmacity_VN,VND,31000.0
-P14242,"Kem đánh răng COLGATE Optic White Exfoliating Mineral giúp răng trắng sáng, sạch mảng bám (100g)",Colgate,Kem đánh răng,63000.0,4.79,Pharmacity_VN,VND,63000.0
-P14148,Kem Đánh Răng Dược Liệu NGỌC CHÂU Truyền Thống tuýp 100g,Ngoc Chau,Kem đánh răng,49280.0,4.96,Pharmacity_VN,VND,49280.0
-P18065,Kem Đánh Răng COLGATE Hương Dâu Tây Cho Trẻ Em 3-5 Tuổi (tuýp 80g),Colgate,Kem đánh răng,59000.0,4.55,Pharmacity_VN,VND,59000.0
-P18066,Kem Đánh Răng COLGATE Cho Trẻ Em 6-9 Tuổi Hương Dâu Bạc Hà (Tuýp 80g),Colgate,Kem đánh răng,59000.0,4.66,Pharmacity_VN,VND,59000.0
-P18083,Kem Đánh Răng CLOSE UP Muối Biển Detox Giúp Trắng Răng (tuýp 180g),Close up,Kem đánh răng,46000.0,4.79,Pharmacity_VN,VND,46000.0
-P17555,Nước Súc Miệng LISTERINE Tartar Protection Giảm Mảng Bám (Chai 750ml),Listerine,Nước súc miệng,191000.0,4.93,Pharmacity_VN,VND,191000.0
-P17557,Bàn Chải Đánh Răng CLOSE UP Precision Clean (hộp 1 cái),Close up,Bàn chải đánh răng,51500.0,4.64,Pharmacity_VN,VND,51500.0
-P22138,Kem Đánh Răng COLGATE Muối Himalaya Sáng Khỏe (tuýp 180g),Colgate,Kem đánh răng,64000.0,4.55,Pharmacity_VN,VND,64000.0
-P23086,Kem Đánh Răng SENSODYNE Cool Gel Mát Lạnh (tuýp 160g),Sensodyne (GSK OTC),Kem đánh răng,95000.0,4.87,Pharmacity_VN,VND,95000.0
-P22141,Tăm Chỉ Kẽ Răng JOMI Hỗ Trợ Làm Sạch Mảng Bám Trong Kẻ Răng (gói 80 cái),Jomi,Tăm chỉ nha khoa,30375.0,4.88,Pharmacity_VN,VND,30375.0
-P20089,"Bàn Chải Kẻ Răng OKAMURA Asahi Hình L Loại Bỏ Thức Ăn Thừa, Mảng Bám (Túi 6 cái)",Okamura,Tăm chỉ nha khoa,30000.0,4.57,Pharmacity_VN,VND,30000.0
-P29095,Pharmacity Chỉ nha khoa (Cuộn 50m),Pharmacity,Tăm chỉ nha khoa,39000.0,4.65,Pharmacity_VN,VND,39000.0
-P29618,Kem Đánh Răng Marvis Smokers Whitening Mint Vị Bạc Hà hỗ trợ khử ố vàng răng cho người hút thuốc lá (85ml),Marvis,Kem đánh răng,195300.0,4.69,Pharmacity_VN,VND,195300.0
-P29621,Kem Đánh Răng Marvis Amarelli Licorice Vị Cam Thảo & Than tre hỗ trợ khử ố vàng & trắng răng (85ml),Marvis,Kem đánh răng,194250.0,4.73,Pharmacity_VN,VND,194250.0
-P30052,Pharmacity Tăm chỉ nha khoa (Gói 90 cây),Pharmacity,Tăm chỉ nha khoa,35000.0,4.51,Pharmacity_VN,VND,35000.0
-P29594,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% (Chai 500ml)",Pharmacity,Nước súc miệng,11000.0,4.94,Pharmacity_VN,VND,11000.0
-P26598,Bộ Đôi Bàn Chải Đánh Răng COLGATE Gum Expert,Colgate,Bàn chải đánh răng,97750.0,4.74,Pharmacity_VN,VND,97750.0
-P27991,Kem đánh răng Colgate Total Plaque (tuýp 95g),Colgate,Kem đánh răng,87200.0,4.85,Pharmacity_VN,VND,87200.0
-P28349,Nước súc miệng SMC Ag+ vệ sinh răng miệng (Chai 250ml),nan,Nước súc miệng,110000.0,4.85,Pharmacity_VN,VND,110000.0
-P05528,Kem Đánh Răng P/S Ngừa Sâu Răng Vượt Trội (tuýp 230g),P/S,Kem đánh răng,38000.0,4.66,Pharmacity_VN,VND,38000.0
-P11350,Pharmacity Bàn chải đánh răng cho răng nhạy cảm Sensitive,Pharmacity,Bàn chải đánh răng,31000.0,4.72,Pharmacity_VN,VND,31000.0
-P11351,Pharmacity Bàn chải đánh răng siêu mảnh Slim Soft,Pharmacity,Bàn chải đánh răng,18000.0,4.95,Pharmacity_VN,VND,18000.0
-P10953,Bàn Chải Đánh Răng SENSODYNE Repair & Protect,Sensodyne (GSK OTC),Bàn chải đánh răng,47000.0,4.97,Pharmacity_VN,VND,47000.0
-P12629,Bàn Chải Đánh Răng COLGATE SlimSoft Flex Clean Charcoal,Colgate,Bàn chải đánh răng,65000.0,4.83,Pharmacity_VN,VND,65000.0
-P07569,Bàn Chải Đánh Răng P/S Lông Tơ Mềm Mại,P/S,Bàn chải đánh răng,20000.0,4.57,Pharmacity_VN,VND,20000.0
-P08889,"Nước Súc Miệng LISTERINE Cool Mint Zero Hơi Thở Thơm Mát, Không Cay (Chai 250ml)",Listerine,Nước súc miệng,71000.0,4.82,Pharmacity_VN,VND,71000.0
-P10076,Xịt Thơm Miệng DENTIPLUS Hiệu Quả Gấp Đôi chai (25ml),Dentiplus,Sản phẩm chăm sóc răng miệng khác,92250.0,4.83,Pharmacity_VN,VND,92250.0
-P10405,Kem Đánh Răng CLOSE UP Thơm Mát Bất Tận Tinh Thể Băng Tuyết tuýp 230g,Close up,Kem đánh răng,45900.0,4.65,Pharmacity_VN,VND,45900.0
-P10500,Kem Đánh Răng COLGATE Ngừa Ê Buốt Và Bảo Vệ Toàn Diện (Tuýp 110g),Colgate,Kem đánh răng,79000.0,4.67,Pharmacity_VN,VND,79000.0
-P14247,Kem Đánh Răng CLOSE UP Thơm Mát Tự Nhiên Dầu Quất và Thảo Dược (tuýp 180g),Close up,Kem đánh răng,46000.0,4.9,Pharmacity_VN,VND,46000.0
-P20106,Nước Súc Miệng P/S Pro Complete Bảo Vệ Răng Miệng Tối Ưu (chai 500ml),P/S,Nước súc miệng,52500.0,4.94,Pharmacity_VN,VND,52500.0
-P19172,"Kem đánh răng EUCRYL loại bỏ mảng bám, giúp răng trắng sáng (tuýp 62g)",Eucryl,Kem đánh răng,57200.0,4.79,Pharmacity_VN,VND,57200.0
-P19173,Bột Hỗ Trợ Tẩy Trắng Răng EUCRYL Toothpowder hũ 50g,Eucryl,Sản phẩm chăm sóc răng miệng khác,61600.0,4.67,Pharmacity_VN,VND,61600.0
-P17298,Colgate KDR MaxFresh Peppermint Ice 225g + BCDR,Colgate,Kem đánh răng,40600.0,4.54,Pharmacity_VN,VND,40600.0
-P17556,"Nước Súc Miệng LISTERINE Cool Mint Zero Hơi Thở Thơm Mát, Không Cay (Chai 750ml)",Listerine,Nước súc miệng,171000.0,4.91,Pharmacity_VN,VND,171000.0
-P18076,Bộ Đôi Bàn Chải Đánh Răng SENSODYNE Sensitive Extra Soft Ê Chăm Sóc Răng  Buốt và Êm Dịu Nướu,Sensodyne (GSK OTC),Bàn chải đánh răng,49000.0,4.52,Pharmacity_VN,VND,49000.0
-P18077,Kem Đánh Răng SENSODYNE Fresh Mint Hương Bạc Hà (tuýp 160g),Sensodyne (GSK OTC),Kem đánh răng,95000.0,4.53,Pharmacity_VN,VND,95000.0
-P29185,Colgate Kem Đánh Răng Total Sensitivity + Gum Health 150g,Colgate,Kem đánh răng,63000.0,4.54,Pharmacity_VN,VND,63000.0
-P24607,Bộ Ba Bàn Chải Đánh Răng P/S Lông Tơ Mềm Mại,P/S,Bàn chải đánh răng,42000.0,4.86,Pharmacity_VN,VND,42000.0
-P00429,Nước Súc Miệng LISTERINE Cool Mint Hơi Thở Thơm Mát (Chai 250ml),Listerine,Nước súc miệng,71000.0,4.95,Pharmacity_VN,VND,71000.0
-P02389,"Nước súc miệng KIN GINGIVAL Ngăn Ngừa Mảng Bám, Viêm Nướu, Sâu Răng (chai 250ml)",Kin Gingival,Nước súc miệng,142000.0,4.83,Pharmacity_VN,VND,142000.0
-P03926,Tăm Chỉ Nha Khoa OKAMURA Làm Sạch Kẻ Răng (gói 90 cây),Okamura,Tăm chỉ nha khoa,35000.0,4.67,Pharmacity_VN,VND,35000.0
-P08733,Kem Đánh Răng SENSODYNE Repair & Protect Giúp Phục Hồi Răng Nhạy Cảm (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,108000.0,4.78,Pharmacity_VN,VND,108000.0
-P08734,Kem Đánh Răng SENSODYNE Repair & Protect Whitening (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,108000.0,4.91,Pharmacity_VN,VND,108000.0
-P10408,Bàn Chải Đánh Răng P/S Muối Đá Himalaya,P/S,Bàn chải đánh răng,32000.0,4.78,Pharmacity_VN,VND,32000.0
-P10411,Bộ Đôi Bàn Chải Đánh Răng P/S Than Bạc Kháng Khuẩn Màu Ngẫu Nhiên,P/S,Bàn chải đánh răng,57000.0,4.94,Pharmacity_VN,VND,57000.0
-P11349,Pharmacity Bàn chải đánh răng cho răng siêu nhạy cảm Extra Sensitive,Pharmacity,Bàn chải đánh răng,37000.0,4.72,Pharmacity_VN,VND,37000.0
-P18078,Kem Đánh Răng ORAL CLEAN Trẻ Em Tom & Jerry Tutti Frutti (tuýp 75ml),Oral Clean,Kem đánh răng,63000.0,4.75,Pharmacity_VN,VND,63000.0
-P18303,Kem Đánh Răng P/S Sensitive Giảm Ê Buốt và Trắng Răng (tuýp 100g),P/S,Kem đánh răng,67000.0,4.71,Pharmacity_VN,VND,67000.0
+P10408,Bàn Chải Đánh Răng P/S Muối Đá Himalaya,P/S,Bàn chải đánh răng,34000.0,4.78,Pharmacity_VN,VND,34000.0
+P10411,Bộ Đôi Bàn Chải Đánh Răng P/S Than Bạc Kháng Khuẩn Màu Ngẫu Nhiên,P/S,Bàn chải đánh răng,49300.0,4.94,Pharmacity_VN,VND,49300.0
+P11349,Pharmacity Bàn chải đánh răng cho răng siêu nhạy cảm Extra Sensitive,Pharmacity,Bàn chải đánh răng,29600.0,4.72,Pharmacity_VN,VND,29600.0
 P17507,Bàn Chải Đánh Răng COLGATE SlimSoft Flex Clean,Colgate,Bàn chải đánh răng,65000.0,4.72,Pharmacity_VN,VND,65000.0
-P29593,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% (Chai 1000ml)",Pharmacity,Nước súc miệng,20000.0,4.78,Pharmacity_VN,VND,20000.0
-P29620,Kem Đánh Răng Marvis Jasmin Mint Vị Hoa Nhài & Bạc Hà hỗ trợ sạch mảng bám & khử mùi hôi miệng (85ml),Marvis,Kem đánh răng,194250.0,4.87,Pharmacity_VN,VND,194250.0
+P18078,Kem Đánh Răng ORAL CLEAN Trẻ Em Tom & Jerry Tutti Frutti (tuýp 75ml),Oral Clean,Kem đánh răng,37800.0,4.75,Pharmacity_VN,VND,37800.0
+P18303,Kem Đánh Răng P/S Sensitive Giảm Ê Buốt và Trắng Răng (tuýp 100g),P/S,Kem đánh răng,67000.0,4.71,Pharmacity_VN,VND,67000.0
+P25487,Nước Súc Miệng LISTERINE Total Care Sensitive Cho Răng Nhạy Cảm (Chai 750ml),Listerine,Nước súc miệng,187000.0,4.5,Pharmacity_VN,VND,187000.0
 P24071,Nước Súc Miệng Fujiwa Ion Muối Hương Bạc Hà (Chai 680 ml),Fujiwa,Nước súc miệng,31000.0,4.61,Pharmacity_VN,VND,31000.0
-P23014,Bàn Chải Đánh Răng P/S White Detox Kháng Khuẩn,P/S,Bàn chải đánh răng,37800.0,4.93,Pharmacity_VN,VND,37800.0
-P25487,Nước Súc Miệng LISTERINE Total Care Sensitive Cho Răng Nhạy Cảm (Chai 750ml),Listerine,Nước súc miệng,140250.0,4.5,Pharmacity_VN,VND,140250.0
+P29593,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% (Chai 1000ml)",Pharmacity,Nước súc miệng,14000.0,4.78,Pharmacity_VN,VND,14000.0
+P29620,Kem Đánh Răng Marvis Jasmin Mint Vị Hoa Nhài & Bạc Hà hỗ trợ sạch mảng bám & khử mùi hôi miệng (85ml),Marvis,Kem đánh răng,194250.0,4.87,Pharmacity_VN,VND,194250.0
 P29942,Nước Súc Miệng LISTERINE Cool Mint Hơi Thở Thơm Mát (Chai 750ml),Listerine,Nước súc miệng,100800.0,4.89,Pharmacity_VN,VND,100800.0
-P01144,Kem Đánh Răng SENSODYNE Gentle Whitening Trắng Sáng (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,74000.0,4.57,Pharmacity_VN,VND,74000.0
-P03492,Bàn Chải Đánh Răng COLGATE SlimSoft Charcoal Siêu Mềm Mảnh,Colgate,Bàn chải đánh răng,45050.0,4.79,Pharmacity_VN,VND,45050.0
-P03927,Tăm chỉ nha khoa Okamura (50 cây/gói),Okamura,Tăm chỉ nha khoa,28000.0,4.51,Pharmacity_VN,VND,28000.0
-P07555,Kem Đánh Răng CLOSE UP White Attraction Diamond Trắng Sáng (tuýp 100g),Close up,Kem đánh răng,39000.0,4.92,Pharmacity_VN,VND,39000.0
-P11369,Bộ Chăm Sóc Răng Miệng Du Lịch COLGATE,Colgate,Bàn chải đánh răng,90000.0,4.53,Pharmacity_VN,VND,90000.0
-P08888,Nước Súc Miệng LISTERINE Tartar Protection Giảm Mảng Bám (Chai 250ml),Listerine,Nước súc miệng,82000.0,4.51,Pharmacity_VN,VND,82000.0
+P37508,Chỉ Nha Khoa Oral-B Glide Comfort Plus Giúp Làm Sạch Kẽ Răng (Cuộn 40m),Oral-B,Tăm chỉ nha khoa,66400.0,4.96,Pharmacity_VN,VND,66400.0
+P01144,Kem Đánh Răng SENSODYNE Gentle Whitening Trắng Sáng (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,62900.0,4.57,Pharmacity_VN,VND,62900.0
+P08888,Nước Súc Miệng LISTERINE Tartar Protection Giảm Mảng Bám (Chai 250ml),Listerine,Nước súc miệng,61500.0,4.51,Pharmacity_VN,VND,61500.0
 P10075,Xịt Thơm Miệng DENTIPLUS Không Cồn (chai 25ml),Dentiplus,Sản phẩm chăm sóc răng miệng khác,123000.0,4.87,Pharmacity_VN,VND,123000.0
-P10403,Kem Đánh Răng CLOSE UP Bạc Hà The Mát (tuýp 230g),Close up,Kem đánh răng,45900.0,4.74,Pharmacity_VN,VND,45900.0
+P10403,Kem Đánh Răng CLOSE UP Bạc Hà The Mát (tuýp 230g),Close up,Kem đánh răng,54000.0,4.74,Pharmacity_VN,VND,54000.0
 P10414,Kem Đánh Răng P/S Green Tea Trà Xanh (Tuýp 180g),P/S,Kem đánh răng,43000.0,4.99,Pharmacity_VN,VND,43000.0
 P10495,Bàn Chải Đánh Răng ORAL-B Tinh Chất Trà Đen Chăm Sóc Nướu,Oral-B,Bàn chải đánh răng,38250.0,4.95,Pharmacity_VN,VND,38250.0
 P10502,Bàn Chải Đánh Răng COLGATE 360 Charcoal Spiral Lông Chải Siêu Mềm Xoắn Kép Phủ Than,Colgate,Bàn chải đánh răng,58000.0,4.96,Pharmacity_VN,VND,58000.0
-P18082,Kem Đánh Răng P/S Chăm Sóc Toàn Diện (tuýp 230g),P/S,Kem đánh răng,41000.0,4.92,Pharmacity_VN,VND,41000.0
-P20093,Bộ Đôi Bàn Chải Đánh Răng COLGATE Cushion Clean,Colgate,Bàn chải đánh răng,105000.0,4.66,Pharmacity_VN,VND,105000.0
+P03927,Tăm chỉ nha khoa Okamura (50 cây/gói),Okamura,Tăm chỉ nha khoa,28000.0,4.51,Pharmacity_VN,VND,28000.0
+P03492,Bàn Chải Đánh Răng COLGATE SlimSoft Charcoal Siêu Mềm Mảnh,Colgate,Bàn chải đánh răng,45050.0,4.79,Pharmacity_VN,VND,45050.0
+P07555,Kem Đánh Răng CLOSE UP White Attraction Diamond Trắng Sáng (tuýp 100g),Close up,Kem đánh răng,29250.0,4.92,Pharmacity_VN,VND,29250.0
+P11369,Bộ Chăm Sóc Răng Miệng Du Lịch COLGATE,Colgate,Bàn chải đánh răng,90000.0,4.53,Pharmacity_VN,VND,90000.0
+P18082,Kem Đánh Răng P/S Chăm Sóc Toàn Diện (tuýp 230g),P/S,Kem đánh răng,36900.0,4.92,Pharmacity_VN,VND,36900.0
+P26445,Bộ Đôi Nước Súc Miệng COLGATE Optic White Charcoal (2 chai x 500ml),Colgate,Nước súc miệng,168000.0,4.71,Pharmacity_VN,VND,168000.0
 P22140,Chỉ Nha Khoa JOMI Hỗ Trợ Làm Sạch Mảng Bám Trong Kẽ Răng (cuộn 50m),Jomi,Tăm chỉ nha khoa,33540.0,4.93,Pharmacity_VN,VND,33540.0
 P23056,Nước súc miệng ngừa viêm nướu Kin B5 (Chai 500ml),Kin B5,Nước súc miệng,275000.0,4.51,Pharmacity_VN,VND,275000.0
-P29184,Colgate Kem Đánh Răng Total Active Fresh (150g),Colgate,Kem đánh răng,63000.0,4.73,Pharmacity_VN,VND,63000.0
-P23467,Nước Súc Miệng DR.MUỐI Hương Vỏ Chanh (chai 1000ml),Dr.Muoi,Nước súc miệng,24000.0,4.95,Pharmacity_VN,VND,24000.0
-P26445,Bộ Đôi Nước Súc Miệng COLGATE Optic White Charcoal (2 chai x 500ml),Colgate,Nước súc miệng,84000.0,4.71,Pharmacity_VN,VND,84000.0
-OL00414,"Combo 5 Chai  Nước muối sinh lý Pharmacity Natri Clorid 0,9% (1000ml)",nan,Nước súc miệng,100000.0,4.57,Pharmacity_VN,VND,100000.0
-OL00415,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",nan,Nước súc miệng,55000.0,4.56,Pharmacity_VN,VND,55000.0
-P00989,Chỉ Nha Khoa ORAL-B Hỗ Trợ Làm Sạch Mảng Bám Trong Kẽ Răng (cuộn 50m),Oral-B,Tăm chỉ nha khoa,51200.0,4.56,Pharmacity_VN,VND,51200.0
-P01143,Kem đánh răng hương bạc hà the mát Sensodyne (100g),Sensodyne (GSK OTC),Kem đánh răng,53550.0,4.86,Pharmacity_VN,VND,53550.0
+P20093,Bộ Đôi Bàn Chải Đánh Răng COLGATE Cushion Clean,Colgate,Bàn chải đánh răng,105000.0,4.66,Pharmacity_VN,VND,105000.0
+P23467,Nước Súc Miệng DR.MUỐI Hương Vỏ Chanh (chai 1000ml),Dr.Muoi,Nước súc miệng,32000.0,4.95,Pharmacity_VN,VND,32000.0
+P29184,Colgate Kem Đánh Răng Total Active Fresh (150g),Colgate,Kem đánh răng,53550.0,4.73,Pharmacity_VN,VND,53550.0
+OL00414,"Combo 5 Chai  Nước muối sinh lý Pharmacity Natri Clorid 0,9% (1000ml)",nan,Nước súc miệng,50000.0,4.57,Pharmacity_VN,VND,50000.0
+OL00415,"Combo 5 Chai Nước muối sinh lý Pharmacity Natri Clorid 0,9% (500ml)",nan,Nước súc miệng,27500.0,4.56,Pharmacity_VN,VND,27500.0
+P00989,Chỉ Nha Khoa ORAL-B Hỗ Trợ Làm Sạch Mảng Bám Trong Kẽ Răng (cuộn 50m),Oral-B,Tăm chỉ nha khoa,49920.0,4.56,Pharmacity_VN,VND,49920.0
+P01143,Kem đánh răng hương bạc hà the mát Sensodyne (100g),Sensodyne (GSK OTC),Kem đánh răng,63000.0,4.86,Pharmacity_VN,VND,63000.0
 P01949,Kem Đánh Răng SENSODYNE Multi Care Bảo Vệ Toàn Diện (tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,78000.0,4.57,Pharmacity_VN,VND,78000.0
-P03491,Bàn Chải Đánh Răng COLGATE Batman Cho Bé Trai,Colgate,Bàn chải đánh răng,40000.0,4.59,Pharmacity_VN,VND,40000.0
-P03925,Dụng Cụ Cạo Lưỡi OKAMURA Giúp Làm Sạch Mảng Bám Trên Lưỡi,Okamura,Sản phẩm chăm sóc răng miệng khác,33000.0,4.58,Pharmacity_VN,VND,33000.0
-P10114,Bàn Chải Đánh Răng P/S Muối Tre Chăm Sóc Nướu,P/S,Bàn chải đánh răng,34000.0,4.9,Pharmacity_VN,VND,34000.0
 P10412,Bàn chải đánh răng trẻ em từ 2 đến 6 tuổi P/S siêu mềm,P/S,Bàn chải đánh răng,19000.0,4.88,Pharmacity_VN,VND,19000.0
-P14241,Kem Đánh Răng COLGATE Tinh Chất Than Tre (tuýp 180g),Colgate,Kem đánh răng,64000.0,4.68,Pharmacity_VN,VND,64000.0
-P14248,Kem Đánh Răng P/S Than Hoạt Tính (tuýp 230g),P/S,Kem đánh răng,54000.0,4.58,Pharmacity_VN,VND,54000.0
-P14296,Nước Súc Miệng THÁI DƯƠNG Valentine (chai 500ml),Thai Duong,Nước súc miệng,60000.0,4.94,Pharmacity_VN,VND,60000.0
+P10114,Bàn Chải Đánh Răng P/S Muối Tre Chăm Sóc Nướu,P/S,Bàn chải đánh răng,36000.0,4.9,Pharmacity_VN,VND,36000.0
+P03925,Dụng Cụ Cạo Lưỡi OKAMURA Giúp Làm Sạch Mảng Bám Trên Lưỡi,Okamura,Sản phẩm chăm sóc răng miệng khác,33000.0,4.58,Pharmacity_VN,VND,33000.0
 P10952,Bàn Chải Đánh Răng SENSODYNE Multi Care Dành Cho Răng Nhạy Cảm,Sensodyne (GSK OTC),Bàn chải đánh răng,39500.0,4.67,Pharmacity_VN,VND,39500.0
 P10766,Nước Muối VĨNH PHÚC Natri Clorid 0.9% chai làm sạch răng miệng (500ml),Vinh Phuc,Nước súc miệng,10000.0,4.99,Pharmacity_VN,VND,10000.0
-P12662,Dụng Cụ Vệ Sinh Lưỡi BEAUTY FORMULAS Giúp Làm Sạch Mảng Bám Trên Lưỡi,Beauty Fomulas,Sản phẩm chăm sóc răng miệng khác,68500.0,4.86,Pharmacity_VN,VND,68500.0
-P12633,Kem Đánh Răng P/S Trẻ Em Từ 2-6 Tuổi Hương Dâu và Trái Cây (tuýp 45g),P/S,Kem đánh răng,21500.0,4.89,Pharmacity_VN,VND,21500.0
-P15979,Kem Đánh Răng SENSODYNE Rapid Action Giúp Giảm Ê Buốt Nhanh (Tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,108000.0,4.62,Pharmacity_VN,VND,108000.0
-P17527,Kem Đánh Răng SENSODYNE Gentle Whitening Trắng Sáng (tuýp 160g),Sensodyne (GSK OTC),Kem đánh răng,90950.0,4.79,Pharmacity_VN,VND,90950.0
-P17554,Nước Súc Miệng LISTERINE Green Tea Cho Răng Chắc Khỏe (Chai 750ml),Listerine,Nước súc miệng,187000.0,4.94,Pharmacity_VN,VND,187000.0
+P12633,Kem Đánh Răng P/S Trẻ Em Từ 2-6 Tuổi Hương Dâu và Trái Cây (tuýp 45g),P/S,Kem đánh răng,18275.0,4.89,Pharmacity_VN,VND,18275.0
+P12662,Dụng Cụ Vệ Sinh Lưỡi BEAUTY FORMULAS Giúp Làm Sạch Mảng Bám Trên Lưỡi,Beauty Fomulas,Sản phẩm chăm sóc răng miệng khác,58500.0,4.86,Pharmacity_VN,VND,58500.0
 P17299,Kem đánh răng Colgate ngừa sâu răng hương bạc hà 225g,Colgate,Kem đánh răng,46000.0,4.72,Pharmacity_VN,VND,46000.0
-P18072,Bộ Đôi Bàn Chải Đánh Răng COLGATE 360 Charcoal Spiral Lông Chải Siêu Mềm Xoắn Kép Phủ Than,Colgate,Bàn chải đánh răng,85000.0,4.87,Pharmacity_VN,VND,85000.0
+P14248,Kem Đánh Răng P/S Than Hoạt Tính (tuýp 230g),P/S,Kem đánh răng,45900.0,4.58,Pharmacity_VN,VND,45900.0
+P14296,Nước Súc Miệng THÁI DƯƠNG Valentine (chai 500ml),Thai Duong,Nước súc miệng,60000.0,4.94,Pharmacity_VN,VND,60000.0
+P14241,Kem Đánh Răng COLGATE Tinh Chất Than Tre (tuýp 180g),Colgate,Kem đánh răng,51200.0,4.68,Pharmacity_VN,VND,51200.0
+P15979,Kem Đánh Răng SENSODYNE Rapid Action Giúp Giảm Ê Buốt Nhanh (Tuýp 100g),Sensodyne (GSK OTC),Kem đánh răng,108000.0,4.62,Pharmacity_VN,VND,108000.0
+P17527,Kem Đánh Răng SENSODYNE Gentle Whitening Trắng Sáng (tuýp 160g),Sensodyne (GSK OTC),Kem đánh răng,107000.0,4.79,Pharmacity_VN,VND,107000.0
+P17554,Nước Súc Miệng LISTERINE Green Tea Cho Răng Chắc Khỏe (Chai 750ml),Listerine,Nước súc miệng,187000.0,4.94,Pharmacity_VN,VND,187000.0
 P18080,Nước Súc Miệng Trẻ Em LISTERINE Vị Không Cay (Chai 250ml),Listerine,Nước súc miệng,57000.0,4.72,Pharmacity_VN,VND,57000.0
-P25106,Nước Súc Miệng LISTERINE Total Care Sensitive Cho Răng Nhạy Cảm (Chai 250ml),Listerine,Nước súc miệng,84000.0,4.94,Pharmacity_VN,VND,84000.0
-P24604,Kem đánh răng P/S trà xanh (Tuýp 230g),P/S,Kem đánh răng,44805.0,4.76,Pharmacity_VN,VND,44805.0
-P29592,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% Hương chanh (Chai 500ml)",Pharmacity,Nước súc miệng,18000.0,4.77,Pharmacity_VN,VND,18000.0
-P29595,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% Hương bạc hà (Chai 500ml)",Pharmacity,Nước súc miệng,18000.0,4.77,Pharmacity_VN,VND,18000.0
-P29619,Kem Đánh Răng Marvis Whitening Mint Vị Bạc Hà hỗ trợ sạch mảng bám & trắng răng tự nhiên (85ml),Marvis,Kem đánh răng,195300.0,4.89,Pharmacity_VN,VND,195300.0
-OL00014,Combo trắng răng Eucryl Bạc Hà,Eucryl,Kem đánh răng,118800.0,4.86,Pharmacity_VN,VND,118800.0
-P11371,Kem đánh răng CLOSE UP than hoạt tính Detox (Tuýp 180g),Close up,Kem đánh răng,41860.0,4.7,Pharmacity_VN,VND,41860.0
-P23089,Nước Súc Miệng LISTERINE Gum Care Giúp Nướu Chắc Khỏe (Chai 750ml),Listerine,Nước súc miệng,153900.0,4.85,Pharmacity_VN,VND,153900.0
-P26443,Bộ Đôi Bàn Chải Đánh Răng COLGATE Cushion Clean Charcoal,Colgate,Bàn chải đánh răng,90000.0,4.55,Pharmacity_VN,VND,90000.0
-P26446,Kem đánh răng Sensodyne Deep Clean 100g,Sensodyne (GSK OTC),Kem đánh răng,68640.0,4.98,Pharmacity_VN,VND,68640.0
-P18064,"Kem đánh răng COLGATE Optic White Volcanic Mineral làm sáng răng, loại bỏ các vết ố màu (Tuýp 100g)",Colgate,Kem đánh răng,46750.0,4.79,Pharmacity_VN,VND,46750.0
-P11368,Bàn Chải Đánh Răng COLGATE Barbie Cho Bé Gái,Colgate,Bàn chải đánh răng,38000.0,4.96,Pharmacity_VN,VND,38000.0
-P17508,Bộ Đôi Bàn Chải Đánh Răng COLGATE SlimSoft Advanced Siêu Mềm Mảnh,Colgate,Bàn chải đánh răng,81000.0,4.95,Pharmacity_VN,VND,81000.0
-P20092,Bàn Chải Đánh Răng SENSODYNE Sensitive & Gum Soft Lông Tơ Mềm Mại,Sensodyne (GSK OTC),Bàn chải đánh răng,57600.0,4.99,Pharmacity_VN,VND,57600.0
-P26440,Kem Đánh Răng Colgate Optic White O2 Peach Osmanthus (tuýp 85g),Colgate,Kem đánh răng,103500.0,4.75,Pharmacity_VN,VND,103500.0
-P09600,Băng vệ sinh Diana Sensi Cool Fresh Siêu thấm có cánh 23cm (8 miếng),Diana,Băng vệ sinh,27000.0,4.89,Pharmacity_VN,VND,27000.0
-P03249,Băng Vệ Sinh DIANA Siêu Thấm Cánh (8 Miếng),Diana,Băng vệ sinh,27500.0,4.76,Pharmacity_VN,VND,27500.0
-P04720,Băng Vệ Sinh Hằng Ngày KOTEX Hương Tự Nhiên (20 Miếng),Kotex,Băng vệ sinh,21000.0,4.93,Pharmacity_VN,VND,21000.0
-P04801,Băng Vệ Sinh Kháng Khuẩn Hàng Ngày DIANA SENSI (8 Miếng),Diana,Băng vệ sinh,10000.0,4.99,Pharmacity_VN,VND,10000.0
-P11374,Băng vệ sinh Diana siêu thấm siêu mỏng cánh (Gói 20 miếng),Diana,Băng vệ sinh,47600.0,4.55,Pharmacity_VN,VND,47600.0
-P12843,Băng vệ sinh ban đêm dạng quần Diana Super Night Size S-M (2 chiếc/gói),Diana,Băng vệ sinh,44000.0,4.85,Pharmacity_VN,VND,44000.0
-P12846,Tã dán siêu thấm cho người lớn Caryn size XL (Gói 10 miếng),Caryn,Tã dán,159000.0,4.98,Pharmacity_VN,VND,159000.0
-P14041,Băng vệ sinh siêu mỏng mát lạnh Diana Sensi Cool Fresh (Gói 20 miếng),Diana,Băng vệ sinh,61000.0,4.99,Pharmacity_VN,VND,61000.0
-P17786,Cốc nguyệt san siêu mềm BeU Cup,Beucup,Băng vệ sinh,399200.0,4.68,Pharmacity_VN,VND,399200.0
-P18208,Băng vệ sinh ban đêm siêu thấm có cánh Diana Supernight 35cm (Gói 12 miếng),Diana,Băng vệ sinh,83000.0,4.96,Pharmacity_VN,VND,83000.0
-P21582,Dung dịch vệ sinh phụ nữ cao cấp hằng ngày Femfresh Daily Intimate Wash (250ml),Femfresh,Dung dịch vệ sinh phụ nữ,186000.0,4.82,Pharmacity_VN,VND,186000.0
-P23144,Băng vệ sinh siêu mỏng không cánh Diana Sensi Cool Fresh (Gói 20 miếng),Diana,Băng vệ sinh,58000.0,4.74,Pharmacity_VN,VND,58000.0
-P23803,Băng vệ sinh Kotex Max Cool  siêu mỏng có cánh 23cm (20 miếng),Kotex,Băng vệ sinh,58000.0,4.8,Pharmacity_VN,VND,58000.0
-P19284,Dung Dịch Vệ Sinh Saforelle Soin Lavant Ultra Hydratant  (chai 100ml),Saforelle,Dung dịch vệ sinh phụ nữ,175000.0,4.51,Pharmacity_VN,VND,175000.0
-P29282,Băng quần ban đêm Kotex Herbal size M-L (2 miếng/gói),Kotex,Băng vệ sinh,42000.0,4.61,Pharmacity_VN,VND,42000.0
-P30109,Dung dịch vệ sinh Saforelle Ultra Mild Cleansing Foam (Ultra Douce) 250ml,Saforelle,Dung dịch vệ sinh phụ nữ,280000.0,4.85,Pharmacity_VN,VND,280000.0
-P27323,Băng vệ sinh Molped tự nhiên siêu bảo vệ siêu thấm mỏng cánh (23 cm x 8 Miếng),Molped,Băng vệ sinh,22000.0,4.85,Pharmacity_VN,VND,22000.0
-P27324,Băng vệ sinh Molped mát lạnh siêu mỏng cánh (23cm x 8 miếng),Molped,Băng vệ sinh,22000.0,4.54,Pharmacity_VN,VND,22000.0
-P27850,Sữa Vệ Sinh Phụ Nữ Shema Lá Đôi Xanh (200ml),Shema Baby,Dung dịch vệ sinh phụ nữ,40000.0,4.61,Pharmacity_VN,VND,40000.0
-P27882,Băng vệ sinh Kotex bảo vệ toàn diện cho ngày nhiều và đêm 28cm (14 miếng),Kotex,Băng vệ sinh,47000.0,4.5,Pharmacity_VN,VND,47000.0
-P28806,Pharmacity Dung dịch vệ sinh phụ nữ dạng bọt làm sạch dịu nhẹ (Chai100ml),Pharmacity,Dung dịch vệ sinh phụ nữ,68000.0,4.66,Pharmacity_VN,VND,68000.0
-P30963,Kotex BVS Cicada SMC 24cm 7M,Kotex,Băng vệ sinh,39500.0,4.78,Pharmacity_VN,VND,39500.0
-P30966,Kotex BVS Mặt Bông Cotton SMC 24cm 8M,Kotex,Băng vệ sinh,40000.0,4.53,Pharmacity_VN,VND,40000.0
-P30968,Kotex BVS Hằng Ngày Bông Thuần Khiết 19cm 10M,Kotex,Băng vệ sinh,29500.0,4.97,Pharmacity_VN,VND,29500.0
-P03251,Băng Vệ Sinh DIANA Siêu Thấm Siêu Mỏng Cánh (8 Miếng),Diana,Băng vệ sinh,26000.0,4.85,Pharmacity_VN,VND,26000.0
-P04450,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Pro Sensitive (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,120000.0,4.65,Pharmacity_VN,VND,120000.0
-P04695,Băng Vệ Sinh Ban Đêm DIANA SENSI NIGHT 29 cm (4 Miếng),Diana,Băng vệ sinh,22000.0,4.97,Pharmacity_VN,VND,22000.0
-P09608,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Odor Fresh (150ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,63000.0,4.7,Pharmacity_VN,VND,63000.0
-P10808,Dung dịch vệ sinh phụ nữ Crevil intim waschlotion (100ml),Crevil,Dung dịch vệ sinh phụ nữ,135000.0,4.76,Pharmacity_VN,VND,135000.0
-P11373,Băng vệ sinh Diana Sensi kháng khuẩn siêu mỏng cánh (20 miếng/gói),Diana,Băng vệ sinh,49300.0,4.65,Pharmacity_VN,VND,49300.0
-P12638,Băng vệ sinh ban đêm siêu thoáng Diana Sensi Cool Fresh 35cm (3 miếng/gói),Diana,Băng vệ sinh,27000.0,4.57,Pharmacity_VN,VND,27000.0
-P18032,Băng vệ sinh Kotex Max Cool siêu mỏng cánh (gói 8 miếng),Kotex,Băng vệ sinh,25000.0,4.8,Pharmacity_VN,VND,25000.0
-P18193,Băng vệ sinh siêu mỏng cánh Sofy Skin Comfort Ultra Thin 26cm (Gói 17 miếng),Sofy,Băng vệ sinh,74400.0,4.55,Pharmacity_VN,VND,74400.0
-P18200,Băng vệ sinh bạc hà mát lạnh có cánh Laurier Super Slimguard Cool 22.5cm (16 miếng),Laurier,Băng vệ sinh,85000.0,4.95,Pharmacity_VN,VND,85000.0
-P18209,Băng vệ sinh ban đêm siêu thấm cánh Diana Supernight 29cm (12 miếng),Diana,Băng vệ sinh,59000.0,4.95,Pharmacity_VN,VND,59000.0
-P17486,Băng vệ sinh siêu thấm Diana Cool Fresh mỏng không cánh 23cm (Gói 8 miếng),Diana,Băng vệ sinh,26000.0,4.51,Pharmacity_VN,VND,26000.0
-P17487,Băng vệ sinh siêu mỏng không cánh Diana Cool Fresh 23cm (8 miếng),Diana,Băng vệ sinh,27500.0,4.8,Pharmacity_VN,VND,27500.0
-P23129,Gel vệ sinh phụ nữ X2 Nano nghệ Cocayhoala (Chai 150ml),Cocayhoala,Dung dịch vệ sinh phụ nữ,221400.0,4.54,Pharmacity_VN,VND,221400.0
-P23142,Băng vệ sinh mát dịu siêu mỏng có cánh Diana SenSi Cool Fresh (8 Miếng),Diana,Băng vệ sinh,22400.0,4.97,Pharmacity_VN,VND,22400.0
-P25459,Băng vệ sinh Sensi Supernight 29cm (Gói 12 miếng),Diana,Băng vệ sinh,58000.0,4.68,Pharmacity_VN,VND,58000.0
-P29186,Băng vệ sinh dạng quần Diana Comfy Night Size M-L (5 Chiếc/Gói),Diana,Băng vệ sinh,71000.0,4.6,Pharmacity_VN,VND,71000.0
-P28808,Pharmacity Dung dịch vệ sinh phụ nữ dạng gel dưỡng ẩm mềm mại (Chai 100ml),Pharmacity,Dung dịch vệ sinh phụ nữ,19000.0,4.95,Pharmacity_VN,VND,19000.0
-P28809,Pharmacity Khăn ướt vệ sinh phụ nữ làm sạch dịu nhẹ (Gói 20 miếng),Pharmacity,Dung dịch vệ sinh phụ nữ,17500.0,4.63,Pharmacity_VN,VND,17500.0
-P30092,Dung dịch vệ sinh phụ nữ Dạ Hương Chăm sóc toàn diện 100ml,Da Huong,Dung dịch vệ sinh phụ nữ,40940.0,4.73,Pharmacity_VN,VND,40940.0
-P30093,Dung dịch vệ sinh phụ nữ Dạ Hương Thoáng sạch 100ml,Da Huong,Dung dịch vệ sinh phụ nữ,41860.0,4.79,Pharmacity_VN,VND,41860.0
-P27325,Băng vệ sinh thiên nhiên ban đêm có cánh Molped (35cm x 3 miếng),Molped,Băng vệ sinh,20000.0,4.9,Pharmacity_VN,VND,20000.0
-P30967,Kotex BVS BioCare SMC 23cm 6M,Kotex,Băng vệ sinh,25000.0,4.78,Pharmacity_VN,VND,25000.0
-P30702,Kotex BVS Nam Việt Quốc SMC 24cm 8M,Kotex,Băng vệ sinh,45000.0,4.61,Pharmacity_VN,VND,45000.0
-P00044,Dung Dịch Vệ Sinh Saforelle Soin Lavant Doux Apaisant (chai 100ml),Saforelle,Dung dịch vệ sinh phụ nữ,133000.0,4.73,Pharmacity_VN,VND,133000.0
+P37356,Herbal Wellness Bọt Vệ Sinh Thảo Mộc Hoa Cúc - Trầu Không (Chai 150ml),Herbal Wellness,Dung dịch vệ sinh phụ nữ,57500.0,4.63,Pharmacity_VN,VND,57500.0
+P37447,Laurier BVS Super Slimguard Đêm Cánh 35cm 8M,Laurier,Băng vệ sinh,64000.0,4.89,Pharmacity_VN,VND,64000.0
 P03252,Băng vệ sinh Diana siêu thấm siêu mỏng không cánh 23cm (Gói 8 miếng),Diana,Băng vệ sinh,26500.0,4.85,Pharmacity_VN,VND,26500.0
-P04869,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Soft & Silky (150ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,72000.0,4.97,Pharmacity_VN,VND,72000.0
-P04708,Băng Vệ Sinh KOTEX LUXE TAMPONS (Hộp 16 Tampons ),Kotex,Băng vệ sinh,74000.0,4.98,Pharmacity_VN,VND,74000.0
-P04694,Băng Vệ Sinh DIANA SENSI  Siêu Mỏng Cánh (8 Miếng),Diana,Băng vệ sinh,27000.0,4.54,Pharmacity_VN,VND,27000.0
 P08276,Băng vệ sinh kháng khuẩn hàng ngày Diana Sensi (20 miếng/gói),Diana,Băng vệ sinh,20500.0,4.58,Pharmacity_VN,VND,20500.0
 P08754,Băng vệ sinh siêu mỏng cánh ban đêm Kotex Style (3 miếng/gói),Kotex,Băng vệ sinh,11000.0,4.66,Pharmacity_VN,VND,11000.0
-P09561,Băng vệ sinh ban ngày siêu mỏng cánh Laurier Super Slimguard 22.5cm (10 miếng/gói),Laurier,Băng vệ sinh,45000.0,4.97,Pharmacity_VN,VND,45000.0
+P09561,Băng vệ sinh ban ngày siêu mỏng cánh Laurier Super Slimguard 22.5cm (10 miếng/gói),Laurier,Băng vệ sinh,36000.0,4.97,Pharmacity_VN,VND,36000.0
+P04869,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Soft & Silky (150ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,72000.0,4.97,Pharmacity_VN,VND,72000.0
+P04694,Băng Vệ Sinh DIANA SENSI  Siêu Mỏng Cánh (8 Miếng),Diana,Băng vệ sinh,27000.0,4.54,Pharmacity_VN,VND,27000.0
+P04708,Băng Vệ Sinh KOTEX LUXE TAMPONS (Hộp 16 Tampons ),Kotex,Băng vệ sinh,74000.0,4.98,Pharmacity_VN,VND,74000.0
 P11372,Băng vệ sinh Diana Sensi siêu mỏng không cánh (Gói 8 miếng),Diana,Băng vệ sinh,27000.0,4.87,Pharmacity_VN,VND,27000.0
-P14056,Băng vệ sinh siêu êm thoáng ban đêm Sofy Skin Comfort 36cm (4 miếng/gói),Sofy,Băng vệ sinh,31600.0,4.77,Pharmacity_VN,VND,31600.0
 P12836,Quần lót miễn giặt cho nữ Travel-Mate size L (5 cái/gói),Travel-Mate,Sản phẩm vệ sinh khác,37000.0,4.99,Pharmacity_VN,VND,37000.0
 P12837,Quần lót miễn giặt cho nữ Travel-Mate size XL (5 cái/gói),Travel-Mate,Sản phẩm vệ sinh khác,37000.0,4.57,Pharmacity_VN,VND,37000.0
-P12847,Tấm đệm lót mỏng nhẹ size XL Caryn (14 miếng/gói),Caryn,Tã dán,114000.0,4.97,Pharmacity_VN,VND,114000.0
-P13640,Băng vệ sinh Kotex Siêu ban đêm 35cm (8 miếng/ gói),Kotex,Băng vệ sinh,36000.0,4.97,Pharmacity_VN,VND,36000.0
-P17762,Băng vệ sinh hàng ngày Kotex Cool (20 miếng),Kotex,Băng vệ sinh,25000.0,4.52,Pharmacity_VN,VND,25000.0
-P18203,Băng vệ sinh hàng ngày siêu mỏng dịu mát từ thảo dược Kotex (Gói 40 miếng),Kotex,Băng vệ sinh,46000.0,4.83,Pharmacity_VN,VND,46000.0
-P18205,Băng vệ sinh hàng ngày kháng khuẩn Diana Sensi 15.5cm (Gói 40 miếng),Diana,Băng vệ sinh,28900.0,4.6,Pharmacity_VN,VND,28900.0
+P12847,Tấm đệm lót mỏng nhẹ size XL Caryn (14 miếng/gói),Caryn,Tã dán,100320.0,4.97,Pharmacity_VN,VND,100320.0
+P14056,Băng vệ sinh siêu êm thoáng ban đêm Sofy Skin Comfort 36cm (4 miếng/gói),Sofy,Băng vệ sinh,31600.0,4.77,Pharmacity_VN,VND,31600.0
+P13640,Băng vệ sinh Kotex Siêu ban đêm 35cm (8 miếng/ gói),Kotex,Băng vệ sinh,45000.0,4.97,Pharmacity_VN,VND,45000.0
+P17762,Băng vệ sinh hàng ngày Kotex Cool (20 miếng),Kotex,Băng vệ sinh,20000.0,4.52,Pharmacity_VN,VND,20000.0
 P17506,Băng vệ Laurier Fresh & Free siêu mỏng cánh siêu thấm tối đa (Gói 20 miếng),Laurier,Băng vệ sinh,48000.0,4.96,Pharmacity_VN,VND,48000.0
+P18203,Băng vệ sinh hàng ngày siêu mỏng dịu mát từ thảo dược Kotex (Gói 40 miếng),Kotex,Băng vệ sinh,46000.0,4.83,Pharmacity_VN,VND,46000.0
+P18205,Băng vệ sinh hàng ngày kháng khuẩn Diana Sensi 15.5cm (Gói 40 miếng),Diana,Băng vệ sinh,34000.0,4.6,Pharmacity_VN,VND,34000.0
 P18774,Băng vệ sinh dạng quần chống tràn 360 độ Diana Sensi (Gói 5 cái - Size M-L),Diana,Băng vệ sinh,103000.0,4.79,Pharmacity_VN,VND,103000.0
-P27321,Dung dịch vệ sinh phụ nữ hàng ngày DottorPrimo Emergyn Fresh 100ml,Dottorprimo,Dung dịch vệ sinh phụ nữ,111000.0,4.94,Pharmacity_VN,VND,111000.0
 P25943,Băng vệ sinh Diana than hoạt tính siêu thấm siêu mỏng cánh (Gói 8 miếng),Diana,Băng vệ sinh,27000.0,4.88,Pharmacity_VN,VND,27000.0
 P25944,Băng vệ sinh Diana than hoạt tính Sensi siêu mỏng cánh (Gói 8 miếng),Diana,Băng vệ sinh,27000.0,4.99,Pharmacity_VN,VND,27000.0
+P27321,Dung dịch vệ sinh phụ nữ hàng ngày DottorPrimo Emergyn Fresh 100ml,Dottorprimo,Dung dịch vệ sinh phụ nữ,111000.0,4.94,Pharmacity_VN,VND,111000.0
+P37357,Herbal Wellness Bọt Vệ Sinh Thảo Mộc Hoa Sen - Rau Má (Chai 150ml),Herbal Wellness,Dung dịch vệ sinh phụ nữ,57500.0,4.69,Pharmacity_VN,VND,57500.0
+P37536,Băng vệ sinh Diana Dạng Quần Size M-L (12 miếng),Diana,Băng vệ sinh,204000.0,4.96,Pharmacity_VN,VND,204000.0
+OL00512,Combo 5 Băng vệ sinh Diana dạng quần Double Fresh Size M-L (2 miếng),nan,Băng vệ sinh,170000.0,4.54,Pharmacity_VN,VND,170000.0
 P05585,Băng Vệ Sinh KOTEX STYLE Siêu Mỏng Cánh (8 Miếng),Kotex,Băng vệ sinh,24000.0,4.79,Pharmacity_VN,VND,24000.0
+P06631,Băng Vệ Sinh Hàng Ngày LAURIER Không Hương (20 Miếng),Laurier,Băng vệ sinh,22000.0,4.92,Pharmacity_VN,VND,22000.0
 P08756,Băng vệ sinh hằng ngày Kotex (40 miếng/gói),Kotex,Băng vệ sinh,34000.0,4.76,Pharmacity_VN,VND,34000.0
-P06631,Băng Vệ Sinh Hàng Ngày LAURIER Không Hương (20 Miếng),Laurier,Băng vệ sinh,17600.0,4.92,Pharmacity_VN,VND,17600.0
-P12637,Băng vệ sinh mát lạnh hàng ngày Diana Sensi Cool Fresh (40 miếng/gói),Diana,Băng vệ sinh,48000.0,4.66,Pharmacity_VN,VND,48000.0
+P12637,Băng vệ sinh mát lạnh hàng ngày Diana Sensi Cool Fresh (40 miếng/gói),Diana,Băng vệ sinh,40800.0,4.66,Pharmacity_VN,VND,40800.0
+P17513,Băng vệ sinh siêu ban đêm Kotex 28cm (12 miếng),Kotex,Băng vệ sinh,51000.0,4.85,Pharmacity_VN,VND,51000.0
+P18126,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Odor Fresh (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,86700.0,4.62,Pharmacity_VN,VND,86700.0
+P18198,Băng vệ sinh ban đêm siêu thấm hút có cánh Laurier 35cm (Gói 4 miếng),Laurier,Băng vệ sinh,28000.0,4.66,Pharmacity_VN,VND,28000.0
 P19807,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Pro Sensitive (150ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,71000.0,4.71,Pharmacity_VN,VND,71000.0
-P17513,Băng vệ sinh siêu ban đêm Kotex 28cm (12 miếng),Kotex,Băng vệ sinh,40800.0,4.85,Pharmacity_VN,VND,40800.0
-P18126,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Odor Fresh (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,102000.0,4.62,Pharmacity_VN,VND,102000.0
-P18198,Băng vệ sinh ban đêm siêu thấm hút có cánh Laurier 35cm (Gói 4 miếng),Laurier,Băng vệ sinh,22400.0,4.66,Pharmacity_VN,VND,22400.0
-P25085,Băng vệ sinh ban ngày siêu mỏng có cánh Kotex Gardenia Deo+ 23cm (20 miếng),Kotex,Băng vệ sinh,55000.0,4.94,Pharmacity_VN,VND,55000.0
+P21701,Băng vệ sinh ban đêm dạng quần Kotex size M/L (Gói 2 miếng),Kotex,Băng vệ sinh,30400.0,4.83,Pharmacity_VN,VND,30400.0
+P25085,Băng vệ sinh ban ngày siêu mỏng có cánh Kotex Gardenia Deo+ 23cm (20 miếng),Kotex,Băng vệ sinh,44000.0,4.94,Pharmacity_VN,VND,44000.0
+P27207,Tã quần loại mỏng thoáng Caryn size M (16 miếng/gói),Caryn,Tã dán,185300.0,4.7,Pharmacity_VN,VND,185300.0
 P21581,Dung dịch vệ sinh phụ nữ cao cấp Femfresh Soothing Wash (250ml),Femfresh,Dung dịch vệ sinh phụ nữ,236000.0,4.79,Pharmacity_VN,VND,236000.0
 P28959,Pharmacity Dung dịch vệ sinh phụ nữ dạng gel hương thơm tươi mát (Chai 100ml),Pharmacity,Dung dịch vệ sinh phụ nữ,19000.0,4.69,Pharmacity_VN,VND,19000.0
-P29227,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Cool Sensation (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,119000.0,4.96,Pharmacity_VN,VND,119000.0
-P21701,Băng vệ sinh ban đêm dạng quần Kotex size M/L (Gói 2 miếng),Kotex,Băng vệ sinh,38000.0,4.83,Pharmacity_VN,VND,38000.0
-P27207,Tã quần loại mỏng thoáng Caryn size M (16 miếng/gói),Caryn,Tã dán,189660.0,4.7,Pharmacity_VN,VND,189660.0
+P29227,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Cool Sensation (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,101150.0,4.96,Pharmacity_VN,VND,101150.0
 P30094,Dung dịch vệ sinh phụ nữ Dạ Hương Dịu nhẹ 100ml,Da Huong,Dung dịch vệ sinh phụ nữ,53500.0,4.96,Pharmacity_VN,VND,53500.0
 P30095,Dung dịch vệ sinh phụ nữ Dạ Hương Mềm mịn 100ml,Da Huong,Dung dịch vệ sinh phụ nữ,53500.0,4.67,Pharmacity_VN,VND,53500.0
 P30108,Dung dịch vệ sinh Saforelle Fresh Cleansing care (Fraicheur) 100ml,Saforelle,Dung dịch vệ sinh phụ nữ,172000.0,4.54,Pharmacity_VN,VND,172000.0
-P37398,Băng vệ sinh Diana dạng quần Double Fresh Size M-L (2 miếng),Diana,Băng vệ sinh,34000.0,4.73,Pharmacity_VN,VND,34000.0
-P00890,Dung Dịch Vệ Sinh Saforelle Soin Lavant Doux Apaisant (chai 250ml),Saforelle,Dung dịch vệ sinh phụ nữ,236000.0,4.74,Pharmacity_VN,VND,236000.0
-P03250,Băng Vệ Sinh DIANA Siêu Thấm Không Cánh (8 Miếng),Diana,Băng vệ sinh,25500.0,4.94,Pharmacity_VN,VND,25500.0
-P03253,Băng Vệ Sinh Ban Đêm DIANA SUPER NIGHT 35Cm (3 Miếng),Diana,Băng vệ sinh,20400.0,4.87,Pharmacity_VN,VND,20400.0
-P04214,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Soft & Silky (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,106000.0,4.57,Pharmacity_VN,VND,106000.0
-P08277,Băng vệ sinh siêu thấm mỏng cánh Diana Super Ultra Slim 0.1 (8 miếng/gói),Diana,Băng vệ sinh,21060.0,4.83,Pharmacity_VN,VND,21060.0
-P08280,Băng vệ sinh ban đêm Diana Super Night 29cm (4 miếng/gói),Diana,Băng vệ sinh,22000.0,4.56,Pharmacity_VN,VND,22000.0
-P08378,Băng vệ sinh siêu mỏng cánh ban đêm Kotex Style (4 miếng/gói),Kotex,Băng vệ sinh,10000.0,4.92,Pharmacity_VN,VND,10000.0
-P08879,Băng vệ sinh siêu mỏng cánh mát lạnh Diana Sensi Cool Fresh (8 miếng/gói),Diana,Băng vệ sinh,28000.0,4.77,Pharmacity_VN,VND,28000.0
-P08880,Băng vệ sinh siêu mát lạnh hàng ngày Diana Sensi Cool Fresh (20 miếng/gói),Diana,Băng vệ sinh,25000.0,4.75,Pharmacity_VN,VND,25000.0
-P10956,Băng vệ sinh siêu mỏng cánh Sofy Skin Comfort Ultra Thin 26cm (8 miếng/gói),Sofy,Băng vệ sinh,45000.0,4.95,Pharmacity_VN,VND,45000.0
-P11377,Kotex Bảo vệ toàn diện siêu mỏng cánh (gói 20 Miếng),Kotex,Băng vệ sinh,49000.0,4.58,Pharmacity_VN,VND,49000.0
-P09749,Băng vệ sinh Sofy Soft Tampon mềm mại (9 miếng/hộp),Sofy,Băng vệ sinh,68000.0,4.97,Pharmacity_VN,VND,68000.0
-P12848,Tã quần mỏng thoáng size L cho người lớn Caryn (14 miếng/gói),Caryn,Tã dán,189660.0,4.86,Pharmacity_VN,VND,189660.0
-P17488,Băng vệ sinh ban đêm có cánh Diana Sensi Cool Night Fresh 29cm (4 Miếng),Diana,Băng vệ sinh,19200.0,4.67,Pharmacity_VN,VND,19200.0
-P19043,Băng vệ sinh Kotex Mini Meow siêu mềm 24cm (Gói 8 miếng),Kotex,Băng vệ sinh,26000.0,4.56,Pharmacity_VN,VND,26000.0
-P27851,Sữa Vệ Sinh Phụ Nữ Shema Lá Đôi Hồng (200ml),Shema Baby,Dung dịch vệ sinh phụ nữ,40000.0,4.69,Pharmacity_VN,VND,40000.0
-P28564,Băng vệ sinh Whisper 5X bảo vệ siêu mỏng 24cm (Gói 13 miếng ),Whisper,Băng vệ sinh,41400.0,4.88,Pharmacity_VN,VND,41400.0
-P24425,Băng vệ sinh siêu mỏng có cánh Sofy Organic 23cm 100% Cotton (Gói 8 miếng),Sofy,Băng vệ sinh,53000.0,4.65,Pharmacity_VN,VND,53000.0
-P28807,Pharmacity Dung dịch vệ sinh phụ nữ dạng bọt hương thơm tươi mát (Chai 100ml),Pharmacity,Dung dịch vệ sinh phụ nữ,68000.0,4.83,Pharmacity_VN,VND,68000.0
-P30962,Kotex BVS Dạng Quần MaxProtect size M/L 5M,Kotex,Băng vệ sinh,91000.0,4.59,Pharmacity_VN,VND,91000.0
-P25084,Băng vệ sinh ban ngày siêu mỏng không cánh Kotex Gardenia Deo+ 23cm (8 miếng),Kotex,Băng vệ sinh,12000.0,4.71,Pharmacity_VN,VND,12000.0
-P26253,Băng vệ sinh Kotex Max Cool BVS cho ngày và đêm (Gói 6 miếng x 28cm),Kotex,Băng vệ sinh,12500.0,4.62,Pharmacity_VN,VND,12500.0
-P17512,Băng vệ sinh Kotex Max Cool Siêu mỏng không cánh (gói 8 miếng),Kotex,Băng vệ sinh,20640.0,4.89,Pharmacity_VN,VND,20640.0
-P25083,Băng vệ sinh ban ngày siêu mỏng cánh Kotex Gardenia Deo+ 23cm (8 miếng),Kotex,Băng vệ sinh,12500.0,4.96,Pharmacity_VN,VND,12500.0
-P23795,Cốc Nguyệt San Inacup 100% Silicon Y Tế (Size B),Inacup,Băng vệ sinh,382920.0,4.67,Pharmacity_VN,VND,382920.0
-P04723,Băng Vệ Sinh KOTEX STYLE Maxi Cánh (Gói 8 miếng),Kotex,Băng vệ sinh,20930.0,4.83,Pharmacity_VN,VND,20930.0
-P24419,Băng vệ sinh ban ngày khô thoáng dày cánh Kotex (20 miếng),Kotex,Băng vệ sinh,23600.0,4.94,Pharmacity_VN,VND,23600.0
-P03308,Lưỡi Dao Cạo Râu VECTOR GILLETTE (2 Lưỡi/Vỉ),Gillette,Dao cạo râu & Bọt cạo râu,34200.0,5.0,Pharmacity_VN,VND,34200.0
-P10970,Lăn ngăn mùi than đen hoạt tính cho nam Nivea Men Deep Black Charcoal Dark Wood 72h (50ml),Nivea,Khử mùi cho nam,70000.0,4.87,Pharmacity_VN,VND,70000.0
-P03649,Lăn Khử Mùi X-MEN FOR BOSS INTENSE (Chai 50ml),X Men,Khử mùi cho nam,67940.0,4.57,Pharmacity_VN,VND,67940.0
-P03870,Xịt Ngăn Mùi Cho Nam NIVEA MEN Silver Protect Dynamic Power (Chai 150ml),Nivea,Khử mùi cho nam,118000.0,4.83,Pharmacity_VN,VND,118000.0
-P03872,Sữa Rửa Mặt Cho Nam NIVEA MEN Men Acne-Damaged Skin Giúp Giảm Mụn & Hư Tổn Da (100g),Nivea,Chăm sóc da mặt cho nam,89000.0,4.77,Pharmacity_VN,VND,89000.0
-P03877,"Sữa Rửa Mặt Cho Nam NIVEA MEN Anti-Acne Oil Control Mud Foam giúp làm sạch, giảm mụn (Tuýp 100g)",Nivea,Chăm sóc da mặt cho nam,85000.0,4.82,Pharmacity_VN,VND,85000.0
-P03720,Lăn Khử Mùi Cho Nam ROMANO CLASSIC (50ml),Romano,Khử mùi cho nam,75000.0,4.82,Pharmacity_VN,VND,75000.0
-P03723,Xịt Khử Mùi Toàn Thân ROMANO CLASSIC (150ml),Romano,Khử mùi cho nam,110000.0,4.64,Pharmacity_VN,VND,110000.0
-P03732,Gel Tạo Kiểu Tóc ROMANO CLASSIC Giữ Nếp Lâu (150g),Romano,Chăm sóc tóc cho nam,60000.0,4.55,Pharmacity_VN,VND,60000.0
-P18975,Dao cạo March3+ Gillette (Hộp 1 cán dao + 2 lưỡi dao),Gillette,Dao cạo râu & Bọt cạo râu,245000.0,4.78,Pharmacity_VN,VND,245000.0
-P30403,Dầu Gội Xmen For Boss Pro Hair Sạch Gàu & Giảm Gãy Rụng 350g,X Men,Chăm sóc tóc cho nam,112850.0,4.59,Pharmacity_VN,VND,112850.0
-P30407,Gel Xmen Vệ Sinh Khử Mùi Vùng Kín 100ml,X Men,Sản phẩm tắm & dưỡng thể cho nam,111300.0,4.89,Pharmacity_VN,VND,111300.0
-P30896,Oxy Gel Rửa Mặt Nam dịu nhẹ Hydrating Wash 100g,Oxy,Chăm sóc da mặt cho nam,77600.0,4.79,Pharmacity_VN,VND,77600.0
-P03224,Sáp Khử Mùi Cho Nam OLD SPICE PURE SPORT (85g),Old Spice,Khử mùi cho nam,116000.0,4.75,Pharmacity_VN,VND,116000.0
-P03233,Dao Cạo Râu GILLETTE BLUE II PLUS (6 Cái/Gói),Gillette,Dao cạo râu & Bọt cạo râu,54000.0,4.9,Pharmacity_VN,VND,54000.0
-P03307,Dao Cạo Râu GILLETTE VECTOR PLUS RAZOR 1UP (1 Cái/Vỉ),Gillette,Dao cạo râu & Bọt cạo râu,29600.0,4.92,Pharmacity_VN,VND,29600.0
-P06300,Dao Cạo Râu 2 Lưỡi SCHICK EXECTA 2 SYSTEM,Schick,Dao cạo râu & Bọt cạo râu,64000.0,4.67,Pharmacity_VN,VND,64000.0
-P30404,Dầu Gội Xmen For Boss Pro Hair Ngăn Ngừa Gãy Rụng & Giảm Gàu 350g,X Men,Chăm sóc tóc cho nam,112850.0,4.98,Pharmacity_VN,VND,112850.0
-P30405,Tắm Gội Xmen 2in1 Amazon Hunt​ 630g,X Men,Sản phẩm tắm & dưỡng thể cho nam,212000.0,4.58,Pharmacity_VN,VND,212000.0
-P30793,Pharmacity Gentcode Bọt Vệ Sinh Nam Daily Fresh (Chai 100ml),Pharmacity,Sản phẩm tắm & dưỡng thể cho nam,54500.0,4.87,Pharmacity_VN,VND,54500.0
-P03296,Dao Cạo Râu Cán Vàng GILLETTE SUPER THIN (2 Cây/Gói),Gillette,Dao cạo râu & Bọt cạo râu,21000.0,4.69,Pharmacity_VN,VND,21000.0
-P03864,Lăn Ngăn Mùi Cho Nam NIVEA MEN Cool Kick (Chai 50ml),Nivea,Khử mùi cho nam,92000.0,4.96,Pharmacity_VN,VND,92000.0
-P03868,Lăn Khử Mùi NIVEA MEN DRY IMPACT (Chai 50ml),Nivea,Khử mùi cho nam,76000.0,4.78,Pharmacity_VN,VND,76000.0
-P03912,Sáp Tạo Kiểu Tóc Cho Nam GATSBY Styling Wax Mat & Hard (Hộp 75g),Gatsby,Chăm sóc tóc cho nam,68000.0,4.52,Pharmacity_VN,VND,68000.0
-P07598,Xịt khử mùi toàn thân X-men For Boss Intense Perfumed Deo Spray (Chai 150ml),X Men,Khử mùi cho nam,124500.0,4.97,Pharmacity_VN,VND,124500.0
-P10969,Sữa rửa mặt than đen hoạt tính cho nam Nivea Men Deep Britening Oil Clear Mud Foam (100g),Nivea,Chăm sóc da mặt cho nam,71400.0,4.75,Pharmacity_VN,VND,71400.0
-P18838,Sáp khử mùi Old Spice Fresh (85g),Old Spice,Khử mùi cho nam,147000.0,4.93,Pharmacity_VN,VND,147000.0
-P18977,Lưỡi dao cạo March3+ Gillette (Hộp 3 cái),Gillette,Dao cạo râu & Bọt cạo râu,250000.0,4.55,Pharmacity_VN,VND,250000.0
-P23603,Dung dịch vệ sinh nam Serenys (100ml),Serenys,Sản phẩm tắm & dưỡng thể cho nam,136000.0,4.67,Pharmacity_VN,VND,136000.0
-P30408,Sáp Khử Mùi Xmen For Boss Luxury Trắng 70g,X Men,Khử mùi cho nam,174000.0,4.61,Pharmacity_VN,VND,174000.0
-P30897,Oxy Sửa Rửa Mặt Nam kiềm dầu Oil Acne Wash,Oxy,Chăm sóc da mặt cho nam,77600.0,4.78,Pharmacity_VN,VND,77600.0
-P01433,Kem Rửa Mặt Ngăn Ngừa Mụn OXY Perfect Wash (100g/Chai),Oxy,Chăm sóc da mặt cho nam,69700.0,4.59,Pharmacity_VN,VND,69700.0
-P03306,Bọt Cạo Râu GILLETTE FOAMY LEMON LIME Hương Chanh (175g),Gillette,Dao cạo râu & Bọt cạo râu,82400.0,4.62,Pharmacity_VN,VND,82400.0
-P03866,Lăn ngăn mùi NIVEA MEN SILVER PROTECT (Chai 50ml),Nivea,Khử mùi cho nam,92000.0,4.6,Pharmacity_VN,VND,92000.0
-P03715,Sữa Tắm Gội 2in1 ROMANO CLASSIC (150ml),Romano,Sản phẩm tắm & dưỡng thể cho nam,78000.0,4.62,Pharmacity_VN,VND,78000.0
-P07904,Bọt cạo râu hương chanh Gillette Foamy Lemon Lime (50g),Gillette,Dao cạo râu & Bọt cạo râu,65000.0,4.53,Pharmacity_VN,VND,65000.0
-P17495,Lăn khử mùi X-Men For Boss Luxury (50ml),X Men,Khử mùi cho nam,69520.0,4.61,Pharmacity_VN,VND,69520.0
-P30409,Sáp Khử Mùi Xmen For Boss Intense Xanh 80g,X Men,Khử mùi cho nam,145000.0,4.89,Pharmacity_VN,VND,145000.0
-P00387,Kem Rửa Mặt OXY DEEP WASH Sạch Sâu 100g,Oxy,Chăm sóc da mặt cho nam,73100.0,4.5,Pharmacity_VN,VND,73100.0
-P03305,Bọt Cạo Râu GILLETTE FOAMY METHOL Hương Bạc Hà (175g),Gillette,Dao cạo râu & Bọt cạo râu,103000.0,4.63,Pharmacity_VN,VND,103000.0
-P03875,Xịt Khử Mùi Cho Nam NIVEA MEN Ngăn Vệt Ố Vàng Invisible Black&White (150ml),Nivea,Khử mùi cho nam,90300.0,4.88,Pharmacity_VN,VND,90300.0
-P09121,Xịt khử mùi mát lạnh cho nam Nivea Men Cool Kick (150ml),Nivea,Khử mùi cho nam,122000.0,4.9,Pharmacity_VN,VND,122000.0
-P09525,Sáp khử mùi cho nam Old Spice Bearglove (73g),Old Spice,Khử mùi cho nam,184000.0,4.96,Pharmacity_VN,VND,184000.0
-P12977,Sáp khử mùi Old Spice Fiji With Palm Tree Anti-Perspirant & Deodorant (Chai 73g),Old Spice,Khử mùi cho nam,147200.0,4.63,Pharmacity_VN,VND,147200.0
-P20503,Sáp Vuốt Tóc Gatsby Styling Pomade Retro Matte 75gr,Gatsby,Chăm sóc tóc cho nam,73000.0,4.77,Pharmacity_VN,VND,73000.0
-P25967,Dầu gội Dược liệu Nguyên Vương Lịch Lãm 260g,Nguyen Vuong,Chăm sóc tóc cho nam,127600.0,4.5,Pharmacity_VN,VND,127600.0
-P30406,Xịt Xmen For Boss Ngăn Rụng Tóc 100ml,X Men,Chăm sóc tóc cho nam,192500.0,4.65,Pharmacity_VN,VND,192500.0
-P30794,Pharmacity Gentcode Bọt Vệ Sinh Nam Sport Active (Chai 100ml),Pharmacity,Sản phẩm tắm & dưỡng thể cho nam,54500.0,4.59,Pharmacity_VN,VND,54500.0
-P18976,Dao cạo March3 Turbo Gillette (Hộp 1 cán dao + 2 lưỡi dao),Gillette,Dao cạo râu & Bọt cạo râu,299000.0,4.98,Pharmacity_VN,VND,299000.0
-P07595,Sữa tắm nước hoa cao cấp X-men For Boss Intense Perfumed Shower Gel (Chai 380g),X Men,Sản phẩm tắm & dưỡng thể cho nam,125800.0,4.74,Pharmacity_VN,VND,125800.0
+P37398,Băng vệ sinh Diana dạng quần Double Fresh Size M-L (2 miếng),Diana,Băng vệ sinh,27200.0,4.73,Pharmacity_VN,VND,27200.0
+P37446,Laurier BVS Dạng Quần Safety Guard Panties Size M-L 2M,Laurier,Băng vệ sinh,38500.0,4.54,Pharmacity_VN,VND,38500.0
+P37535,Băng vệ sinh Diana Dạng Quần Size L-XL (Gói 2 miếng),Diana,Băng vệ sinh,43500.0,4.94,Pharmacity_VN,VND,43500.0
 P23031,Tắm gội X-men Clean & Fresh 2in1 sạch sâu (Chai 630g),X Men,Sản phẩm tắm & dưỡng thể cho nam,175950.0,4.58,Pharmacity_VN,VND,175950.0
+P26099,Sáp ngăn mùi cho nam Nivea Cool Kick (Chai 50ml),Nivea,Khử mùi cho nam,112000.0,4.52,Pharmacity_VN,VND,112000.0
 P25490,Sữa rửa mặt làm sạch nhờn Uno 130g,Uno,Chăm sóc da mặt cho nam,119000.0,4.57,Pharmacity_VN,VND,119000.0
 P25492,Sáp Vuốt Tóc Tạo Kiểu Giữ Nếp Tự Nhiên Wax UNO Hybrid Hard 80g,Uno,Chăm sóc tóc cho nam,149000.0,4.84,Pharmacity_VN,VND,149000.0
-P26099,Sáp ngăn mùi cho nam Nivea Cool Kick (Chai 50ml),Nivea,Khử mùi cho nam,112000.0,4.52,Pharmacity_VN,VND,112000.0
-P11482,Sữa dưỡng thể dưỡng sáng da ban đêm Nivea (350ml),Nivea,Dưỡng thể & massage,159000.0,4.51,Pharmacity_VN,VND,159000.0
-P07620,Kem dưỡng ẩm da NIVEA CRÈME (30ml),Nivea,Dưỡng thể & massage,55000.0,4.74,Pharmacity_VN,VND,55000.0
+P07620,Kem dưỡng ẩm da NIVEA CRÈME (30ml),Nivea,Dưỡng thể & massage,42750.0,4.74,Pharmacity_VN,VND,42750.0
+P11482,Sữa dưỡng thể dưỡng sáng da ban đêm Nivea (350ml),Nivea,Dưỡng thể & massage,103350.0,4.51,Pharmacity_VN,VND,103350.0
 P16878,Nước hoa Feliz Perfume Provence (Màu hồng),Feliz Provence,Dưỡng thể & massage,18000.0,4.85,Pharmacity_VN,VND,18000.0
-P21664,Sữa dưỡng da tay Reihaku Hatomugi Hand Cream (Tuýp 65g),Hatomugi,Dưỡng thể & massage,68000.0,4.95,Pharmacity_VN,VND,68000.0
-P26023,Kem cấp ẩm và giảm nứt nẻ dạng sáp Pure Paw Paw - Đu Đủ Truyền Thống (Tuýp 25g),Pure Paw Paw,Dưỡng thể & massage,110000.0,4.69,Pharmacity_VN,VND,110000.0
-P27883,Vaseline Sữa dưỡng thể ban đêm Dewy Radiance Tuýp 300ml,Vaseline,Dưỡng thể & massage,118400.0,4.73,Pharmacity_VN,VND,118400.0
-P27884,Sữa dưỡng thể ban ngày Vaseline Flawless Bright (Túyp 300ml),Vaseline,Dưỡng thể & massage,118400.0,4.7,Pharmacity_VN,VND,118400.0
-P29977,Kem Dưỡng Toàn Thân Anok Smoothing & Hydrating 300ml/Chai,Anok,Dưỡng thể & massage,292500.0,4.65,Pharmacity_VN,VND,292500.0
+P21664,Sữa dưỡng da tay Reihaku Hatomugi Hand Cream (Tuýp 65g),Hatomugi,Dưỡng thể & massage,80000.0,4.95,Pharmacity_VN,VND,80000.0
+P26023,Kem cấp ẩm và giảm nứt nẻ dạng sáp Pure Paw Paw - Đu Đủ Truyền Thống (Tuýp 25g),Pure Paw Paw,Dưỡng thể & massage,82500.0,4.69,Pharmacity_VN,VND,82500.0
+P27883,Vaseline Sữa dưỡng thể ban đêm Dewy Radiance Tuýp 300ml,Vaseline,Dưỡng thể & massage,148000.0,4.73,Pharmacity_VN,VND,148000.0
+P27884,Sữa dưỡng thể ban ngày Vaseline Flawless Bright (Túyp 300ml),Vaseline,Dưỡng thể & massage,148000.0,4.7,Pharmacity_VN,VND,148000.0
+P29977,Kem Dưỡng Toàn Thân Anok Smoothing & Hydrating 300ml/Chai,Anok,Dưỡng thể & massage,331500.0,4.65,Pharmacity_VN,VND,331500.0
 P37399,Dove Tẩy tế bào chết hương lựu đỏ 280g,Dove,Tẩy tế bào chết toàn thân,156800.0,4.59,Pharmacity_VN,VND,156800.0
 P37400,Dove Tẩy tế bào chết hương anh đào 280g,Dove,Tẩy tế bào chết toàn thân,156800.0,4.86,Pharmacity_VN,VND,156800.0
-P03880,Kem dưỡng Nivea Soft (Hộp 50ml),Nivea,Dưỡng thể & massage,81000.0,4.56,Pharmacity_VN,VND,81000.0
-P01007,"Kem gót sen Thái Dương, Dưỡng ẩm Tuýp 20g",Thai Duong,Dưỡng thể & massage,25000.0,4.96,Pharmacity_VN,VND,25000.0
+P03880,Kem dưỡng Nivea Soft (Hộp 50ml),Nivea,Dưỡng thể & massage,60750.0,4.56,Pharmacity_VN,VND,60750.0
+P37403,Kem Giảm Thâm Neothera Armpit Cream Dưỡng Trắng Da Ở Vùng Nách (Tuýp 35ml),Neothera,Dưỡng thể & massage,169000.0,4.75,Pharmacity_VN,VND,169000.0
+P37708,Sữa dưỡng thể Olay dưỡng ẩm chuyên sâu B5+ Lily 260g,Olay,Dưỡng thể & massage,239000.0,4.65,Pharmacity_VN,VND,239000.0
 P08130,"Muối sữa tẩy tế bào chết, trắng da A Bonne' (350g)",Abonne,Tẩy tế bào chết toàn thân,51000.0,4.86,Pharmacity_VN,VND,51000.0
 P10521,Dầu dưỡng giúp cải thiện tình trạng bên ngoài của sẹo & rạn da Bio-Oil (60ml),Bio Oil,Dưỡng thể & massage,211000.0,4.73,Pharmacity_VN,VND,211000.0
 P10977,Dầu dưỡng giúp mờ sẹo & giảm rạn da Bio-Oil (125ml),Bio Oil,Dưỡng thể & massage,352000.0,4.65,Pharmacity_VN,VND,352000.0
 P16879,Nước hoa Feliz Perfume Provence (Màu trắng),Feliz Provence,Dưỡng thể & massage,18000.0,4.99,Pharmacity_VN,VND,18000.0
 P16883,Nước hoa Feliz Perfume Provence (Màu tím),Feliz Provence,Dưỡng thể & massage,18000.0,4.74,Pharmacity_VN,VND,18000.0
 P21165,Tẩy Da Chết COCOON Giúp Làm Sạch Da Chết Cơ Thể (hũ 200ml),Cocoon,Tẩy tế bào chết toàn thân,119700.0,4.82,Pharmacity_VN,VND,119700.0
+P37507,Sữa dưỡng thể hỗ trợ sáng da Olay với Niacinamide & Vitamin C (Chai 260g),Olay,Dưỡng thể & massage,262650.0,4.74,Pharmacity_VN,VND,262650.0
 P13420,Sáp dưỡng ẩm Vaseline Pure Petroleum Jelly Original (50ml),Vaseline,Dưỡng thể & massage,61000.0,4.77,Pharmacity_VN,VND,61000.0
-P28072,"Kem dưỡng da chân Pharmacity Softening Foot Cream làm mềm mịn, giảm nứt nẻ gót chân ( Tuýp 50g)",Pharmacity,Dưỡng thể & massage,59000.0,4.9,Pharmacity_VN,VND,59000.0
+P28072,"Pharmacity Kem dưỡng da chân Softening Foot Cream làm mềm mịn, giảm nứt nẻ gót chân (Tuýp 50g)",Pharmacity,Dưỡng thể & massage,59000.0,4.9,Pharmacity_VN,VND,59000.0
+P37707,Sữa dưỡng thể Olay dưỡng ẩm chuyên sâu Pro B5+ quả mọng 260g,Olay,Dưỡng thể & massage,239000.0,4.92,Pharmacity_VN,VND,239000.0
 P08353,Kem tẩy lông cho da nhạy cảm Veet Silk & Fresh (50g),Veet,Hỗ trợ tẩy lông,84000.0,4.53,Pharmacity_VN,VND,84000.0
 P13421,Sáp dưỡng ẩm Vaseline Pure Petroleum Jelly Original (100ml),Vaseline,Dưỡng thể & massage,115000.0,4.81,Pharmacity_VN,VND,115000.0
-P22183,Tinh chất dưỡng thể Vaseline Healthy Bright Spf 50+ (Tuýp 300ml),Vaseline,Dưỡng thể & massage,190000.0,4.78,Pharmacity_VN,VND,190000.0
+P22183,Tinh chất dưỡng thể Vaseline Healthy Bright Spf 50+ (Tuýp 300ml),Vaseline,Dưỡng thể & massage,152000.0,4.78,Pharmacity_VN,VND,152000.0
 P37331,Kem tẩy lông da nhạy cảm Cleo (50g),Cleo,Hỗ trợ tẩy lông,75650.0,4.77,Pharmacity_VN,VND,75650.0
 P11334,Kem tẩy lông cho da thường Cléo (25g),Cleo,Hỗ trợ tẩy lông,28800.0,4.6,Pharmacity_VN,VND,28800.0
 P07056,Sữa Dưỡng Thể VASELINE HEALTHY BRIGHT Sáng Da Tức Thì 200ml,Vaseline,Dưỡng thể & massage,88200.0,4.56,Pharmacity_VN,VND,88200.0
 P01562,Sữa Dưỡng Da Toàn Thân VASELINE HEALTHY BRIGHT SPF24 PA++ giúp làm sáng và giúp chống nắng cho da 200ml,Vaseline,Dưỡng thể & massage,88200.0,4.97,Pharmacity_VN,VND,88200.0
 P11331,Kem tẩy lông cho da nhạy cảm Cléo Hair Removal Cream Sensitive Skin (Tuýp 25g),Cleo,Hỗ trợ tẩy lông,28800.0,4.82,Pharmacity_VN,VND,28800.0
+P18072,Bộ Đôi Bàn Chải Đánh Răng COLGATE 360 Charcoal Spiral Lông Chải Siêu Mềm Xoắn Kép Phủ Than,Colgate,Bàn chải đánh răng,85000.0,4.87,Pharmacity_VN,VND,85000.0
+P24604,Kem đánh răng P/S trà xanh (Tuýp 230g),P/S,Kem đánh răng,51500.0,4.76,Pharmacity_VN,VND,51500.0
+P25106,Nước Súc Miệng LISTERINE Total Care Sensitive Cho Răng Nhạy Cảm (Chai 250ml),Listerine,Nước súc miệng,54600.0,4.94,Pharmacity_VN,VND,54600.0
+P29466,Nước súc miệng Shikai hỗ trợ nha chu & viêm nướu (250ml),Shikai,Nước súc miệng,95000.0,4.99,Pharmacity_VN,VND,95000.0
+P29592,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% Hương chanh (Chai 500ml)",Pharmacity,Nước súc miệng,12600.0,4.77,Pharmacity_VN,VND,12600.0
+P29595,"Pharmacity Nước muối sinh lý Natri Clorid 0,9% Hương bạc hà (Chai 500ml)",Pharmacity,Nước súc miệng,12600.0,4.77,Pharmacity_VN,VND,12600.0
+P29619,Kem Đánh Răng Marvis Whitening Mint Vị Bạc Hà hỗ trợ sạch mảng bám & trắng răng tự nhiên (85ml),Marvis,Kem đánh răng,209250.0,4.89,Pharmacity_VN,VND,209250.0
+P37252,Pharmacity Dụng Cụ Cạo Lưỡi (Bộ 3 Cái),Pharmacity,Sản phẩm chăm sóc răng miệng khác,39900.0,4.7,Pharmacity_VN,VND,39900.0
+P37510,Bàn chải đánh răng Oral Clean Dino Kids Soft,Oral Clean,Bàn chải đánh răng,26000.0,4.87,Pharmacity_VN,VND,26000.0
+OL00014,Combo trắng răng Eucryl Bạc Hà,Eucryl,Kem đánh răng,176000.0,4.86,Pharmacity_VN,VND,176000.0
+P11371,Kem đánh răng CLOSE UP than hoạt tính Detox (Tuýp 180g),Close up,Kem đánh răng,41860.0,4.7,Pharmacity_VN,VND,41860.0
+P23089,Nước Súc Miệng LISTERINE Gum Care Giúp Nướu Chắc Khỏe (Chai 750ml),Listerine,Nước súc miệng,153900.0,4.85,Pharmacity_VN,VND,153900.0
+P26443,Bộ Đôi Bàn Chải Đánh Răng COLGATE Cushion Clean Charcoal,Colgate,Bàn chải đánh răng,90000.0,4.55,Pharmacity_VN,VND,90000.0
+P26446,Kem đánh răng Sensodyne Deep Clean 100g,Sensodyne (GSK OTC),Kem đánh răng,68640.0,4.98,Pharmacity_VN,VND,68640.0
+P23014,Bàn Chải Đánh Răng P/S White Detox Kháng Khuẩn,P/S,Bàn chải đánh răng,42000.0,4.93,Pharmacity_VN,VND,42000.0
+P18064,"Kem đánh răng COLGATE Optic White Volcanic Mineral làm sáng răng, loại bỏ các vết ố màu (Tuýp 100g)",Colgate,Kem đánh răng,46750.0,4.79,Pharmacity_VN,VND,46750.0
+P03491,Bàn Chải Đánh Răng COLGATE Batman Cho Bé Trai,Colgate,Bàn chải đánh răng,26400.0,4.59,Pharmacity_VN,VND,26400.0
+P11368,Bàn Chải Đánh Răng COLGATE Barbie Cho Bé Gái,Colgate,Bàn chải đánh răng,25080.0,4.96,Pharmacity_VN,VND,25080.0
+P17508,Bộ Đôi Bàn Chải Đánh Răng COLGATE SlimSoft Advanced Siêu Mềm Mảnh,Colgate,Bàn chải đánh răng,81000.0,4.95,Pharmacity_VN,VND,81000.0
+P20092,Bàn Chải Đánh Răng SENSODYNE Sensitive & Gum Soft Lông Tơ Mềm Mại,Sensodyne (GSK OTC),Bàn chải đánh răng,57600.0,4.99,Pharmacity_VN,VND,57600.0
+P26440,Kem Đánh Răng Colgate Optic White O2 Peach Osmanthus (tuýp 85g),Colgate,Kem đánh răng,103500.0,4.75,Pharmacity_VN,VND,103500.0
+P37556,Dung dịch vệ sinh Cavaillès L'intime Extra-doux 250ml,Roge Cavailles,Dung dịch vệ sinh phụ nữ,400000.0,4.69,Pharmacity_VN,VND,400000.0
+P00890,Dung Dịch Vệ Sinh Saforelle Soin Lavant Doux Apaisant (chai 250ml),Saforelle,Dung dịch vệ sinh phụ nữ,236000.0,4.74,Pharmacity_VN,VND,236000.0
+P08280,Băng vệ sinh ban đêm Diana Super Night 29cm (4 miếng/gói),Diana,Băng vệ sinh,22000.0,4.56,Pharmacity_VN,VND,22000.0
+P08879,Băng vệ sinh siêu mỏng cánh mát lạnh Diana Sensi Cool Fresh (8 miếng/gói),Diana,Băng vệ sinh,28000.0,4.77,Pharmacity_VN,VND,28000.0
+P08880,Băng vệ sinh siêu mát lạnh hàng ngày Diana Sensi Cool Fresh (20 miếng/gói),Diana,Băng vệ sinh,25000.0,4.75,Pharmacity_VN,VND,25000.0
+P09749,Băng vệ sinh Sofy Soft Tampon mềm mại (9 miếng/hộp),Sofy,Băng vệ sinh,68000.0,4.97,Pharmacity_VN,VND,68000.0
+P04214,Dung Dịch Vệ Sinh Phụ Nữ Lactacyd Soft & Silky (250ml),Sanofi CHC (Lactacyd brand),Dung dịch vệ sinh phụ nữ,90100.0,4.57,Pharmacity_VN,VND,90100.0
+P03250,Băng Vệ Sinh DIANA Siêu Thấm Không Cánh (8 Miếng),Diana,Băng vệ sinh,25500.0,4.94,Pharmacity_VN,VND,25500.0
+P03253,Băng Vệ Sinh Ban Đêm DIANA SUPER NIGHT 35Cm (3 Miếng),Diana,Băng vệ sinh,24000.0,4.87,Pharmacity_VN,VND,24000.0
+P10956,Băng vệ sinh siêu mỏng cánh Sofy Skin Comfort Ultra Thin 26cm (8 miếng/gói),Sofy,Băng vệ sinh,45000.0,4.95,Pharmacity_VN,VND,45000.0
+P11377,Kotex Bảo vệ toàn diện siêu mỏng cánh (gói 20 Miếng),Kotex,Băng vệ sinh,39200.0,4.58,Pharmacity_VN,VND,39200.0
+P12848,Tã quần mỏng thoáng size L cho người lớn Caryn (14 miếng/gói),Caryn,Tã dán,185300.0,4.86,Pharmacity_VN,VND,185300.0
+P17488,Băng vệ sinh ban đêm có cánh Diana Sensi Cool Night Fresh 29cm (4 Miếng),Diana,Băng vệ sinh,24000.0,4.67,Pharmacity_VN,VND,24000.0
+P19043,Băng vệ sinh Kotex Mini Meow siêu mềm 24cm (Gói 8 miếng),Kotex,Băng vệ sinh,26000.0,4.56,Pharmacity_VN,VND,26000.0
+P24425,Băng vệ sinh siêu mỏng có cánh Sofy Organic 23cm 100% Cotton (Gói 8 miếng),Sofy,Băng vệ sinh,53000.0,4.65,Pharmacity_VN,VND,53000.0
+P27851,Sữa Vệ Sinh Phụ Nữ Shema Lá Đôi Hồng (200ml),Shema Baby,Dung dịch vệ sinh phụ nữ,48000.0,4.69,Pharmacity_VN,VND,48000.0
+P28564,Băng vệ sinh Whisper 5X bảo vệ siêu mỏng 24cm (Gói 13 miếng ),Whisper,Băng vệ sinh,41400.0,4.88,Pharmacity_VN,VND,41400.0
+P28807,Pharmacity Dung dịch vệ sinh phụ nữ dạng bọt hương thơm tươi mát (Chai 100ml),Pharmacity,Dung dịch vệ sinh phụ nữ,47600.0,4.83,Pharmacity_VN,VND,47600.0
+P30962,Kotex BVS Dạng Quần MaxProtect size M/L 5M,Kotex,Băng vệ sinh,91000.0,4.59,Pharmacity_VN,VND,91000.0
+P37554,Dung dịch vệ sinh Cavaillès L'intime Fraicheur 250ml,Roge Cavailles,Dung dịch vệ sinh phụ nữ,400000.0,4.56,Pharmacity_VN,VND,400000.0
+P25084,Băng vệ sinh ban ngày siêu mỏng không cánh Kotex Gardenia Deo+ 23cm (8 miếng),Kotex,Băng vệ sinh,12000.0,4.71,Pharmacity_VN,VND,12000.0
+P26253,Băng vệ sinh Kotex Max Cool BVS cho ngày và đêm (Gói 6 miếng x 28cm),Kotex,Băng vệ sinh,12500.0,4.62,Pharmacity_VN,VND,12500.0
+P17512,Băng vệ sinh Kotex Max Cool Siêu mỏng không cánh (gói 8 miếng),Kotex,Băng vệ sinh,20640.0,4.89,Pharmacity_VN,VND,20640.0
+P23795,Cốc Nguyệt San Inacup 100% Silicon Y Tế (Size B),Inacup,Băng vệ sinh,382920.0,4.67,Pharmacity_VN,VND,382920.0
+P25083,Băng vệ sinh ban ngày siêu mỏng cánh Kotex Gardenia Deo+ 23cm (8 miếng),Kotex,Băng vệ sinh,12500.0,4.96,Pharmacity_VN,VND,12500.0
+P08277,Băng vệ sinh siêu thấm mỏng cánh Diana Super Ultra Slim 0.1 (8 miếng/gói),Diana,Băng vệ sinh,21060.0,4.83,Pharmacity_VN,VND,21060.0
+P08378,Băng vệ sinh siêu mỏng cánh ban đêm Kotex Style (4 miếng/gói),Kotex,Băng vệ sinh,10000.0,4.92,Pharmacity_VN,VND,10000.0
+P04723,Băng Vệ Sinh KOTEX STYLE Maxi Cánh (Gói 8 miếng),Kotex,Băng vệ sinh,20930.0,4.83,Pharmacity_VN,VND,20930.0
+P24419,Băng vệ sinh ban ngày khô thoáng dày cánh Kotex (20 miếng),Kotex,Băng vệ sinh,23600.0,4.94,Pharmacity_VN,VND,23600.0
 P473671,Fragrance Discovery Set,19-69,Fragrance,35.0,3.6364,Sephora_US,USD,889000.0
 P473668,La Habana Eau de Parfum,19-69,Fragrance,195.0,4.1538,Sephora_US,USD,4953000.0
 P473662,Rainbow Bar Eau de Parfum,19-69,Fragrance,195.0,4.25,Sephora_US,USD,4953000.0
