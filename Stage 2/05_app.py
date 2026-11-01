@@ -417,4 +417,4 @@ with tab_info:
     metric1, metric2, metric3 = st.columns(3)
     metric1.metric("Số giao dịch", f"{len(df):,}")
     metric2.metric("Số khách hàng", f"{df['CustomerID'].nunique():,}")
-    metric3.metric("Số nhóm sản phẩm", f"{df['Category'].nunique():,}")
+    metric3.metric("Số nhóm sản phẩm:", f"{df['Category'].nunique():,}")
