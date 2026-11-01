@@ -197,13 +197,14 @@ with tab_order:
 
     if submitted:
         # Task 3: dự đoán giá sản phẩm (Price) từ Category, Brand, Rating.
-        # Pipeline đã lưu tự one-hot Category và Brand, nên chỉ cần đưa đúng 3 cột này.
-        regression_input = pd.DataFrame([{
-            "Category": category,
-            "Brand": brand,
-            "Rating": rating,
-        }])
-        predicted_price = float(regression_model.predict(regression_input)[0])
+        # File regression_model.pkl lưu một dict gồm bộ mã hóa One-Hot ("encoder"),
+        # mô hình ("model") và danh sách đặc trưng ("features"). Phải mã hóa trước rồi mới dự đoán.
+        regression_input = pd.DataFrame(
+            [[category, brand, rating]],
+            columns=regression_model["features"]
+        )
+        regression_encoded = regression_model["encoder"].transform(regression_input)
+        predicted_price = float(regression_model["model"].predict(regression_encoded)[0])
         predicted_price = max(0, predicted_price)
 
         # Task 4: dự đoán đơn thường hay đơn giá trị cao.
