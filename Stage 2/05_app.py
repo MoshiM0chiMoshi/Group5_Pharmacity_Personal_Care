@@ -2,6 +2,7 @@ from pathlib import Path
 
 import joblib
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 import streamlit as st
 
@@ -42,10 +43,14 @@ def load_models():
     pca_model = joblib.load(BASE_DIR / "model" / "pca.pkl")
     cluster_scaler = joblib.load(BASE_DIR / "model" / "scaler_cluster.pkl")
     kmeans_model = joblib.load(BASE_DIR / "model" / "kmeans_pca.pkl")
-    return regression_model, classification_info, pca_model, cluster_scaler, kmeans_model
+    # Danh sách cột đã được np.log1p trước khi StandardScaler (lưu từ notebook 01_PCA_KMeans).
+    log_columns = joblib.load(BASE_DIR / "model" / "log_columns.pkl")
+    return (regression_model, classification_info, pca_model,
+            cluster_scaler, kmeans_model, log_columns)
 try:
     df = pd.read_csv(find_data_file())
-    regression_model, classification_info, pca_model, cluster_scaler, kmeans_model = load_models()
+    (regression_model, classification_info, pca_model,
+     cluster_scaler, kmeans_model, log_columns) = load_models()
 except FileNotFoundError as error:
     st.error("Không tìm thấy file dữ liệu hoặc mô hình. Hãy kiểm tra các thư mục data/ và model/.")
     st.code(str(error))
@@ -91,6 +96,13 @@ CLUSTER_COLUMNS = [
 ]
 
 
+def scale_cluster_features(frame):
+    """Áp dụng đúng pipeline lúc huấn luyện: log1p các cột lệch phải -> StandardScaler."""
+    data = frame[CLUSTER_COLUMNS].copy()
+    data[log_columns] = np.log1p(data[log_columns])
+    return cluster_scaler.transform(data)
+
+
 def build_cluster_profile():
     """Tính đặc điểm trung bình của từng cụm và đặt tên theo mức chi tiêu."""
     customer_table = df.groupby("CustomerID").agg(
@@ -102,7 +114,7 @@ def build_cluster_profile():
         Avg_Rating=("Rating", "mean")
     ).reset_index()
 
-    scaled = cluster_scaler.transform(customer_table[CLUSTER_COLUMNS])
+    scaled = scale_cluster_features(customer_table)
     customer_table["Cluster"] = kmeans_model.predict(pca_model.transform(scaled))
 
     profile = customer_table.groupby("Cluster")[CLUSTER_COLUMNS].mean()
@@ -223,7 +235,7 @@ with tab_order:
         probabilities = classification_model.predict_proba(classification_input_ready)[0]
         high_value_index = list(classification_model.classes_).index(1)
         high_value_probability = float(probabilities[high_value_index])
-        threshold_vnd = float(classification_info.get("threshold_vnd", 199000))
+        threshold_vnd = float(classification_info.get("threshold_vnd", 216000))
 
         st.divider()
         st.subheader("Kết quả dự đoán")
@@ -243,7 +255,10 @@ with tab_order:
             else:
                 st.info("Phân loại: Đơn thường")
             st.write(f"Xác suất dự đoán là đơn giá trị cao: **{high_value_probability:.1%}**")
-            st.caption(f"Ngưỡng tạo nhãn trong Task 4: {threshold_vnd:,.0f} VND.")
+            st.caption(
+                f"Ngưỡng tạo nhãn trong Task 4: {threshold_vnd:,.0f} VND "
+                "(phân vị 75 của TotalAmount_cap, tức tổng tiền đơn hàng đã xử lý outlier ở bước EDA)."
+            )
 
         st.warning(
             "Đây là dự đoán của mô hình đã học từ dữ liệu. Kết quả có thể khác giá trị thực tế. "
@@ -286,8 +301,8 @@ with tab_cluster:
             "Avg_Rating": average_rating,
         }])
 
-        # Thực hiện đúng thứ tự: chuẩn hóa -> PCA -> K-Means.
-        customer_scaled = cluster_scaler.transform(customer_input)
+        # Thực hiện đúng thứ tự: log1p -> chuẩn hóa -> PCA -> K-Means.
+        customer_scaled = scale_cluster_features(customer_input)
         customer_pca = pca_model.transform(customer_scaled)
         cluster_label = int(kmeans_model.predict(customer_pca)[0])
 
@@ -348,11 +363,7 @@ with tab_chart:
         Avg_Rating=("Rating", "mean")
     ).reset_index()
 
-    cluster_columns = [
-        "Age", "Order_Count", "Total_Spending",
-        "Avg_Order_Value", "Avg_Quantity", "Avg_Rating"
-    ]
-    chart_scaled = cluster_scaler.transform(customer_features[cluster_columns])
+    chart_scaled = scale_cluster_features(customer_features)
     chart_pca = pca_model.transform(chart_scaled)
     chart_labels = kmeans_model.predict(chart_pca)
 
@@ -391,8 +402,9 @@ with tab_info:
     st.subheader("Các mô hình sử dụng trong ứng dụng")
 
     st.markdown(
-        "**Task 1 – PCA:** chuẩn hóa 6 đặc trưng khách hàng và giảm chiều dữ liệu. "
-        "Mô hình trong bộ file này giữ lại 4 thành phần chính."
+        "**Task 1 – PCA:** xử lý outlier bằng `log1p` cho các cột lệch phải "
+        f"({', '.join(log_columns)}), chuẩn hóa 6 đặc trưng khách hàng bằng `StandardScaler` "
+        f"rồi giảm chiều dữ liệu. Mô hình giữ lại {pca_model.n_components_} thành phần chính."
     )
     st.markdown(
         "**Task 2 – K-Means:** phân cụm khách hàng trên dữ liệu sau PCA. "
@@ -404,7 +416,9 @@ with tab_info:
     )
     st.markdown(
         "**Task 4 – Classification:** dùng `Age`, `Quantity`, `Rating`, `Gender`, `City`, "
-        "`PaymentMethod`, `Category` để dự đoán đơn thường hay đơn giá trị cao."
+        "`PaymentMethod`, `Category` để dự đoán đơn thường hay đơn giá trị cao. "
+        "Nhãn \"đơn giá trị cao\" là 25% đơn có `TotalAmount_cap` cao nhất "
+        "(`TotalAmount_cap` là `TotalAmount` đã cap outlier ở Q3 + 1.5×IQR trong bước EDA)."
     )
 
     st.caption(
